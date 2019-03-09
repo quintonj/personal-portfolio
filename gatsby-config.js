@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: `Quinton Johnson`,
     description: `My personal portfolio`,
-    author: `@quintonj`,
   },
   plugins: [
     `gatsby-plugin-sass`,
