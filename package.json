@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": false,
   "description": "The code for my personal portfolio site utilizing React.js and Gatsby.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^2.1.27",
