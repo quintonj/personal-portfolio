@@ -1,21 +1,45 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import styled from 'styled-components';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const Intro = styled.div`
+  background-color: #1fe0ac;
+  margin-left: 25px;
+  margin-right: 25px;
+  min-height: 625px;
+`;
+
+const Portfolio = styled.h2`
+  margin-top: 100px;
+  margin-left: 50px;
+  border-left: 5px solid #fd5523;
+  padding-left: 20px;
+`;
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+  <div>
+    <Header />
+    <Intro>
+      <Layout>
+        <SEO keywords={[`Quinton Johnson`, `UX`, `Designer`]} />
+        <h1>Quinton Johnson</h1>
+        <h3>UX Designer at The Home Depot.</h3>
+        <p>
+          I'm a designer and developer based in Atlanta. Passionate about
+          connecting with people and creating meaningful experiences that solve
+          problems.
+        </p>
+        <p />
+      </Layout>
+    </Intro>
+    <Layout>
+      <Portfolio>Portfolio</Portfolio>
+    </Layout>
+    <Footer />
+  </div>
+);
 
-export default IndexPage
+export default IndexPage;
