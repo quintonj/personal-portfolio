@@ -9,12 +9,12 @@ const StyledHeader = styled.header`
   border-bottom: 2px solid #dedede;
 
   div {
-    margin-left: 10%;
+    margin-left: 2%;
     max-width: 960;
+    padding: 20px;
   }
 
-  h1 {
-    max-width: 960;
+  h2 {
     margin-bottom: 0;
   }
 `;
@@ -22,7 +22,7 @@ const StyledHeader = styled.header`
 const Header = () => (
   <StyledHeader>
     <div>
-      <h3>
+      <h2>
         <Link
           to="/"
           style={{
@@ -32,7 +32,7 @@ const Header = () => (
         >
           QJ
         </Link>
-      </h3>
+      </h2>
     </div>
   </StyledHeader>
 );

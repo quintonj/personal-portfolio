@@ -1,36 +1,59 @@
 import React from 'react';
 import styled from 'styled-components';
-import 'font-awesome/css/font-awesome.min.css';
+import variables from '../styles/variables.scss';
 
 const StyledFooter = styled.footer`
-    color: #555555;
-    margin-top: 20px;
-    margin-left: 36%;
-    margin-right 36%;
-    border-top: 2px solid rgba(0,0,0,.1);
+  hr {
+    border-top: 2px solid #dedede;
+    margin-left: 37%;
+    margin-right: 37%;
+  }
 
-    a {
-        padding: 7px;
-        border-radius: 100%;
-        width: 40px;
-        height: 40px;
-    }
+  div {
+    text-align: center;
+  }
 
-    a:visited {
-        color: #555555;
-    }
+  ul {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    list-style: none;
+  }
 
-    a:hover {
-        background-color: rgba(253, 85, 35, 0.5);
-    }
+  li {
+    float: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  p {
+    color: ${variables.colorMutedText};
+    font-size: 1.15em;
+  }
+
+  a {
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    border-radius: 100%;
+    font-size: 1.15em;
+  }
+
+  a:visited {
+    color: ${variables.colorMutedText};
+  }
+
+  a:hover {
+    transition: all 0.5s;
+    background-color: rgba(253, 85, 35, 0.7);
+  }
 `;
 
 const Footer = () => (
   <StyledFooter>
-    <p align="center">
-      <br />
-      Made with &hearts; and coffee in Atlanta
-    </p>
+    <hr />
+    <p align="center">Made with &hearts; and coffee in Atlanta</p>
     <div>
       <div>
         <div>
