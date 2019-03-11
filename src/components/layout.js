@@ -13,8 +13,13 @@ import Footer from './footer';
 import styled from 'styled-components';
 
 const Content = styled.div`
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
 `;
 
 const Layout = ({ children }) => (

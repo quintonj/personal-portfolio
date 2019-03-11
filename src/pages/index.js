@@ -6,6 +6,7 @@ import variables from '../styles/variables.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import me2 from '../images/me2.png';
 import homedepot from '../images/homedepot.png';
+import { Link } from 'gatsby';
 
 const Intro = styled.div`
   background-color: ${variables.colorSecondary};
@@ -18,7 +19,7 @@ const Intro = styled.div`
         padding: 50px;
 
         @media screen and (min-width: 1200px) {
-          margin-top: 15%;
+          margin-top: 10%;
           padding: 80px;
         }
       }
@@ -53,14 +54,28 @@ const PortfolioItem = styled.div`
     color: ${variables.colorMutedText};
   }
 
-  a {
-    text-decoration: none;
-  }
-
   h3,
   h5 {
     color: ${variables.colorHeadings};
     font-weight: 700;
+  }
+`;
+
+const StyledLink = styled(Link)`
+  font-size: ${variables.textsm};
+  text-decoration: none;
+  color: ${variables.colorHeadings};
+  font-weight: 700;
+
+  &:hover {
+    background-color: ${variables.colorPrimary};
+  }
+
+  &:focus,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
   }
 `;
 
@@ -98,7 +113,7 @@ const IndexPage = () => (
     <PortfolioItem>
       <div className="wrapper">
         <div className="col-md-2">
-          <h3>The Home Depot</h3>
+          <h3>The Home Depot - UX Designer</h3>
           <p>UI / UX • 2018 - Present</p>
         </div>
         <div className="col-md-2">
@@ -106,9 +121,7 @@ const IndexPage = () => (
             Working as a UX Designer at The Home Depot as a part of the
             Enterprise UX team.
           </h4>
-          <a href="#portfolio">
-            <h5>View Case Study</h5>
-          </a>
+          <StyledLink to="/about">View Case Study</StyledLink>
         </div>
       </div>
     </PortfolioItem>
@@ -124,9 +137,7 @@ const IndexPage = () => (
             Created a mockup for an app that creates a gamified hiking
             experience and utilizes audio cues.
           </h4>
-          <a href="#portfolio">
-            <h5>View Case Study</h5>
-          </a>
+          <StyledLink to="/about">View Case Study</StyledLink>
         </div>
       </div>
     </PortfolioItem>
@@ -135,16 +146,14 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="col-md-2">
           <h3>Atlanta Street Art Project</h3>
-          <p>UI / UX, Android Development • 2018 - Present</p>
+          <p>UI / UX, Android Development • Spring 2017</p>
         </div>
         <div className="col-md-2">
           <h4>
             Designed and developed an Android app that allows users to explore
             street art throughout Atlanta.
           </h4>
-          <a href="#portfolio">
-            <h5>View Case Study</h5>
-          </a>
+          <StyledLink to="/about">View Case Study</StyledLink>
         </div>
       </div>
     </PortfolioItem>
