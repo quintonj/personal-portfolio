@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import variables from '../styles/variables.scss';
 
 const StyledFooter = styled.footer`
+  background-color: #fbfbfb;
+
   hr {
     border-top: 2px solid #dedede;
     margin-left: 37%;
@@ -28,7 +30,7 @@ const StyledFooter = styled.footer`
 
   p {
     color: ${variables.colorMutedText};
-    font-size: 1.15em;
+    font-size: ${variables.textsm};
   }
 
   a {
@@ -37,7 +39,7 @@ const StyledFooter = styled.footer`
     width: 40px;
     padding: 7px;
     border-radius: 100%;
-    font-size: 1.15em;
+    font-size: ${variables.textsm};
   }
 
   a:visited {
@@ -60,27 +62,27 @@ const Footer = () => (
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/quinton-johnson-a0a6497b/">
-                <i class="fa fa-linkedin" />
+                <i className="fa fa-linkedin" />
               </a>
             </li>
             <li>
               <a href="https://github.com/quintonj">
-                <i class="fa fa-github" />
+                <i className="fa fa-github" />
               </a>
             </li>
             <li>
               <a href="https://dribbble.com/quintonj">
-                <i class="fa fa-dribbble" />
+                <i className="fa fa-dribbble" />
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/quintonbjohnson/">
-                <i class="fa fa-instagram" />
+                <i className="fa fa-instagram" />
               </a>
             </li>
             <li>
               <a href="https://open.spotify.com/user/1246887391?si=By3WkPL1QmGsxGV1xHhwew">
-                <i class="fa fa-spotify" />
+                <i className="fa fa-spotify" />
               </a>
             </li>
           </ul>

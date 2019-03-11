@@ -2,27 +2,40 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
+import variables from '../styles/variables.scss';
 
 const StyledHeader = styled.header`
   background-color: #fbfbfb;
-  margin-bottom: 1.45rem;
-  border-bottom: 2px solid #dedede;
+  margin-left: 50px;
+  margin-right: 50px;
 
   div {
-    margin-left: 2%;
     max-width: 960;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  h2 {
+  h3 {
     margin-bottom: 0;
+    color: ${variables.colorHeadings};
+  }
+
+  i {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    z-index: 1000;
+    color: ${variables.colorHeadings};
   }
 `;
 
 const Header = () => (
   <StyledHeader>
     <div>
-      <h2>
+      <h3>
         <Link
           to="/"
           style={{
@@ -32,7 +45,8 @@ const Header = () => (
         >
           QJ
         </Link>
-      </h2>
+      </h3>
+      <i className="fa fa-bars" />
     </div>
   </StyledHeader>
 );

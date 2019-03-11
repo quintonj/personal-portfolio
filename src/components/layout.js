@@ -7,36 +7,22 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
 import '../styles/styles.scss';
+import Header from './header';
+import Footer from './footer';
 import styled from 'styled-components';
 
-const StyledDiv = styled.div`
-  margin: 0 auto;
-  max-width: 960;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
+const Content = styled.div`
+  margin-left: 50px;
+  margin-right: 50px;
 `;
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <>
-        <StyledDiv>
-          <main>{children}</main>
-        </StyledDiv>
-      </>
-    )}
-  />
+  <div>
+    <Header className="header" />
+    <Content>{children}</Content>
+    <Footer className="footer" />
+  </div>
 );
 
 Layout.propTypes = {

@@ -6,10 +6,94 @@ html {
 }
 
 body {
-  background-color: #fbfbfb;
+  font-size: $text-md;
+  font-family: $font-secondary;
+  color: $color-text;
+  overflow-x: hidden;
+  background: #fbfbfb;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+  line-height: $body-line-height;
+  font-size: $text-sm;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  font-family: $font-primary;
+  color: $color-headings;
+  margin-bottom: $space-md;
+  line-height: $heading-line-height;
+  font-weight: 700;
+}
+
+h5 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  font-family: $font-primary;
+  color: $color-headings;
+  margin-bottom: $space-md;
+  line-height: $heading-line-height;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: $text-xxxl;
+}
+
+h2 {
+  font-size: $text-xl;
+}
+
+h3 {
+  font-size: $text-lg;
+}
+h4 {
+  font-size: $text-md;
+}
+
+small {
+  font-size: $text-sm;
+}
+
+.wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto 1fr auto;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.col-md-2 {
+  grid-column: span 2;
+}
+
+.col-md-4 {
+  grid-column: span 4;
 }
 
 article,
@@ -76,10 +160,6 @@ dfn {
 mark {
   background-color: #ff0;
   color: #000;
-}
-
-small {
-  font-size: 80%;
 }
 
 sub,
@@ -226,14 +306,6 @@ html {
   }
 }
 
-body {
-  font-size: $text-md;
-  font-family: $font-secondary;
-  color: $color-text;
-  overflow-x: hidden;
-  background: #fbfbfb;
-}
-
 img {
   max-width: 100%;
   margin-left: 0;
@@ -246,38 +318,6 @@ img {
   margin-bottom: 1.45rem;
 }
 
-h1,
-h2,
-h3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  font-family: $font-primary;
-  color: $color-headings;
-  margin-bottom: $space-md;
-  line-height: $heading-line-height;
-  font-weight: 700;
-}
-
-h4,
-h5 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  font-family: $font-primary;
-  color: $color-headings;
-  margin-bottom: $space-md;
-  line-height: $heading-line-height;
-  font-weight: 400;
-}
 hgroup {
   margin-left: 0;
   margin-right: 0;
@@ -313,19 +353,6 @@ dd {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-}
-
-p {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  line-height: var(--body-line-height);
-  font-size: var(--text-base-size);
 }
 
 figure {

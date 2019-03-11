@@ -11,22 +11,18 @@ $color-muted-text: #555555;
 
 // Base Text Values
 $text-base-size: 1em;
-$text-scale-ratio: 1.15;
+$text-scale-ratio: 1.2;
 
 // Type Scale
-$text-xs: calc(1em / $text-scale-ratio * $text-scale-ratio);
-$text-sm: calc(1em / $text-scale-ratio);
-$text-md: calc(1em * $text-scale-ratio);
-$text-lg: calc(1em * $text-scale-ratio * $text-scale-ratio);
-$text-xl: calc(1em * $text-scale-ratio * $ext-scale-ratio * $text-scale-ratio);
-$text-xxl: calc(
-  1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
-    $text-scale-ratio
-);
-$text-xxxl: calc(
-  1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
-    $text-scale-ratio * $text-scale-ratio
-);
+$text-xs: 1em / $text-scale-ratio * $text-scale-ratio;
+$text-sm: 1em / $text-scale-ratio;
+$text-md: 1em * $text-scale-ratio;
+$text-lg: 1em * $text-scale-ratio * $text-scale-ratio;
+$text-xl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio;
+$text-xxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+  $text-scale-ratio;
+$text-xxxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+  $text-scale-ratio * $text-scale-ratio;
 
 // Line height
 $heading-line-height: 1.2em;
@@ -39,4 +35,6 @@ $space-md: 0.75em;
   colorSecondary: $color-secondary;
   colorMutedText: $color-muted-text;
   colorHeadings: $color-headings;
+  textsm: $text-sm;
+  textmd: $text-md;
 }
