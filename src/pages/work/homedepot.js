@@ -4,14 +4,6 @@ import SEO from '../../components/seo';
 import customerjourney from '../../images/customerjourney.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
-import styled from 'styled-components';
-
-const StyleImg = styled.img`
-  max-width: 40%;
-  vertical-align: middle;
-  border-style: none;
-  padding: 35px;
-`;
 
 const HomeDepot = () => (
   <Layout>

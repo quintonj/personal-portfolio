@@ -14,6 +14,7 @@ import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
 import { Link } from 'gatsby';
 
+// Hero Image Styling
 const Intro = styled.div`
   background-color: ${variables.colorSecondary};
   margin-bottom: 75px;
@@ -49,17 +50,21 @@ const Intro = styled.div`
   }
 `;
 
+// Section header styling i.e. "Portfolio"
 const SectionHeader = styled.h2`
   border-left: 5px solid ${variables.colorPrimary};
   padding-left: 20px;
 `;
 
+// One portfolio item styling
 const PortfolioItem = styled.div`
   margin-bottom: 50px;
+  h4 {
+    font-size: ${variables.textbasesize}
+    color: ${variables.colorMutedText};
+  }
 
-  h4,
   p {
-    font-weight: 400;
     color: ${variables.colorMutedText};
   }
 
@@ -75,6 +80,7 @@ const PortfolioItem = styled.div`
   }
 `;
 
+// Link for "view case study" styling
 const CaseLink = styled(Link)`
   font-size: ${variables.textsm};
 `;
@@ -86,6 +92,7 @@ const IndexPage = () => (
       keywords={[`Quinton Johnson`, `UX`, `Designer`]}
     />
 
+    {/* Hero Image */}
     <Intro>
       <div className="wrapper">
         <div className="headercol">
@@ -108,8 +115,10 @@ const IndexPage = () => (
       </div>
     </Intro>
 
+    {/* Portfolio Section */}
     <SectionHeader id="portfolio">Portfolio</SectionHeader>
 
+    {/* Home Depot */}
     <PortfolioItem>
       <div className="wrapper">
         <div className="col2">
@@ -133,6 +142,7 @@ const IndexPage = () => (
       </div>
     </PortfolioItem>
 
+    {/* Wayfarer */}
     <PortfolioItem>
       <div className="wrapper">
         <div className="col2">
@@ -156,6 +166,7 @@ const IndexPage = () => (
       </div>
     </PortfolioItem>
 
+    {/* Atlanta Street Art Project */}
     <PortfolioItem>
       <div className="wrapper">
         <div className="col2">
@@ -179,10 +190,12 @@ const IndexPage = () => (
       </div>
     </PortfolioItem>
 
+    {/* More Projects Section */}
     <SectionHeader id="portfolio">More Projects</SectionHeader>
 
     <PortfolioItem>
       <div className="wrapper">
+        {/* Food Fight */}
         <div className="col2">
           <Link to="/work/foodfight">
             <img src={foodfightthumbnail} />
@@ -190,10 +203,14 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/foodfight">Food Fight!!!</Link>
           </h3>
-          <h4>An action game using two custom Arduino controllers.</h4>
+          <h4>
+            A multiplayer action game that is controlled with two custom Arduino
+            controllers.
+          </h4>
           <p>Game Design • Fall 2017</p>
         </div>
 
+        {/* Lantern */}
         <div className="col2">
           <Link to="/work/lantern">
             <img src={lanternthumbnail} />
@@ -208,6 +225,7 @@ const IndexPage = () => (
           <p>Frontend development, UI / UX • Summer 2017</p>
         </div>
 
+        {/* STAR */}
         <div className="col2">
           <Link to="/work/star">
             <img src={starthumbnail} />
@@ -216,12 +234,13 @@ const IndexPage = () => (
             <Link to="/work/star">STAR</Link>
           </h3>
           <h4>
-            An Android app that allows users to have improved conversations with
-            others that are hard of hearing.
+            An Android app that allows users that are hard of hearing to have
+            improved conversations with others.
           </h4>
           <p>Android Development • Spring 2017</p>
         </div>
 
+        {/* Coffee */}
         <div className="col2">
           <Link to="/work/coffee">
             <img src={coffeethumbnail} />
@@ -229,7 +248,10 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/coffee">Guide to Brewing Coffeee</Link>
           </h3>
-          <h4>A poster made based off of ethnographic user research.</h4>
+          <h4>
+            A poster made based off of several user research sessions using
+            ethnographic methods.
+          </h4>
           <p>Graphic Design, User Research • Spring 2017</p>
         </div>
       </div>
