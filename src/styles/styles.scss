@@ -24,7 +24,6 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   line-height: $body-line-height;
   font-size: $text-sm;
 }
@@ -51,7 +50,6 @@ h5 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -73,8 +71,13 @@ h2 {
 h3 {
   font-size: $text-lg;
 }
+
 h4 {
   font-size: $text-md;
+}
+
+h5 {
+  font-size: $text-sm;
 }
 
 small {
@@ -88,12 +91,30 @@ small {
   grid-gap: 20px;
 }
 
-.col-md-2 {
-  grid-column: span 2;
+.headercol {
+  grid-column: span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.col-md-4 {
-  grid-column: span 4;
+@media screen and (min-width: 600px) {
+  .col2 {
+    grid-column: span 2;
+  }
+
+  .headercol {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .col4 {
+    grid-column: span 4;
+  }
 }
 
 article,
@@ -133,11 +154,29 @@ template {
 }
 
 a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  &:active,
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  font-family: $font-primary;
+  color: $color-headings;
+  margin-bottom: $space-md;
+  line-height: $heading-line-height;
+  font-weight: 700;
+  text-decoration: none;
+
   &:hover {
-    outline-width: 0;
+    opacity: 0.85;
+    transition: 0.2s ease;
+  }
+
+  &:focus,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
   }
 }
 
@@ -176,10 +215,6 @@ sub {
 
 sup {
   top: -0.5em;
-}
-
-img {
-  border-style: none;
 }
 
 svg:not(:root) {
@@ -315,7 +350,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 
 hgroup {

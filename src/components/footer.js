@@ -40,6 +40,7 @@ const StyledFooter = styled.footer`
     padding: 7px;
     border-radius: 100%;
     font-size: ${variables.textsm};
+    color: ${variables.colorMutedText};
   }
 
   a:visited {

@@ -6,7 +6,7 @@ import variables from '../styles/variables.scss';
 
 const StyledHeader = styled.header`
   background-color: #fbfbfb;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-right: 50px;
 
   div {
@@ -26,7 +26,7 @@ const StyledHeader = styled.header`
     cursor: pointer;
     position: fixed;
     top: 25px;
-    right: 20px;
+    right: 30px;
     z-index: 1000;
     color: ${variables.colorHeadings};
   }

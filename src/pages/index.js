@@ -6,12 +6,17 @@ import variables from '../styles/variables.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import me2 from '../images/me2.png';
 import homedepot from '../images/homedepot.png';
+import wayfarer from '../images/wayfarer.png';
+import atlantastreetart from '../images/atlantastreetart.png';
+import lanternthumbnail from '../images/lantern.png';
+import foodfightthumbnail from '../images/foodfightfull.png';
+import starthumbnail from '../images/starthumbnail.png';
+import coffeethumbnail from '../images/coffeethumbnail.png';
 import { Link } from 'gatsby';
 
 const Intro = styled.div`
   background-color: ${variables.colorSecondary};
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 
   div {
     div {
@@ -19,16 +24,19 @@ const Intro = styled.div`
         padding: 50px;
 
         @media screen and (min-width: 1200px) {
-          margin-top: 10%;
           padding: 80px;
+          margin-top: 60px;
         }
       }
     }
     img {
-      padding: 50px;
+      max-width: 75%;
+      margin-bottom: 60px;
 
       @media screen and (min-width: 1200px) {
-        padding: 80px;
+        max-width: 75%;
+        margin-bottom: 60px;
+        margin-top: 80px;
       }
     }
   }
@@ -47,36 +55,28 @@ const SectionHeader = styled.h2`
 `;
 
 const PortfolioItem = styled.div`
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 
   h4,
   p {
+    font-weight: 400;
     color: ${variables.colorMutedText};
   }
 
-  h3,
-  h5 {
-    color: ${variables.colorHeadings};
-    font-weight: 700;
+  img:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+
+  a {
+    img {
+      margin-bottom: 20px;
+    }
   }
 `;
 
-const StyledLink = styled(Link)`
+const CaseLink = styled(Link)`
   font-size: ${variables.textsm};
-  text-decoration: none;
-  color: ${variables.colorHeadings};
-  font-weight: 700;
-
-  &:hover {
-    background-color: ${variables.colorPrimary};
-  }
-
-  &:focus,
-  &:visited,
-  &:link,
-  &:active {
-    text-decoration: none;
-  }
 `;
 
 const IndexPage = () => (
@@ -88,7 +88,7 @@ const IndexPage = () => (
 
     <Intro>
       <div className="wrapper">
-        <div className="col-md-2">
+        <div className="headercol">
           <div>
             <h1>Quinton Johnson</h1>
             <h4>UX Designer at The Home Depot.</h4>
@@ -102,7 +102,7 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-        <div className="col-md-2">
+        <div className="headercol">
           <img src={me2} />
         </div>
       </div>
@@ -112,48 +112,125 @@ const IndexPage = () => (
 
     <PortfolioItem>
       <div className="wrapper">
-        <div className="col-md-2">
-          <h3>The Home Depot - UX Designer</h3>
+        <div className="col2">
+          <h3>
+            <Link to="/work/homedepot">The Home Depot - UX Designer</Link>
+          </h3>
           <p>UI / UX • 2018 - Present</p>
         </div>
-        <div className="col-md-2">
+        <div className="col2">
           <h4>
             Working as a UX Designer at The Home Depot as a part of the
             Enterprise UX team.
           </h4>
-          <StyledLink to="/about">View Case Study</StyledLink>
+          <CaseLink to="/work/homedepot">View Case Study</CaseLink>
+        </div>
+        <div className="col4">
+          <Link to="/work/homedepot">
+            <img src={homedepot} />
+          </Link>
         </div>
       </div>
     </PortfolioItem>
 
     <PortfolioItem>
       <div className="wrapper">
-        <div className="col-md-2">
-          <h3>Wayfarer App Mockup</h3>
+        <div className="col2">
+          <h3>
+            <Link to="/work/wayfarer">Wayfarer App Mockup</Link>
+          </h3>
           <p>UI / UX • Fall 2017</p>
         </div>
-        <div className="col-md-2">
+        <div className="col2">
           <h4>
-            Created a mockup for an app that creates a gamified hiking
-            experience and utilizes audio cues.
+            Created a mockup for an app with a gamified hiking experience that
+            utilizes audio cues.
           </h4>
-          <StyledLink to="/about">View Case Study</StyledLink>
+          <CaseLink to="/work/wayfarer">View Case Study</CaseLink>
+        </div>
+        <div className="col4">
+          <Link to="/work/wayfarer">
+            <img src={wayfarer} />
+          </Link>
         </div>
       </div>
     </PortfolioItem>
 
     <PortfolioItem>
       <div className="wrapper">
-        <div className="col-md-2">
-          <h3>Atlanta Street Art Project</h3>
+        <div className="col2">
+          <h3>
+            <Link to="/work/atlantastreetart">Atlanta Street Art Project</Link>
+          </h3>
           <p>UI / UX, Android Development • Spring 2017</p>
         </div>
-        <div className="col-md-2">
+        <div className="col2">
           <h4>
             Designed and developed an Android app that allows users to explore
             street art throughout Atlanta.
           </h4>
-          <StyledLink to="/about">View Case Study</StyledLink>
+          <CaseLink to="/work/atlantastreetart">View Case Study</CaseLink>
+        </div>
+        <div className="col4">
+          <Link to="/work/atlantastreetart">
+            <img src={atlantastreetart} />
+          </Link>
+        </div>
+      </div>
+    </PortfolioItem>
+
+    <SectionHeader id="portfolio">More Projects</SectionHeader>
+
+    <PortfolioItem>
+      <div className="wrapper">
+        <div className="col2">
+          <Link to="/work/foodfight">
+            <img src={foodfightthumbnail} />
+          </Link>
+          <h3>
+            <Link to="/work/foodfight">Food Fight!!!</Link>
+          </h3>
+          <h4>An action game using two custom Arduino controllers.</h4>
+          <p>Game Design • Fall 2017</p>
+        </div>
+
+        <div className="col2">
+          <Link to="/work/lantern">
+            <img src={lanternthumbnail} />
+          </Link>
+          <h3>
+            <Link to="/work/lantern">The Home Depot - Lantern</Link>
+          </h3>
+          <h4>
+            Worked as a front-end engineering intern to develop an analytics
+            dashboard with React.js.
+          </h4>
+          <p>Frontend development, UI / UX • Summer 2017</p>
+        </div>
+
+        <div className="col2">
+          <Link to="/work/star">
+            <img src={starthumbnail} />
+          </Link>
+          <h3>
+            <Link to="/work/star">STAR</Link>
+          </h3>
+          <h4>
+            An Android app that allows users to have improved conversations with
+            others that are hard of hearing.
+          </h4>
+          <p>Android Development • Spring 2017</p>
+        </div>
+
+        <div className="col2">
+          <Link to="/work/coffee">
+            <img src={coffeethumbnail} />
+          </Link>
+          <h3>
+            <Link to="/work/coffee">Guide to Brewing Coffeee</Link>
+          </h3>
+          <h4>A poster made based off of ethnographic user research.</h4>
+          <p>Graphic Design, User Research • Spring 2017</p>
         </div>
       </div>
     </PortfolioItem>

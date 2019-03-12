@@ -7,11 +7,11 @@ $color-primary: #fd5523;
 $color-secondary: #1fe0ac;
 $color-headings: #222222;
 $color-text: rgba(0, 0, 0, 0.84);
-$color-muted-text: #555555;
+$color-muted-text: #777777;
 
 // Base Text Values
 $text-base-size: 1em;
-$text-scale-ratio: 1.2;
+$text-scale-ratio: 1.15;
 
 // Type Scale
 $text-xs: 1em / $text-scale-ratio * $text-scale-ratio;
@@ -37,4 +37,7 @@ $space-md: 0.75em;
   colorHeadings: $color-headings;
   textsm: $text-sm;
   textmd: $text-md;
+  textlg: $text-lg;
+  textxl: $text-xl;
+  textxxl: $text-xxl;
 }
