@@ -136,6 +136,7 @@ canvas,
 progress,
 video {
   display: inline-block;
+  margin-bottom: $space-md;
 }
 
 audio:not([controls]) {
