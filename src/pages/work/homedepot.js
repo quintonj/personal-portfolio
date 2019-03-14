@@ -75,7 +75,7 @@ const HomeDepot = () => (
       hundreds more during the first half of 2019 with the additional
       functionality of managing, creating, and working on repairs.
     </p>
-    <h5>Starting Off and Retiring Legacy for Fleet Tools</h5>
+    <img alt="" src={fleetjourney} />
     <p>
       When I first joined the Repair team, Repair Depot was only in one store
       with limited functionality. I began the undertaking of developing
@@ -90,7 +90,7 @@ const HomeDepot = () => (
       this, I worked out the user journey of a technician working on a fleet
       tool to grow empathy.
     </p>
-    <img alt="" src={fleetjourney} />
+    <img alt="" src={customerjourney} />
     <p>
       Following from this, I worked on areas of research and developed a
       research script. After peer reviews, I visited numerous stores to
@@ -106,7 +106,6 @@ const HomeDepot = () => (
       gave me the opportunity to collaborate with my peers and learn from
       others.
     </p>
-    <h5>Where I'm At and Moving on to Customers</h5>
     <p>
       Currently, I am following a discovery and framing pattern to understand
       the problems of managing customer repairs today. With a kickoff meeting
@@ -114,7 +113,6 @@ const HomeDepot = () => (
       research topics so that Repair Depot can eventually encompass all forms of
       repairs.
     </p>
-    <img alt="" src={customerjourney} />
     <h4>The Reflection</h4>
     <p>
       Thus far, Home Depot has been a great place to work and I have been

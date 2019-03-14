@@ -16,12 +16,15 @@ import { Link } from 'gatsby';
 
 // Hero Image Styling
 const Intro = styled.div`
-  background-color: ${variables.colorSecondary};
+  background-color: rgba(31, 224, 172, 0.7);
   margin-bottom: 75px;
 
   div {
     div {
       div {
+        h3 {
+          text-transform: none;
+        }
         padding: 50px;
 
         @media screen and (min-width: 1200px) {
@@ -30,6 +33,7 @@ const Intro = styled.div`
         }
       }
     }
+
     img {
       max-width: 75%;
       margin-bottom: 60px;
@@ -48,6 +52,7 @@ const Intro = styled.div`
       color: ${variables.colorHeadings};
     }
   }
+}
 `;
 
 // Section header styling i.e. "Portfolio"
@@ -59,12 +64,13 @@ const SectionHeader = styled.h2`
 // One portfolio item styling
 const PortfolioItem = styled.div`
   margin-bottom: 50px;
-  h4 {
-    font-size: ${variables.textbasesize}
+
+  h5 {
     color: ${variables.colorMutedText};
   }
 
-  p {
+  h4 {
+    font-size: ${variables.textbasesize}
     color: ${variables.colorMutedText};
   }
 
@@ -95,10 +101,12 @@ const IndexPage = () => (
     {/* Hero Image */}
     <Intro>
       <div className="wrapper">
-        <div className="headercol">
+        <div className="headerCol">
           <div>
-            <h1>Quinton Johnson</h1>
-            <h4>UX Designer at The Home Depot.</h4>
+            <h1>
+              Quinton <br /> Johnson
+            </h1>
+            <h3>UX Designer at The Home Depot.</h3>
             <h5>
               I'm a designer and developer based in Atlanta. Passionate about
               connecting with people and creating meaningful experiences that
@@ -109,7 +117,7 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-        <div className="headercol">
+        <div className="headerCol">
           <img src={me2} />
         </div>
       </div>
@@ -123,9 +131,9 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="col2">
           <h3>
-            <Link to="/work/homedepot">The Home Depot - UX Designer</Link>
+            <Link to="/work/homedepot">Home Depot - UX Designer</Link>
           </h3>
-          <p>UI / UX • 2018 - Present</p>
+          <h5>UI / UX • 2018 - Present</h5>
         </div>
         <div className="col2">
           <h4>
@@ -149,7 +157,7 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/wayfarer">Wayfarer App Mockup</Link>
           </h3>
-          <p>UI / UX • Fall 2017</p>
+          <h5>UI / UX • Fall 2017</h5>
         </div>
         <div className="col2">
           <h4>
@@ -173,7 +181,7 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/atlantastreetart">Atlanta Street Art Project</Link>
           </h3>
-          <p>UI / UX, Android Development • Spring 2017</p>
+          <h5>UI / UX, Android Development • Spring 2017</h5>
         </div>
         <div className="col2">
           <h4>
@@ -201,13 +209,13 @@ const IndexPage = () => (
             <img src={foodfightthumbnail} />
           </Link>
           <h3>
-            <Link to="/work/foodfight">Food Fight!!!</Link>
+            <Link to="/work/foodfight">Food Fight</Link>
           </h3>
           <h4>
             A multiplayer action game that is controlled with two custom Arduino
             controllers.
           </h4>
-          <p>Game Design • Fall 2017</p>
+          <h5>Game Design • Fall 2017</h5>
         </div>
 
         {/* Lantern */}
@@ -216,13 +224,13 @@ const IndexPage = () => (
             <img src={lanternthumbnail} />
           </Link>
           <h3>
-            <Link to="/work/lantern">The Home Depot - Lantern</Link>
+            <Link to="/work/lantern">Home Depot - Lantern</Link>
           </h3>
           <h4>
             Worked as a front-end engineering intern to develop an analytics
             dashboard with React.js.
           </h4>
-          <p>Frontend development, UI / UX • Summer 2017</p>
+          <h5>Frontend development, UI / UX • Summer 2017</h5>
         </div>
 
         {/* STAR */}
@@ -237,7 +245,7 @@ const IndexPage = () => (
             An Android app that allows users that are hard of hearing to have
             improved conversations with others.
           </h4>
-          <p>Android Development • Spring 2017</p>
+          <h5>Android Development • Spring 2017</h5>
         </div>
 
         {/* Coffee */}
@@ -252,7 +260,7 @@ const IndexPage = () => (
             A poster made based off of several user research sessions using
             ethnographic methods.
           </h4>
-          <p>Graphic Design, User Research • Spring 2017</p>
+          <h5>Graphic Design, User Research • Spring 2017</h5>
         </div>
       </div>
     </PortfolioItem>

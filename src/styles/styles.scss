@@ -7,7 +7,7 @@ html {
 
 body {
   font-size: $text-md;
-  font-family: $font-secondary;
+  font-family: $font-tertiary;
   color: $color-text;
   overflow-x: hidden;
   background: #fbfbfb;
@@ -28,10 +28,23 @@ p {
   font-size: $text-sm;
 }
 
-h1,
+h1 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  font-family: $font-tertiary;
+  color: $color-headings;
+  margin-bottom: 20px;
+  line-height: $heading-line-height;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
 h2,
-h3,
-h4 {
+h3 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -39,6 +52,21 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   font-family: $font-primary;
+  color: $color-headings;
+  margin-bottom: $space-md;
+  line-height: $heading-line-height;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  font-family: $font-secondary;
   color: $color-headings;
   margin-bottom: $space-md;
   line-height: $heading-line-height;
@@ -52,7 +80,7 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  font-family: $font-primary;
+  font-family: $font-secondary;
   color: $color-headings;
   margin-bottom: $space-md;
   line-height: $heading-line-height;
@@ -60,7 +88,7 @@ h5 {
 }
 
 h1 {
-  font-size: $text-xxxl;
+  font-size: 3em;
 }
 
 h2 {
@@ -90,7 +118,7 @@ small {
   grid-gap: 20px;
 }
 
-.headercol {
+.headerCol {
   grid-column: span 1;
   display: flex;
   justify-content: center;
@@ -103,7 +131,7 @@ small {
     grid-column: span 2;
   }
 
-  .headercol {
+  .headerCol {
     grid-column: span 2;
     display: flex;
     justify-content: center;

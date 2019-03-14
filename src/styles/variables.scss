@@ -1,13 +1,28 @@
+@font-face {
+  font-family: 'Gotham Narrow Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gotham Narrow Bold'),
+    url('./GothamNarrow-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gotham Narrow';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gotham Narrow'), url('./GothamNarrow-Book.woff') format('woff');
+}
+
 // Typography
-$font-primary: Arial, Helvetica, sans-serif;
-$font-secondary: Arial, Helvetica, sans-serif;
+$font-primary: 'Gotham Narrow Bold', sans-serif;
+$font-secondary: 'Gotham Narrow', sans-serif;
+$font-tertiary: 'freight-text-pro', serif;
 
 // Colors
 $color-primary: #fd5523;
 $color-secondary: #1fe0ac;
 $color-headings: #222222;
 $color-text: rgba(0, 0, 0, 0.84);
-$color-muted-text: #777777;
+$color-muted-text: #999999;
 
 // Base Text Values
 $text-base-size: 1em;
@@ -31,6 +46,9 @@ $space-md: 0.75em;
 
 // Export variables
 :export {
+  fontPrimary: $font-primary;
+  fontSecondary: $font-secondary;
+  fontTertiary: $font-tertiary;
   colorPrimary: $color-primary;
   colorSecondary: $color-secondary;
   colorMutedText: $color-muted-text;

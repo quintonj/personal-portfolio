@@ -7,7 +7,7 @@ import foodfightvideo from '../../images/foodfightvideo.mp4';
 
 const FoodFight = () => (
   <Layout>
-    <SEO title="Food Fight!!!" />
+    <SEO title="Food Fight" />
     <h1>Food Fight</h1>
     <p>A 2D action game made with Processing and Arduino</p>
     <video controls="" source src={foodfightvideo}>
