@@ -28,7 +28,7 @@ const StyledFooter = styled.footer`
     margin-right: 20px;
   }
 
-  p {
+  h5 {
     color: ${variables.colorMutedText};
     font-size: ${variables.textsm};
   }
@@ -56,7 +56,7 @@ const StyledFooter = styled.footer`
 const Footer = () => (
   <StyledFooter>
     <hr />
-    <p align="center">Made with &hearts; and coffee in Atlanta</p>
+    <h5 align="center">Made with &hearts; and coffee in Atlanta</h5>
     <div>
       <div>
         <div>
