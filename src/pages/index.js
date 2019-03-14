@@ -16,7 +16,7 @@ import { Link } from 'gatsby';
 
 // Hero Image Styling
 const Intro = styled.div`
-  background-color: rgba(31, 224, 172, 0.7);
+  background-color: ${variables.colorSecondary};
   margin-bottom: 75px;
 
   div {

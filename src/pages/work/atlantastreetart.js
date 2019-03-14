@@ -10,7 +10,6 @@ const AtlantaStreetArt = () => (
     <p>
       An Android app that allows users to explore street art throughout Atlanta.
     </p>
-    <img src={atlantastreetart} />
     <h3>The Product</h3>
     <p>
       The Atlanta Street Art Project displays images and locations of street art

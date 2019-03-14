@@ -11,7 +11,6 @@ const Wayfarer = () => (
       A mockup for an app that creates a gamified hiking experience utilizing
       auditory cues.
     </p>
-    <img alt="" src={wayfarerfull} />
     <h3>The Product</h3>
     <p>
       The goal of the project was simple: design a system that relies on
