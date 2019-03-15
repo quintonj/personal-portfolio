@@ -13,6 +13,7 @@ import foodfightthumbnail from '../images/foodfightfull.png';
 import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
 import { Link } from 'gatsby';
+import './src/styles/styles.scss';
 
 // Hero Image Styling
 const Intro = styled.div`
