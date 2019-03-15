@@ -29,7 +29,6 @@ const Intro = styled.div`
 
         @media screen and (min-width: 1200px) {
           padding: 80px;
-          margin-top: 60px;
         }
       }
     }
@@ -43,13 +42,6 @@ const Intro = styled.div`
         margin-bottom: 60px;
         margin-top: 80px;
       }
-    }
-  }
-
-  a {
-    i {
-      font-size: 4em;
-      color: ${variables.colorheadings};
     }
   }
 }
@@ -111,9 +103,6 @@ const IndexPage = () => (
               I‘m a designer and developer based in Atlanta. Passionate about connecting with people
               and creating meaningful experiences that solve problems.
             </h5>
-            <a href="#portfolio">
-              <i className="fa fa-angle-down" />
-            </a>
           </div>
         </div>
         <div className="headerCol">
