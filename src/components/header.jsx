@@ -16,7 +16,7 @@ const StyledHeader = styled.header`
 
   h3 {
     margin-bottom: 0;
-    color: ${variables.colorHeadings};
+    color: ${variables.colorheadings};
   }
 
   i {
@@ -27,7 +27,7 @@ const StyledHeader = styled.header`
     top: 25px;
     right: 30px;
     z-index: 1000;
-    color: ${variables.colorHeadings};
+    color: ${variables.colorheadings};
   }
 `;
 

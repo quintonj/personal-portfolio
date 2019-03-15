@@ -33,8 +33,8 @@ const StyledFooter = styled.footer`
   }
 
   h5 {
-    color: ${variables.colorMutedText};
-    font-size: ${variables.textBaseSize};
+    color: ${variables.colormutedtext};
+    font-size: ${variables.textbasesize};
   }
 
   a {
@@ -43,12 +43,12 @@ const StyledFooter = styled.footer`
     width: 40px;
     padding: 7px;
     border-radius: 100%;
-    font-size: ${variables.textBaseSize};
-    color: ${variables.colorMutedText};
+    font-size: ${variables.textbasesize};
+    color: ${variables.colormutedtext};
   }
 
   a:visited {
-    color: ${variables.colorMutedText};
+    color: ${variables.colormutedtext};
   }
 
   a:hover {
