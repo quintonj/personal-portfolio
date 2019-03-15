@@ -70,7 +70,7 @@ const PortfolioItem = styled.div`
   }
 
   h4 {
-    font-size: ${variables.textbasesize}
+    font-size: ${variables.textbasesize};
     color: ${variables.colorMutedText};
     text-transform: none;
   }
@@ -135,9 +135,7 @@ const IndexPage = () => (
           <h5>UI / UX • June 2018 - Present</h5>
         </div>
         <div className="col2">
-          <h4 className="work-intro-quote::before">
-            Working as a UX Designer at The Home Depot as a part of the Enterprise UX team.
-          </h4>
+          <h4>Working as a UX Designer at The Home Depot as a part of the Enterprise UX team.</h4>
           <CaseLink to="/work/homedepot">View Case Study</CaseLink>
         </div>
         <div className="col4">

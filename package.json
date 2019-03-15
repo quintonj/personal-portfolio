@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": false,
   "description": "The code for my personal portfolio site utilizing React.js and Gatsby.js",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^2.1.27",
@@ -31,10 +31,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "node-sass": "^4.11.0",
-    "prettier": "^1.16.4",
-    "sass-extract": "^2.1.0",
-    "sass-extract-js": "^0.4.0",
-    "sass-extract-loader": "^1.1.0"
+    "prettier": "^1.16.4"
   },
   "keywords": [
     "gatsby"
