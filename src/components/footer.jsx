@@ -34,7 +34,7 @@ const StyledFooter = styled.footer`
 
   h5 {
     color: ${variables.colorMutedText};
-    font-size: ${variables.textsm};
+    font-size: ${variables.textBaseSize};
   }
 
   a {
@@ -43,7 +43,7 @@ const StyledFooter = styled.footer`
     width: 40px;
     padding: 7px;
     border-radius: 100%;
-    font-size: ${variables.textsm};
+    font-size: ${variables.textBaseSize};
     color: ${variables.colorMutedText};
   }
 
