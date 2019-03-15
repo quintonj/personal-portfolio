@@ -27,7 +27,7 @@ const Wayfarer = () => (
         <div className="imgCol">
           <img alt="" src={wayfarer} />
         </div>
-        <h3>The Product</h3>
+        <h3 className="sectionName">The Product</h3>
         <p>
           The goal of the project was simple: design a system that relies on auditory feedback to
           relay information to the user. Within a group of four, I helped to envision an app that

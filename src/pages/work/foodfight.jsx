@@ -30,7 +30,7 @@ const FoodFight = () => (
             Your browser does not support the video tag.
           </video>
         </div>
-        <h3>The Product</h3>
+        <h3 className="sectionName">The Product</h3>
         <p>
           Food Fight is a 2D multiplayer game that was developed with Processing and utilizes two
           “food trays” made up of capacitors and two Arduinos. Within a group of four, I handled all

@@ -28,7 +28,7 @@ const Coffee = () => (
         <div className="imgCol">
           <img alt="" src={coffeefull} />
         </div>
-        <h3>The Product</h3>
+        <h3 className="sectionName">The Product</h3>
         <p>
           This poster design was the result of several ethnographic observation sessions with a
           coffee enthusiast. It was created using Photoshop with Gestalt Principles in mind. During

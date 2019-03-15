@@ -24,7 +24,10 @@ const Lantern = () => (
         <h5>Front-end development, UI / UX</h5>
       </div>
       <div className="col4">
-        <h3>The Product</h3>
+        <div className="imgCol">
+          <img alt="" src={board} />
+        </div>
+        <h3 className="sectionName">The Product</h3>
         <p>
           Over the course of summer 2017, I was a Software Engineering Intern for The Home Depot.
           Within a group of seven interns, I held responsibility for developing the front-end for a
@@ -71,9 +74,6 @@ const Lantern = () => (
           end of the internship, our team was one of the few chosen to present a project in front of
           the Senior Vice President for Technology at The Home Depot.
         </p>
-        <div className="imgCol">
-          <img alt="" src={board} />
-        </div>
         <h3 className="sectionName">The Reflection</h3>
         <p>
           While working on this project, I was able to have a hand in multiple facets of the

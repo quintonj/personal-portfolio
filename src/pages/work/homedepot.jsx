@@ -27,7 +27,7 @@ const HomeDepot = () => (
         <div className="imgCol">
           <img alt="" src={homedepot} />
         </div>
-        <h3>The Product</h3>
+        <h3 className="sectionName">The Product</h3>
         <p>
           Since the summer of 2018, I have been working as a UX Designer for The Home Depot. Within
           the Enterprise UX team, I work within repair products to ensure Home Depot associates are

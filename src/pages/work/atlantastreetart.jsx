@@ -27,7 +27,7 @@ const AtlantaStreetArt = () => (
         <div className="imgCol">
           <img alt="" src={atlantastreetart} />
         </div>
-        <h3>The Product</h3>
+        <h3 className="sectionName">The Product</h3>
         <p>
           The Atlanta Street Art Project displays images and locations of street art throughout
           Atlanta. Within a group of five, I had a significant role in the development and design of
