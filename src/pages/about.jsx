@@ -40,7 +40,7 @@ const About = () => (
         <p>
           My passions include UI and UX design, as well as software engineering. In my free time, I
           love to do
-          <a href="https://www.strava.com/athletes/10263084">triathlons</a> , watch
+          <a href="https://www.strava.com/athletes/10263084">triathlons</a>, watch
           <a href="https://letterboxd.com/quintonj/">movies</a>, listen to
           <a href="https://open.spotify.com/user/1246887391?si=lXa_zSsHTIm_5NW_K_IApQ">music</a>,
           and <a href="https://www.instagram.com/quintonbjohnson/">hike</a> with my border collie,

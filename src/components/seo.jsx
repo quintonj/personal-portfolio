@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
@@ -83,7 +82,7 @@ SEO.defaultProps = {
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
-  meta: PropTypes.array,
+  meta: PropTypes.arrayOf(PropTypes.string),
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired
 };
