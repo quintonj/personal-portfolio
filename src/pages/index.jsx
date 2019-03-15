@@ -16,7 +16,7 @@ import coffeethumbnail from '../images/coffeethumbnail.png';
 
 // Hero Image Styling
 const Intro = styled.div`
-  background-color: ${variables.colorsecondary};
+  background-color: #1fe0ac;
   margin-bottom: 75px;
 
   div {
