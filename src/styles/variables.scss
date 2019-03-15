@@ -11,8 +11,7 @@
   font-family: 'Gotham Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Gotham Bold'),
-    url('../assets/GothamNarrow-Bold.woff') format('woff');
+  src: local('Gotham Bold'), url('../assets/GothamNarrow-Bold.woff') format('woff');
 }
 
 // Typography
@@ -37,10 +36,9 @@ $text-sm: 1em / $text-scale-ratio;
 $text-md: 1em * $text-scale-ratio;
 $text-lg: 1em * $text-scale-ratio * $text-scale-ratio;
 $text-xl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio;
-$text-xxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+$text-xxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio;
+$text-xxxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
   $text-scale-ratio;
-$text-xxxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
-  $text-scale-ratio * $text-scale-ratio;
 
 // Line height
 $heading-line-height: 1.2em;

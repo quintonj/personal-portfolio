@@ -7,9 +7,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import Header from './header';
 import Footer from './footer';
-import styled from 'styled-components';
 import '../styles/styles.scss';
 
 const Content = styled.div`
@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;

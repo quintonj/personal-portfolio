@@ -1,5 +1,4 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 import variables from '../styles/variables.scss';
@@ -40,7 +39,7 @@ const Header = () => (
           to="/"
           style={{
             color: `black`,
-            textDecoration: `none`,
+            textDecoration: `none`
           }}
         >
           QJ
@@ -49,13 +48,5 @@ const Header = () => (
     </div>
   </StyledHeader>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
-};
 
 export default Header;

@@ -1,7 +1,8 @@
 import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import styled from 'styled-components';
 import variables from '../styles/variables.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import me2 from '../images/me2.png';
@@ -12,8 +13,6 @@ import lanternthumbnail from '../images/lantern.png';
 import foodfightthumbnail from '../images/foodfightfull.png';
 import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
-import { Link } from 'gatsby';
-import '../styles/styles.scss';
 
 // Hero Image Styling
 const Intro = styled.div`
@@ -95,10 +94,7 @@ const CaseLink = styled(Link)`
 
 const IndexPage = () => (
   <Layout>
-    <SEO
-      title="Quinton Johnson"
-      keywords={[`Quinton Johnson`, `UX`, `Designer`]}
-    />
+    <SEO title="Quinton Johnson" keywords={[`Quinton Johnson`, `UX`, `Designer`]} />
 
     {/* Hero Image */}
     <Intro>
@@ -106,13 +102,14 @@ const IndexPage = () => (
         <div className="headerCol">
           <div>
             <h1>
-              Quinton <br /> Johnson
+              Quinton
+              <br />
+              Johnson
             </h1>
             <h3>UX Designer at The Home Depot.</h3>
             <h5>
-              I'm a designer and developer based in Atlanta. Passionate about
-              connecting with people and creating meaningful experiences that
-              solve problems.
+              I‘m a designer and developer based in Atlanta. Passionate about connecting with people
+              and creating meaningful experiences that solve problems.
             </h5>
             <a href="#portfolio">
               <i className="fa fa-angle-down" />
@@ -120,7 +117,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="headerCol">
-          <img src={me2} />
+          <img alt="" src={me2} />
         </div>
       </div>
     </Intro>
@@ -139,14 +136,13 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="work-intro-quote::before">
-            Working as a UX Designer at The Home Depot as a part of the
-            Enterprise UX team.
+            Working as a UX Designer at The Home Depot as a part of the Enterprise UX team.
           </h4>
           <CaseLink to="/work/homedepot">View Case Study</CaseLink>
         </div>
         <div className="col4">
           <Link to="/work/homedepot">
-            <img src={homedepot} />
+            <img alt="" src={homedepot} />
           </Link>
         </div>
       </div>
@@ -163,14 +159,13 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4>
-            Created a mockup for an app with a gamified hiking experience that
-            utilizes audio cues.
+            Created a mockup for an app with a gamified hiking experience that utilizes audio cues.
           </h4>
           <CaseLink to="/work/wayfarer">View Case Study</CaseLink>
         </div>
         <div className="col4">
           <Link to="/work/wayfarer">
-            <img src={wayfarer} />
+            <img alt="" src={wayfarer} />
           </Link>
         </div>
       </div>
@@ -187,14 +182,14 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4>
-            Designed and developed an Android app that allows users to explore
-            street art throughout Atlanta.
+            Designed and developed an Android app that allows users to explore street art throughout
+            Atlanta.
           </h4>
           <CaseLink to="/work/atlantastreetart">View Case Study</CaseLink>
         </div>
         <div className="col4">
           <Link to="/work/atlantastreetart">
-            <img src={atlantastreetart} />
+            <img alt="" src={atlantastreetart} />
           </Link>
         </div>
       </div>
@@ -208,29 +203,26 @@ const IndexPage = () => (
         {/* Food Fight */}
         <div className="col2">
           <Link to="/work/foodfight">
-            <img src={foodfightthumbnail} />
+            <img alt="" src={foodfightthumbnail} />
           </Link>
           <h3>
             <Link to="/work/foodfight">Food Fight</Link>
           </h3>
-          <h4>
-            A multiplayer action game that is controlled with two custom Arduino
-            controllers.
-          </h4>
+          <h4>A multiplayer action game that is controlled with two custom Arduino controllers.</h4>
           <h5>Game Design • Fall 2017</h5>
         </div>
 
         {/* Lantern */}
         <div className="col2">
           <Link to="/work/lantern">
-            <img src={lanternthumbnail} />
+            <img alt="" src={lanternthumbnail} />
           </Link>
           <h3>
             <Link to="/work/lantern">Home Depot - Lantern</Link>
           </h3>
           <h4>
-            Worked as a front-end engineering intern to develop an analytics
-            dashboard with React.js.
+            Worked as a front-end engineering intern to develop an analytics dashboard with
+            React.js.
           </h4>
           <h5>Frontend development, UI / UX • Summer 2017</h5>
         </div>
@@ -238,14 +230,14 @@ const IndexPage = () => (
         {/* STAR */}
         <div className="col2">
           <Link to="/work/star">
-            <img src={starthumbnail} />
+            <img alt="" src={starthumbnail} />
           </Link>
           <h3>
             <Link to="/work/star">STAR</Link>
           </h3>
           <h4>
-            An Android app that allows users that are hard of hearing to have
-            improved conversations with others.
+            An Android app that allows users that are hard of hearing to have improved conversations
+            with others.
           </h4>
           <h5>Android Development • Spring 2017</h5>
         </div>
@@ -253,14 +245,13 @@ const IndexPage = () => (
         {/* Coffee */}
         <div className="col2">
           <Link to="/work/coffee">
-            <img src={coffeethumbnail} />
+            <img alt="" src={coffeethumbnail} />
           </Link>
           <h3>
             <Link to="/work/coffee">Guide to Brewing Coffee</Link>
           </h3>
           <h4>
-            A poster made based off of several user research sessions using
-            ethnographic methods.
+            A poster made based off of several user research sessions using ethnographic methods.
           </h4>
           <h5>Graphic Design, User Research • Spring 2017</h5>
         </div>
