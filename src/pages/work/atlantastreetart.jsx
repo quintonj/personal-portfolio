@@ -43,10 +43,14 @@ const AtlantaStreetArt = () => (
           started the implementation process. I have since also designed a logo for the app and have
           had it published to the
           <a href="https://play.google.com/store/apps/details?id=comquintonj.github.atlantastreetartproject&hl=en">
+            {' '}
             Google Play Store.
           </a>
           For a more detailed overview of the design process, be sure to read more on
-          <a href="https://www.behance.net/gallery/57295767/Atlanta-Street-Art-Project">Behance.</a>
+          <a href="https://www.behance.net/gallery/57295767/Atlanta-Street-Art-Project">
+            {' '}
+            Behance.
+          </a>
         </p>
         <h3 className="sectionName">The Reflection</h3>
         <p>

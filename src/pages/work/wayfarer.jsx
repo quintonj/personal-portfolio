@@ -59,7 +59,7 @@ const Wayfarer = () => (
           so that new users could quickly understand the various sounds. With these tests completed,
           our team was able to organize a final visual design and set of auditory cues to report our
           work. For an interactive prototype, please see the
-          <a href="https://invis.io/SNEGR0N86">InVision Prototype.</a>
+          <a href="https://invis.io/SNEGR0N86"> InVision Prototype.</a>
         </p>
         <h3 className="sectionName">The Reflection</h3>
         <p>
