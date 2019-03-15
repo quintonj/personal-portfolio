@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
+import atlantastreetart from '../../images/atlantastreetart.png';
 
 const AtlantaStreetArt = () => (
   <Layout>
@@ -23,6 +24,9 @@ const AtlantaStreetArt = () => (
         <h5>UI / UX, Mobile Development</h5>
       </div>
       <div className="col4">
+        <div className="imgCol">
+          <img alt="" src={atlantastreetart} />
+        </div>
         <h3>The Product</h3>
         <p>
           The Atlanta Street Art Project displays images and locations of street art throughout

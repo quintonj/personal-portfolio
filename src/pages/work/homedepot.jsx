@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
+import homedepot from '../../images/homedepot.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
 
@@ -23,6 +24,9 @@ const HomeDepot = () => (
         <h5>UI / UX</h5>
       </div>
       <div className="col4">
+        <div className="imgCol">
+          <img alt="" src={homedepot} />
+        </div>
         <h3>The Product</h3>
         <p>
           Since the summer of 2018, I have been working as a UX Designer for The Home Depot. Within

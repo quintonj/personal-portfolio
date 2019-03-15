@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
+import wayfarer from '../../images/wayfarer.png';
 
 const Wayfarer = () => (
   <Layout>
@@ -23,6 +24,9 @@ const Wayfarer = () => (
         <h5>UI / UX</h5>
       </div>
       <div className="col4">
+        <div className="imgCol">
+          <img alt="" src={wayfarer} />
+        </div>
         <h3>The Product</h3>
         <p>
           The goal of the project was simple: design a system that relies on auditory feedback to
