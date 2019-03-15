@@ -27,7 +27,7 @@ const Intro = styled.div`
         }
         padding: 50px;
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1100px) {
           padding: 80px;
         }
       }
@@ -37,10 +37,10 @@ const Intro = styled.div`
       max-width: 75%;
       margin-bottom: 60px;
 
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 1100px) {
         max-width: 75%;
         margin-bottom: 60px;
-        margin-top: 80px;
+        margin-top: 100px;
       }
     }
   }

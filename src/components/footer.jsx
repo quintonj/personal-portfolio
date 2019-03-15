@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
     border-top: 2px solid #dedede;
     margin-left: 17%;
     margin-right: 17%;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1100px) {
       margin-left: 40%;
       margin-right: 40%;
     }
