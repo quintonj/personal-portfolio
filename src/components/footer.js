@@ -7,8 +7,12 @@ const StyledFooter = styled.footer`
 
   hr {
     border-top: 2px solid #dedede;
-    margin-left: 37%;
-    margin-right: 37%;
+    margin-left: 17%;
+    margin-right: 17%;
+    @media screen and (min-width: 1200px) {
+      margin-left: 40%;
+      margin-right: 40%;
+    }
   }
 
   div {

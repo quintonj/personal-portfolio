@@ -5,6 +5,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/*
+TYPOGRAPHY
+*/
 body {
   font-size: $text-md;
   font-family: $font-tertiary;
@@ -40,7 +43,7 @@ h1 {
   margin-bottom: 20px;
   line-height: $heading-line-height;
   font-weight: 900;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 h2,
@@ -71,6 +74,7 @@ h4 {
   margin-bottom: $space-md;
   line-height: $heading-line-height;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -111,11 +115,21 @@ small {
   font-size: $text-sm;
 }
 
+/*
+CSS GRID
+*/
 .wrapper {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: auto 1fr auto;
   display: grid;
   grid-gap: 20px;
+}
+
+.imgCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .headerCol {
@@ -127,6 +141,10 @@ small {
 }
 
 @media screen and (min-width: 600px) {
+  .col1 {
+    grid-column: span 1;
+  }
+
   .col2 {
     grid-column: span 2;
   }
@@ -144,6 +162,9 @@ small {
   }
 }
 
+/*
+OTHER STYLES
+*/
 article,
 aside,
 details,
@@ -658,6 +679,27 @@ pre {
       content: '';
     }
   }
+}
+
+.sectionName {
+  margin-top: 50px;
+}
+
+.work-intro-quote::before {
+  content: '"';
+  position: relative;
+  font-size: 100px;
+  opacity: 0.2;
+  top: 65px;
+  left: -30px;
+  font-family: $font-primary;
+  color: $color-headings;
+  font-weight: 400;
+}
+
+.lead-in {
+  color: $color-muted-text;
+  text-transform: none;
 }
 
 @media only screen and (max-width: 480px) {

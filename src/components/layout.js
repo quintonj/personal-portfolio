@@ -15,6 +15,7 @@ import styled from 'styled-components';
 const Content = styled.div`
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 
   @media screen and (min-width: 1200px) {
     margin-left: 100px;

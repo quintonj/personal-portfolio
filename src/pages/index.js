@@ -13,6 +13,9 @@ import foodfightthumbnail from '../images/foodfightfull.png';
 import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
 import { Link } from 'gatsby';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-136325248-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Hero Image Styling
 const Intro = styled.div`
@@ -72,6 +75,7 @@ const PortfolioItem = styled.div`
   h4 {
     font-size: ${variables.textbasesize}
     color: ${variables.colorMutedText};
+    text-transform: none;
   }
 
   img:hover {
@@ -133,10 +137,10 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/homedepot">Home Depot - UX Designer</Link>
           </h3>
-          <h5>UI / UX • 2018 - Present</h5>
+          <h5>UI / UX • June 2018 - Present</h5>
         </div>
         <div className="col2">
-          <h4>
+          <h4 className="work-intro-quote::before">
             Working as a UX Designer at The Home Depot as a part of the
             Enterprise UX team.
           </h4>
@@ -254,7 +258,7 @@ const IndexPage = () => (
             <img src={coffeethumbnail} />
           </Link>
           <h3>
-            <Link to="/work/coffee">Guide to Brewing Coffeee</Link>
+            <Link to="/work/coffee">Guide to Brewing Coffee</Link>
           </h3>
           <h4>
             A poster made based off of several user research sessions using

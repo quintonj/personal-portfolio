@@ -46,7 +46,6 @@ const Header = () => (
           QJ
         </Link>
       </h3>
-      <i className="fa fa-bars" />
     </div>
   </StyledHeader>
 );
