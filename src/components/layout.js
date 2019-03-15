@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import Header from './header';
 import Footer from './footer';
 import styled from 'styled-components';
+import '../styles/styles.scss';
 
 const Content = styled.div`
   margin-left: 20px;
