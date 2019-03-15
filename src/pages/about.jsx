@@ -8,7 +8,7 @@ import me from '../images/me.jpg';
 
 // Section header styling i.e. "Portfolio"
 const SectionHeader = styled.h2`
-  border-left: 5px solid ${variables.colorPrimary};
+  border-left: 5px solid ${variables.colorprimary};
   padding-left: 20px;
 `;
 

@@ -16,7 +16,7 @@ import coffeethumbnail from '../images/coffeethumbnail.png';
 
 // Hero Image Styling
 const Intro = styled.div`
-  background-color: ${variables.colorSecondary};
+  background-color: ${variables.colorsecondary};
   margin-bottom: 75px;
 
   div {
@@ -49,7 +49,7 @@ const Intro = styled.div`
   a {
     i {
       font-size: 4em;
-      color: ${variables.colorHeadings};
+      color: ${variables.colorheadings};
     }
   }
 }
@@ -57,7 +57,7 @@ const Intro = styled.div`
 
 // Section header styling i.e. "Portfolio"
 const SectionHeader = styled.h2`
-  border-left: 5px solid ${variables.colorPrimary};
+  border-left: 5px solid ${variables.colorprimary};
   padding-left: 20px;
 `;
 
@@ -66,12 +66,12 @@ const PortfolioItem = styled.div`
   margin-bottom: 50px;
 
   h5 {
-    color: ${variables.colorMutedText};
+    color: ${variables.colormutedtext};
   }
 
   h4 {
     font-size: ${variables.textbasesize};
-    color: ${variables.colorMutedText};
+    color: ${variables.colormutedtext};
     text-transform: none;
   }
 
