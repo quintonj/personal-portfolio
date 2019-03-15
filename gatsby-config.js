@@ -5,13 +5,19 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-favicon`,
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: `./src/images/favicon.png`,
+        background: `transparent`
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `./src/favicon.png`
+        path: `./src/images/favicon.png`
       }
     },
     {
