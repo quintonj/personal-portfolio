@@ -4,8 +4,6 @@ import variables from '../styles/variables.scss';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import me from '../images/me.jpg';
-import ReactGA from 'react-ga';
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Section header styling i.e. "Portfolio"
 const SectionHeader = styled.h2`

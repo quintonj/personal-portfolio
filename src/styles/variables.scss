@@ -4,14 +4,15 @@
   font-family: 'Gotham';
   font-style: normal;
   font-weight: normal;
-  src: local('Gotham'), url('../res/GothamNarrow-Book.woff') format('woff');
+  src: local('Gotham'), url('../assets/GothamNarrow-Book.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Gotham Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Gotham Bold'), url('../res/GothamNarrow-Bold.woff') format('woff');
+  src: local('Gotham Bold'),
+    url('../assets/GothamNarrow-Bold.woff') format('woff');
 }
 
 // Typography

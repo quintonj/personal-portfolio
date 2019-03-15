@@ -4,8 +4,6 @@ import SEO from '../../components/seo';
 import foodfightfull from '../../images/foodfightfull.png';
 import foodfightcontroller from '../../images/foodfightcontroller.png';
 import foodfightvideo from '../../images/foodfightvideo.mp4';
-import ReactGA from 'react-ga';
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const FoodFight = () => (
   <Layout>

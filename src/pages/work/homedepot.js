@@ -1,11 +1,8 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import customerjourney from '../../images/customerjourney.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
-import ReactGA from 'react-ga';
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const HomeDepot = () => (
   <Layout>

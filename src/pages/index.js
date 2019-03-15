@@ -13,9 +13,6 @@ import foodfightthumbnail from '../images/foodfightfull.png';
 import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
 import { Link } from 'gatsby';
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-136325248-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Hero Image Styling
 const Intro = styled.div`

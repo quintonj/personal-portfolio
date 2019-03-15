@@ -2,8 +2,6 @@ import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import star from '../../images/starthumbnail.png';
-import ReactGA from 'react-ga';
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const STAR = () => (
   <Layout>
