@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import variables from '../styles/variables.scss';
 
 const StyledFooter = styled.footer`
   background-color: #fbfbfb;
@@ -32,23 +31,12 @@ const StyledFooter = styled.footer`
     margin-right: 20px;
   }
 
-  h5 {
-    color: ${variables.colormutedtext};
-    font-size: ${variables.textbasesize};
-  }
-
   a {
     text-decoration: none;
     height: 40px;
     width: 40px;
     padding: 7px;
     border-radius: 100%;
-    font-size: ${variables.textbasesize};
-    color: ${variables.colormutedtext};
-  }
-
-  a:visited {
-    color: ${variables.colormutedtext};
   }
 
   a:hover {
@@ -60,33 +48,41 @@ const StyledFooter = styled.footer`
 const Footer = () => (
   <StyledFooter>
     <hr />
-    <h5 align="center">Made with &hearts; and coffee in Atlanta</h5>
+    <h5 className="footerText" align="center">
+      Made with &hearts; and coffee in Atlanta
+    </h5>
     <div>
       <div>
         <div>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/quinton-johnson-a0a6497b/">
+              <a
+                className="footerText"
+                href="https://www.linkedin.com/in/quinton-johnson-a0a6497b/"
+              >
                 <i className="fa fa-linkedin" />
               </a>
             </li>
             <li>
-              <a href="https://github.com/quintonj">
+              <a className="footerText" href="https://github.com/quintonj">
                 <i className="fa fa-github" />
               </a>
             </li>
             <li>
-              <a href="https://dribbble.com/quintonj">
+              <a className="footerText" href="https://dribbble.com/quintonj">
                 <i className="fa fa-dribbble" />
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/quintonbjohnson/">
+              <a className="footerText" href="https://www.instagram.com/quintonbjohnson/">
                 <i className="fa fa-instagram" />
               </a>
             </li>
             <li>
-              <a href="https://open.spotify.com/user/1246887391?si=By3WkPL1QmGsxGV1xHhwew">
+              <a
+                className="footerText"
+                href="https://open.spotify.com/user/1246887391?si=By3WkPL1QmGsxGV1xHhwew"
+              >
                 <i className="fa fa-spotify" />
               </a>
             </li>

@@ -1,16 +1,8 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
-import styled from 'styled-components';
-import variables from '../styles/variables.scss';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import me from '../images/me.jpg';
-
-// Section header styling i.e. "Portfolio"
-const SectionHeader = styled.h2`
-  border-left: 5px solid ${variables.colorprimary};
-  padding-left: 20px;
-`;
 
 const About = () => (
   <Layout>
@@ -20,7 +12,7 @@ const About = () => (
         <img alt="" src={me} />
       </div>
       <div className="col2">
-        <SectionHeader>About Me</SectionHeader>
+        <h2 className="sectionHeader">About Me</h2>
         <p>
           Born and raised in Atlanta, I attended the Georgia Institute of Technology where I
           graduated in 2018 with a B.S. in Computer Science and a minor in Industrial Design. I am
@@ -49,7 +41,7 @@ const About = () => (
       </div>
     </div>
     <div className="col4">
-      <SectionHeader>Skills</SectionHeader>
+      <h2 className="sectionHeader">Skills</h2>
     </div>
     <div className="wrapper">
       <div>

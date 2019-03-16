@@ -1,7 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import variables from '../styles/variables.scss';
 
 const StyledHeader = styled.header`
   background-color: #fbfbfb;
@@ -16,7 +15,6 @@ const StyledHeader = styled.header`
 
   h3 {
     margin-bottom: 0;
-    color: ${variables.colorheadings};
   }
 
   i {
@@ -27,14 +25,13 @@ const StyledHeader = styled.header`
     top: 25px;
     right: 30px;
     z-index: 1000;
-    color: ${variables.colorheadings};
   }
 `;
 
 const Header = () => (
   <StyledHeader>
     <div>
-      <h3>
+      <h3 className="headerText">
         <Link
           to="/"
           style={{

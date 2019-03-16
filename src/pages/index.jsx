@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import variables from '../styles/variables.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import me2 from '../images/me2.png';
 import homedepot from '../images/homedepot.png';
@@ -47,24 +46,11 @@ const Intro = styled.div`
 }
 `;
 
-// Section header styling i.e. "Portfolio"
-const SectionHeader = styled.h2`
-  border-left: 5px solid ${variables.colorprimary};
-  padding-left: 20px;
-`;
-
 // One portfolio item styling
 const PortfolioItem = styled.div`
   margin-bottom: 50px;
 
-  h5 {
-    color: ${variables.colormutedtext};
-  }
-
   h4 {
-    font-size: ${variables.textbasesize};
-    color: ${variables.colormutedtext};
-    text-transform: none;
   }
 
   img:hover {
@@ -77,11 +63,6 @@ const PortfolioItem = styled.div`
       margin-bottom: 20px;
     }
   }
-`;
-
-// Link for "view case study" styling
-const CaseLink = styled(Link)`
-  font-size: ${variables.textsm};
 `;
 
 const IndexPage = () => (
@@ -112,7 +93,9 @@ const IndexPage = () => (
     </Intro>
 
     {/* Portfolio Section */}
-    <SectionHeader id="portfolio">Portfolio</SectionHeader>
+    <h2 className="sectionHeader" id="portfolio">
+      Portfolio
+    </h2>
 
     {/* Home Depot */}
     <PortfolioItem>
@@ -121,11 +104,15 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/homedepot">Home Depot - UX Designer</Link>
           </h3>
-          <h5>UI / UX • June 2018 - Present</h5>
+          <h5 className="projectDesc"> UI / UX • June 2018 - Present</h5>
         </div>
         <div className="col2">
-          <h4>Working as a UX Designer at The Home Depot as a part of the Enterprise UX team.</h4>
-          <CaseLink to="/work/homedepot">View Case Study</CaseLink>
+          <h4 className="projectWriting">
+            Working as a UX Designer at The Home Depot as a part of the Enterprise UX team.
+          </h4>
+          <Link className="caseLink" to="/work/homedepot">
+            View Case Study
+          </Link>
         </div>
         <div className="col4">
           <Link to="/work/homedepot">
@@ -142,13 +129,15 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/wayfarer">Wayfarer App Mockup</Link>
           </h3>
-          <h5>UI / UX • Fall 2017</h5>
+          <h5 className="projectDesc">UI / UX • Fall 2017</h5>
         </div>
         <div className="col2">
-          <h4>
+          <h4 className="projectWriting">
             Created a mockup for an app with a gamified hiking experience that utilizes audio cues.
           </h4>
-          <CaseLink to="/work/wayfarer">View Case Study</CaseLink>
+          <Link className="caseLink" to="/work/wayfarer">
+            View Case Study
+          </Link>
         </div>
         <div className="col4">
           <Link to="/work/wayfarer">
@@ -165,14 +154,16 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/atlantastreetart">Atlanta Street Art Project</Link>
           </h3>
-          <h5>UI / UX, Android Development • Spring 2017</h5>
+          <h5 className="projectDesc">UI / UX, Android Development • Spring 2017</h5>
         </div>
         <div className="col2">
-          <h4>
+          <h4 className="projectWriting">
             Designed and developed an Android app that allows users to explore street art throughout
             Atlanta.
           </h4>
-          <CaseLink to="/work/atlantastreetart">View Case Study</CaseLink>
+          <Link className="caseLink" to="/work/atlantastreetart">
+            View Case Study
+          </Link>
         </div>
         <div className="col4">
           <Link to="/work/atlantastreetart">
@@ -183,7 +174,9 @@ const IndexPage = () => (
     </PortfolioItem>
 
     {/* More Projects Section */}
-    <SectionHeader id="portfolio">More Projects</SectionHeader>
+    <h2 className="sectionHeader" id="portfolio">
+      More Projects
+    </h2>
 
     <PortfolioItem>
       <div className="wrapper">
@@ -195,8 +188,10 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/foodfight">Food Fight</Link>
           </h3>
-          <h4>A multiplayer action game that is controlled with two custom Arduino controllers.</h4>
-          <h5>Game Design • Fall 2017</h5>
+          <h4 className="projectWriting">
+            A multiplayer action game that is controlled with two custom Arduino controllers.
+          </h4>
+          <h5 className="projectDesc">Game Design • Fall 2017</h5>
         </div>
 
         {/* Lantern */}
@@ -207,11 +202,11 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/lantern">Home Depot - Lantern</Link>
           </h3>
-          <h4>
+          <h4 className="projectWriting">
             Worked as a front-end engineering intern to develop an analytics dashboard with
             React.js.
           </h4>
-          <h5>Frontend development, UI / UX • Summer 2017</h5>
+          <h5 className="projectDesc">Frontend development, UI / UX • Summer 2017</h5>
         </div>
 
         {/* STAR */}
@@ -222,11 +217,11 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/star">STAR</Link>
           </h3>
-          <h4>
+          <h4 className="projectWriting">
             An Android app that allows users that are hard of hearing to have improved conversations
             with others.
           </h4>
-          <h5>Android Development • Spring 2017</h5>
+          <h5 className="projectDesc">Android Development • Spring 2017</h5>
         </div>
 
         {/* Coffee */}
@@ -237,10 +232,10 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/coffee">Guide to Brewing Coffee</Link>
           </h3>
-          <h4>
+          <h4 className="projectWriting">
             A poster made based off of several user research sessions using ethnographic methods.
           </h4>
-          <h5>Graphic Design, User Research • Spring 2017</h5>
+          <h5 className="projectDesc">Graphic Design, User Research • Spring 2017</h5>
         </div>
       </div>
     </PortfolioItem>

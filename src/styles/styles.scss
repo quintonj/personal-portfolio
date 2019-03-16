@@ -681,6 +681,9 @@ pre {
   }
 }
 
+/*
+EXTRA STYLES
+*/
 .sectionName {
   margin-top: 40px;
 }
@@ -700,6 +703,34 @@ pre {
 .lead-in {
   color: $color-muted-text;
   text-transform: none;
+}
+
+.footerText {
+  color: $color-muted-text;
+  font-size: $text-base-size;
+
+  a:visited {
+    color: $color-muted-text;
+  }
+}
+
+.sectionHeader {
+  border-left: 5px solid $color-primary;
+  padding-left: 20px;
+}
+
+.projectDesc {
+  color: $color-muted-text;
+}
+
+.projectWriting {
+  font-size: $text-base-size;
+  color: $color-muted-text;
+  text-transform: none;
+}
+
+.caseLink {
+  font-size: $text-sm;
 }
 
 @media only screen and (max-width: 480px) {
