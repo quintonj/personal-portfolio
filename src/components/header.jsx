@@ -32,15 +32,7 @@ const Header = () => (
   <StyledHeader>
     <div>
       <h3 className="headerText">
-        <Link
-          to="/"
-          style={{
-            color: `black`,
-            textDecoration: `none`
-          }}
-        >
-          QJ
-        </Link>
+        <Link to="/">QJ</Link>
       </h3>
     </div>
   </StyledHeader>
