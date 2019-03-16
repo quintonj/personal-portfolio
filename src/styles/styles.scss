@@ -133,7 +133,7 @@ CSS GRID
 }
 
 .headerCol {
-  grid-column: span 1;
+  grid-column: span 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,14 +147,6 @@ CSS GRID
 
   .col2 {
     grid-column: span 2;
-  }
-
-  .headerCol {
-    grid-column: span 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
   }
 
   .col4 {

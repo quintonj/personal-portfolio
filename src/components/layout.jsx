@@ -10,7 +10,7 @@ const Content = styled.div`
   margin-right: 20px;
   margin-bottom: 20px;
 
-  @media screen and (min-width: 1100px) {
+  @media screen and (min-width: 1275px) {
     margin-left: 100px;
     margin-right: 100px;
   }
