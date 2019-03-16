@@ -3,8 +3,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-Utilizing, Gatsby.js as a library for React.js, I was able to rebuild my portfolio site with a modern tech-stack.
-
 ## Tech Used
 + [Gatsby.js](https://www.gatsbyjs.org/)
 + [React.js](https://reactjs.org/)
