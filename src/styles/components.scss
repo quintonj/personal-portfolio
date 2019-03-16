@@ -1,0 +1,51 @@
+/*
+EXTRA STYLES FOR COMPONENTS
+*/
+.sectionName {
+  margin-top: 40px;
+}
+
+.work-intro-quote::before {
+  content: '"';
+  position: relative;
+  font-size: 100px;
+  opacity: 0.2;
+  top: 65px;
+  left: -30px;
+  font-family: $font-primary;
+  color: $color-headings;
+  font-weight: 400;
+}
+
+.lead-in {
+  color: $color-muted-text;
+  text-transform: none;
+}
+
+.footerText {
+  color: $color-muted-text;
+  font-size: $text-base-size;
+
+  a:visited {
+    color: $color-muted-text;
+  }
+}
+
+.sectionHeader {
+  border-left: 5px solid $color-primary;
+  padding-left: 20px;
+}
+
+.projectDesc {
+  color: $color-muted-text;
+}
+
+.projectWriting {
+  font-size: $text-base-size;
+  color: $color-muted-text;
+  text-transform: none;
+}
+
+.caseLink {
+  font-size: $text-sm;
+}
