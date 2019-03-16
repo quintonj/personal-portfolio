@@ -1,7 +1,12 @@
 # Personal Portfolio
+![ ](https://i.imgur.com/oZAMv1H.png)
+
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6690fb02-7781-47fa-b79a-689b56eebdb2/deploy-status)](https://app.netlify.com/sites/quintonj/deploys)
 
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+
 
 ## Tech Used
 + [Gatsby.js](https://www.gatsbyjs.org/)
