@@ -1,5 +1,8 @@
 @import url('https://use.typekit.net/pag2idg.css');
 
+/* 
+CUSTOM FONTS 
+*/
 @font-face {
   font-family: 'Gotham';
   font-style: normal;
@@ -14,23 +17,31 @@
   src: local('Gotham Bold'), url('../assets/GothamNarrow-Bold.woff') format('woff');
 }
 
-// Typography
+/* 
+TYPOGRAPHY 
+*/
 $font-primary: 'Gotham Bold', sans-serif;
 $font-secondary: 'Gotham', sans-serif;
 $font-tertiary: 'freight-text-pro', serif;
 
-// Colors
+/* 
+COLORS 
+*/
 $color-primary: #fd5523;
 $color-secondary: #1fe0ac;
 $color-headings: #252525;
 $color-text: rgba(0, 0, 0, 0.84);
 $color-muted-text: #999999;
 
-// Base Text Values
+/* 
+TEXT SCALE 
+*/
 $text-base-size: 1em;
 $text-scale-ratio: 1.15;
 
-// Type Scale
+/* 
+TEXT SIZES 
+*/
 $text-xs: 1em / $text-scale-ratio * $text-scale-ratio;
 $text-sm: 1em / $text-scale-ratio;
 $text-md: 1em * $text-scale-ratio;
@@ -40,12 +51,16 @@ $text-xxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio * $te
 $text-xxxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
   $text-scale-ratio;
 
-// Line height
+/* 
+LINE HEIGHT 
+*/
 $heading-line-height: 1.2em;
 $body-line-height: 1.75em;
 $space-md: 0.75em;
 
-// Export variables
+/* 
+EXPORT VARIABLES 
+*/
 :export {
   fontprimary: $font-primary;
   fontsecondary: $font-secondary;
