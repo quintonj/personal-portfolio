@@ -35,16 +35,22 @@ CSS GRID
 }
 
 @media screen and (min-width: 600px) {
-  .col1 {
-    grid-column: span 1;
-  }
-
   .col2 {
     grid-column: span 2;
   }
 
   .col4 {
     grid-column: span 4;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .col2 {
+    grid-column: span 3;
+  }
+
+  .col4 {
+    grid-column: span 7;
   }
 }
 
