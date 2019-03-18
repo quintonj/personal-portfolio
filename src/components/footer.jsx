@@ -4,16 +4,6 @@ import styled from 'styled-components';
 const StyledFooter = styled.footer`
   background-color: #fbfbfb;
 
-  hr {
-    border-top: 2px solid #dedede;
-    margin-left: 17%;
-    margin-right: 17%;
-    @media screen and (min-width: 1100px) {
-      margin-left: 40%;
-      margin-right: 40%;
-    }
-  }
-
   div {
     text-align: center;
   }
@@ -47,7 +37,6 @@ const StyledFooter = styled.footer`
 
 const Footer = () => (
   <StyledFooter>
-    <hr />
     <h5 className="footerText" align="center">
       Made with &hearts; and coffee in Atlanta
     </h5>
