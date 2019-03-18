@@ -8,7 +8,7 @@ const About = () => (
   <Layout>
     <SEO title="Coffee" />
     <div className="wrapper">
-      <div className="headerCol">
+      <div className="col2">
         <img alt="" src={me} />
       </div>
       <div className="col2">
