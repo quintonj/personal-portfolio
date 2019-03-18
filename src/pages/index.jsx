@@ -133,7 +133,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Created a mockup for an app with a gamified hiking experience that utilizes audio cues.
+            Designed a mockup for an app with a gamified hiking experience that utilizes audio cues.
           </h4>
           <Link className="caseLink" to="/work/wayfarer">
             View Case Study
@@ -158,8 +158,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Designed and developed an Android app that allows users to explore street art throughout
-            Atlanta.
+            Created an Android app that allows users to explore street art throughout Atlanta.
           </h4>
           <Link className="caseLink" to="/work/atlantastreetart">
             View Case Study
@@ -189,7 +188,8 @@ const IndexPage = () => (
             <Link to="/work/foodfight">Food Fight</Link>
           </h3>
           <h4 className="projectWriting">
-            A multiplayer action game that is controlled with two custom Arduino controllers.
+            Constructed a multiplayer action game that is controlled with two custom Arduino
+            controllers.
           </h4>
           <h5 className="projectDesc">Game Design • Fall 2017</h5>
         </div>
@@ -206,7 +206,7 @@ const IndexPage = () => (
             Worked as a front-end engineering intern to develop an analytics dashboard with
             React.js.
           </h4>
-          <h5 className="projectDesc">Frontend development, UI / UX • Summer 2017</h5>
+          <h5 className="projectDesc">Front-end development, UI / UX • Summer 2017</h5>
         </div>
 
         {/* STAR */}
@@ -218,8 +218,8 @@ const IndexPage = () => (
             <Link to="/work/star">STAR</Link>
           </h3>
           <h4 className="projectWriting">
-            An Android app that allows users that are hard of hearing to have improved conversations
-            with others.
+            Developed an Android app that allows users that are hard of hearing to have improved
+            conversations with others.
           </h4>
           <h5 className="projectDesc">Android Development • Spring 2017</h5>
         </div>
@@ -233,7 +233,7 @@ const IndexPage = () => (
             <Link to="/work/coffee">Guide to Brewing Coffee</Link>
           </h3>
           <h4 className="projectWriting">
-            A poster made based off of several user research sessions using ethnographic methods.
+            Drew up a poster based off of several user research sessions using ethnographic methods.
           </h4>
           <h5 className="projectDesc">Graphic Design, User Research • Spring 2017</h5>
         </div>
