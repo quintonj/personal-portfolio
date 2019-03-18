@@ -18,8 +18,10 @@ const Content = styled.div`
 
 const Layout = ({ children }) => (
   <div>
-    <Header className="header" />
-    <Content>{children}</Content>
+    <Content>
+      <Header className="header" />
+      {children}
+    </Content>
     <Footer className="footer" />
   </div>
 );
