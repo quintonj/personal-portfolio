@@ -32,16 +32,6 @@ const StyledHeader = styled.header`
     margin-left: 40px;
     text-transform: uppercase;
   }
-
-  i {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    position: fixed;
-    top: 25px;
-    right: 30px;
-    z-index: 1000;
-  }
 `;
 
 const Header = () => (
