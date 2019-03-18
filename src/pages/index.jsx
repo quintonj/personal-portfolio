@@ -81,8 +81,8 @@ const IndexPage = () => (
             </h1>
             <h3>UX Designer at The Home Depot.</h3>
             <h5>
-              I‘m a designer and developer based in Atlanta. Passionate about connecting with people
-              and creating meaningful experiences that solve problems.
+              I‘m a designer and developer based in Atlanta. I love connecting with people and
+              creating meaningful experiences that solve problems.
             </h5>
           </div>
         </div>
