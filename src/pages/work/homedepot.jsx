@@ -27,7 +27,7 @@ const HomeDepot = () => (
         <div className="imgCol">
           <img alt="" src={homedepot} />
         </div>
-        <h3 className="sectionName">The Product</h3>
+        <h2 className="sectionName">The Product</h2>
         <p>
           Since the summer of 2018, I have been working as a UX Designer for The Home Depot. Within
           the Enterprise UX team, I work within repair products to ensure Home Depot associates are
@@ -38,7 +38,7 @@ const HomeDepot = () => (
           unable to be shared due to an NDA. However, I have done my best to outline the process and
           add or reproduce visuals as needed.
         </p>
-        <h3 className="sectionName">The Process</h3>
+        <h2 className="sectionName">The Process</h2>
         <div className="imgCol">
           <img alt="" src={persona} />
         </div>
@@ -160,7 +160,7 @@ const HomeDepot = () => (
           work on developing a customer journey and research topics so that Repair Depot can
           eventually encompass all forms of repairs.
         </p>
-        <h3 className="sectionName">The Reflection</h3>
+        <h2 className="sectionName">The Reflection</h2>
         <p>
           Thus far, Home Depot has been a great place to work and I have been looking forward to
           what more I can learn from my experience here. The Enterprise UX team at large has given

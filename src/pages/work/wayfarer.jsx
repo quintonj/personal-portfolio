@@ -27,7 +27,7 @@ const Wayfarer = () => (
         <div className="imgCol">
           <img alt="" src={wayfarer} />
         </div>
-        <h3 className="sectionName">The Product</h3>
+        <h2 className="sectionName">The Product</h2>
         <p>
           The goal of the project was simple: design a system that relies on auditory feedback to
           relay information to the user. Within a group of four, I helped to envision an app that
@@ -35,7 +35,7 @@ const Wayfarer = () => (
           particular, I was responsible for creating the visual interface and testing the usability
           of the app.
         </p>
-        <h3 className="sectionName">The Process</h3>
+        <h2 className="sectionName">The Process</h2>
         <p>
           To begin with, a team member and I had an idea for creating a gamified hiking app. With
           our mutual interests in the outdoors, it seemed like an obvious fit. After doing some
@@ -61,7 +61,7 @@ const Wayfarer = () => (
           work. For an interactive prototype, please see the
           <a href="https://invis.io/SNEGR0N86"> InVision Prototype.</a>
         </p>
-        <h3 className="sectionName">The Reflection</h3>
+        <h2 className="sectionName">The Reflection</h2>
         <p>
           Working with an auditory-based interface was unique and offered one key insight for me:
         </p>

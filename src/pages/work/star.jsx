@@ -26,7 +26,7 @@ const STAR = () => (
       </div>
       <div className="col4">
         <img alt="" src={star} />
-        <h3 className="sectionName">The Product</h3>
+        <h2 className="sectionName">The Product</h2>
         <p>
           STAR allows users who are deaf or hard of hearing to utilize speech-to-text and
           text-to-speech in order to hold conversations with others. It is meant as a bridge for
@@ -39,7 +39,7 @@ const STAR = () => (
           persistent. Thus, if they are in the same location again, they can pull up their old
           messages so that they do not have to repeat the process.
         </p>
-        <h3 className="sectionName">The Process</h3>
+        <h2 className="sectionName">The Process</h2>
         <p>
           At the beginning of the project, our team met with a Georgia Tech Research Scientist to
           understand the needs of the project. We discovered that a prior version of the app lacked
@@ -51,7 +51,7 @@ const STAR = () => (
           received feedback from peers and our mentor to ensure that we were meeting the proper
           requirements for the app.
         </p>
-        <h3 className="sectionName">The Reflection</h3>
+        <h2 className="sectionName">The Reflection</h2>
         <p>
           While working on the project, there were many opportunities to receive constructive
           criticism and feedback about the app. Ultimately, this led to a better user experience and

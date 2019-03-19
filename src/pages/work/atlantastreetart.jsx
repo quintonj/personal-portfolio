@@ -27,14 +27,14 @@ const AtlantaStreetArt = () => (
         <div className="imgCol">
           <img alt="" src={atlantastreetart} />
         </div>
-        <h3 className="sectionName">The Product</h3>
+        <h2 className="sectionName">The Product</h2>
         <p>
           The Atlanta Street Art Project displays images and locations of street art throughout
           Atlanta. Within a group of five, I had a significant role in the development and design of
           the app. It began as a yearlong capstone project and was continued as a side project so
           that I could see it through to completion.
         </p>
-        <h3 className="sectionName">The Process</h3>
+        <h2 className="sectionName">The Process</h2>
         <p>
           The project began with user research along with sketching out potential design ideas.
           After lo-fidelity mockups were created, we conducted usability tests to ensure that our
@@ -52,7 +52,7 @@ const AtlantaStreetArt = () => (
             Behance.
           </a>
         </p>
-        <h3 className="sectionName">The Reflection</h3>
+        <h2 className="sectionName">The Reflection</h2>
         <p>
           Due to the app being a capstone project, our team worked with a real-world client. As the
           client-liaison of the group, I was in charge of ensuring that they were happy with what

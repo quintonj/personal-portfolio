@@ -30,7 +30,7 @@ const FoodFight = () => (
             Your browser does not support the video tag.
           </video>
         </div>
-        <h3 className="sectionName">The Product</h3>
+        <h2 className="sectionName">The Product</h2>
         <p>
           Food Fight is a 2D multiplayer game that was developed with Processing and utilizes two
           “food trays” made up of capacitors and two Arduinos. Within a group of four, I handled all
@@ -45,7 +45,7 @@ const FoodFight = () => (
         <div className="imgCol">
           <img alt="" src={foodfightfull} />
         </div>
-        <h3 className="sectionName">The Process</h3>
+        <h2 className="sectionName">The Process</h2>
         <p>
           The game design process began with the objective to create a game using a unique
           controller similar to Steel Battalion or Dance Dance Revolution. Our team thus set off to
@@ -69,7 +69,7 @@ const FoodFight = () => (
           and spoon. Thus, I was able to implement the last piece of the puzzle by controlling the
           two controller inputs at once. The final result was a bizarre, yet hilarious game.
         </p>
-        <h3 className="sectionName">The Reflection</h3>
+        <h2 className="sectionName">The Reflection</h2>
         <p>
           Having come from a design and development background, I was completely out of my element
           when it came to soldering and working with microcontrollers. Despite this, I was

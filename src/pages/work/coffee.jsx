@@ -28,7 +28,7 @@ const Coffee = () => (
         <div className="imgCol">
           <img alt="" src={coffeefull} />
         </div>
-        <h3 className="sectionName">The Product</h3>
+        <h2 className="sectionName">The Product</h2>
         <p>
           This poster design was the result of several ethnographic observation sessions with a
           coffee enthusiast. It was created using Photoshop with Gestalt Principles in mind. During
@@ -36,7 +36,7 @@ const Coffee = () => (
           Following this, I compiled and analyzed my notes to gain insights from the user and
           designed this poster to show my findings.
         </p>
-        <h3 className="sectionName">The Process</h3>
+        <h2 className="sectionName">The Process</h2>
         <p>
           The initial development of the poster required user research. Therefore, I grabbed a
           friend who is a coffee enthusiast and asked to observe him for his normal coffee routine.
@@ -56,7 +56,7 @@ const Coffee = () => (
           the perfect cup of coffee”. With this one key insight, I began to design around it by
           creating an infographic for a step-by-step brewing guide.
         </p>
-        <h3 className="sectionName">The Reflection</h3>
+        <h2 className="sectionName">The Reflection</h2>
         <p>
           This project allowed me to work on my observation skills and reflects a process I still
           use this day to ensure all of my designs are backed by research and well thought out. This
