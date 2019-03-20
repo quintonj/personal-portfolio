@@ -35,20 +35,16 @@ CSS GRID
 }
 
 .col2 {
-  grid-column: span 1;
+  grid-column: span 2;
 }
 
 .col4 {
   grid-column: span 2;
 }
 
-@media screen and (min-width: 700px) {
-  .col2 {
+@media screen and (max-width: 700px) {
+  .col1 {
     grid-column: span 2;
-  }
-
-  .col4 {
-    grid-column: span 4;
   }
 }
 
@@ -62,7 +58,7 @@ CSS GRID
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
   .col2 {
     grid-column: span 3;
   }
@@ -412,6 +408,7 @@ html {
 
 img {
   max-width: 100%;
+  height: auto;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

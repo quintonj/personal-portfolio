@@ -55,7 +55,7 @@ const About = () => (
           Personas, Journey Mapping
         </p>
       </div>
-      <div ClassName="col1">
+      <div>
         <h3>Software</h3>
         <p>
           Sketch, InVision, Photoshop, Illustrator, InDesign, Android Studio, Unity, Axure, Git,
