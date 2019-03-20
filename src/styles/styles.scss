@@ -34,6 +34,13 @@ CSS GRID
   text-align: left;
 }
 
+/*
+MOBILE
+*/
+.col1 {
+  grid-column: span 2;
+}
+
 .col2 {
   grid-column: span 2;
 }
@@ -42,12 +49,43 @@ CSS GRID
   grid-column: span 2;
 }
 
-@media screen and (max-width: 700px) {
+/*
+TABLET
+*/
+@media screen and (min-width: 600px) {
   .col1 {
+    grid-column: span 1;
+  }
+
+  .col2 {
+    grid-column: span 2;
+  }
+
+  .col4 {
     grid-column: span 2;
   }
 }
 
+/*
+LOWER RESOLUTION
+*/
+@media screen and (min-width: 800px) {
+  .col1 {
+    grid-column: span 1;
+  }
+
+  .col2 {
+    grid-column: span 2;
+  }
+
+  .col4 {
+    grid-column: span 4;
+  }
+}
+
+/*
+1080p+
+*/
 @media screen and (min-width: 1530px) {
   .col2 {
     grid-column: span 2;
