@@ -7,8 +7,8 @@ const StyledHeader = styled.header`
   background-color: #fbfbfb;
 
   div {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   ul {

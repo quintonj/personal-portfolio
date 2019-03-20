@@ -6,13 +6,13 @@ import Footer from './footer';
 import '../styles/styles.scss';
 
 const Content = styled.div`
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 40px;
 
   @media screen and (min-width: 1275px) {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 `;
 
