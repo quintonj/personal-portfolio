@@ -26,7 +26,7 @@ const FoodFight = () => (
       </div>
       <div className="col4">
         <div className="imgCol">
-          <video controls="" source src={foodfightvideo}>
+          <video controls="true" source src={foodfightvideo}>
             Your browser does not support the video tag.
           </video>
         </div>
