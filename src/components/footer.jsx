@@ -66,6 +66,11 @@ const Footer = () => (
               </a>
             </li>
             <li>
+              <a className="footerText" href="https://medium.com/cinema-snob">
+                <i className="fa fa-medium" />
+              </a>
+            </li>
+            <li>
               <a className="footerText" href="https://www.instagram.com/quintonbjohnson/">
                 <i className="fa fa-instagram" />
               </a>
