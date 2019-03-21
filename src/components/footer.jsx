@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+/**
+ * Footer component for social media links
+ */
 const StyledFooter = styled.footer`
   background-color: #fbfbfb;
 

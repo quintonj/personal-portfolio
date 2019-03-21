@@ -5,6 +5,9 @@ import Header from './header';
 import Footer from './footer';
 import '../styles/styles.scss';
 
+/**
+ * Layout component used to organize content across all pages
+ */
 const Content = styled.div`
   margin-left: 20px;
   margin-right: 20px;

@@ -65,6 +65,9 @@ const PortfolioItem = styled.div`
   }
 `;
 
+/**
+ * Home page for when a user first enters the site
+ */
 const IndexPage = () => (
   <Layout>
     <SEO title="Quinton Johnson" keywords={[`Quinton Johnson`, `UX`, `Designer`]} />

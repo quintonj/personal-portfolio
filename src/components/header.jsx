@@ -3,6 +3,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Resume from '../assets/Resume.pdf';
 
+/**
+ * Header component for access to other pages as well as return to home screen <Link>
+ */
 const StyledHeader = styled.header`
   background-color: #fbfbfb;
 

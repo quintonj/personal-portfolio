@@ -4,6 +4,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import me from '../images/me.jpg';
 
+/**
+ * About me page
+ */
 const About = () => (
   <Layout>
     <SEO title="Coffee" />
