@@ -21,7 +21,7 @@ const StyledFooter = styled.footer`
   li {
     float: center;
     display: inline-block;
-    margin-right: 20px;
+    padding: 10px;
   }
 
   a {

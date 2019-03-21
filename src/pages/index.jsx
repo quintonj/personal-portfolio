@@ -18,6 +18,10 @@ const Intro = styled.div`
   background-color: #1fe0ac;
   margin-bottom: 5%;
 
+  @media screen and (max-width: 600px) {
+    margin-bottom: 50px;
+  }
+
   div {
     div {
       div {
