@@ -3,9 +3,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Resume from '../assets/Resume.pdf';
 
-/**
- * Header component for access to other pages as well as return to home screen <Link>
- */
 const StyledHeader = styled.header`
   background-color: #fbfbfb;
 
@@ -37,6 +34,9 @@ const StyledHeader = styled.header`
   }
 `;
 
+/**
+ * Header component for access to other pages as well as return to home screen <Link>
+ */
 const Header = () => (
   <StyledHeader>
     <div>
@@ -54,6 +54,11 @@ const Header = () => (
         <li>
           <h5>
             <a href={Resume}>Resume</a>
+          </h5>
+        </li>
+        <li>
+          <h5>
+            <a href="https://medium.com/cinema-snob">Blog</a>
           </h5>
         </li>
       </ul>
