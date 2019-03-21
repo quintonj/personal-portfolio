@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
     <h1>Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist.</p>
+    <p>These are not the droids you&#39;re looking for.</p>
   </Layout>
 );
 
