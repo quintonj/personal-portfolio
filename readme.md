@@ -13,6 +13,5 @@
 + [Node.js](https://nodejs.org/en/)
 + [SASS](https://sass-lang.com/)
 + [styled-components💅](https://www.styled-components.com/)
-+ [ESLINT](https://eslint.org/)
-+ [Prettier](https://prettier.io/) + [Airbnb Style Guide](https://github.com/airbnb/javascript/tree/master/react)
++ [ESLINT](https://eslint.org/) + [Prettier](https://prettier.io/) + [Airbnb Style Guide](https://github.com/airbnb/javascript/tree/master/react) for code style
 + [Google Analytics](https://analytics.google.com/analytics/web/)
