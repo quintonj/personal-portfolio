@@ -198,7 +198,7 @@ const IndexPage = () => (
             Constructed a multiplayer action game that is controlled with two custom Arduino
             controllers.
           </h4>
-          <h5 className="projectDesc">Game Design • Fall 2017</h5>
+          <h5 className="projectDesc">Game Design, UI • Fall 2017</h5>
         </div>
 
         {/* Lantern */}
@@ -228,7 +228,7 @@ const IndexPage = () => (
             Developed an Android app that allows users that are hard of hearing to have improved
             conversations with others.
           </h4>
-          <h5 className="projectDesc">Android Development • Spring 2017</h5>
+          <h5 className="projectDesc">UI / UX, Android Development • Spring 2017</h5>
         </div>
 
         {/* Coffee */}

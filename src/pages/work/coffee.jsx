@@ -22,7 +22,7 @@ const Coffee = () => (
       </div>
       <div className="col1">
         <h4>Category</h4>
-        <h5>UI, Graphic Design, Typography</h5>
+        <h5>Graphic Design, User Research</h5>
       </div>
       <div className="col4">
         <div className="imgCol">

@@ -17,11 +17,11 @@ const AtlantaStreetArt = () => (
       </div>
       <div className="col1">
         <h4>Role</h4>
-        <h5>UX Designer & Moble Developer</h5>
+        <h5>UX Designer & Developer</h5>
       </div>
       <div className="col1">
         <h4>Category</h4>
-        <h5>UI / UX, Mobile Development</h5>
+        <h5>UI / UX, Android Development</h5>
       </div>
       <div className="col4">
         <div className="imgCol">
