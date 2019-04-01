@@ -27,6 +27,13 @@ const Lantern = () => (
         <div className="imgCol">
           <img alt="" src={board} />
         </div>
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          The contact centers collect a lot of data on interactions (timestamps, transcripts,
+          disposition categories, etc) but it is largely unused. There exists a need for an
+          analytics tool to look at the big picture of what customers are contacting us about and
+          why.
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           Over the course of summer 2017, I was a Software Engineering Intern for The Home Depot.

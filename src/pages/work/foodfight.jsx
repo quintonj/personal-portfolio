@@ -30,6 +30,11 @@ const FoodFight = () => (
             Your browser does not support the video tag.
           </video>
         </div>
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          How might we create a game that uses a unique controller and provide for an entertaining
+          experience?
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           Food Fight is a 2D multiplayer game that was developed with Processing and utilizes two

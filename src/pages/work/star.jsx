@@ -26,6 +26,11 @@ const STAR = () => (
       </div>
       <div className="col4">
         <img alt="" src={star} />
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          For people that are hard of hearing, it might prove difficult to communicate with those
+          that do not know sign language
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           STAR allows users who are deaf or hard of hearing to utilize speech-to-text and

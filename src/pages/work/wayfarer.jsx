@@ -27,6 +27,11 @@ const Wayfarer = () => (
         <div className="imgCol">
           <img alt="" src={wayfarer} />
         </div>
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          Hiking may become uninteresting to those that hike the same trails or are lacking
+          motivation. This, in turn, results in less interest in hiking and the outdoors.
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           The goal of the project was simple: design a system that relies on auditory feedback to

@@ -27,6 +27,13 @@ const HomeDepot = () => (
         <div className="imgCol">
           <img alt="" src={homedepot} />
         </div>
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          Our enterprise and customer facing systems are incapable of adapting to the comprehensive
+          vision for repair. Technicians manage repairs through multiple systems, while customers
+          face long wait times, limited visibility, and unclear expectations during the repair
+          process.
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           Since the summer of 2018, I have been working as a UX Designer for The Home Depot. Within

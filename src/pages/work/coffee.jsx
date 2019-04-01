@@ -28,6 +28,11 @@ const Coffee = () => (
         <div className="imgCol">
           <img alt="" src={coffeefull} />
         </div>
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          Brewing coffee is a lengthy process with a multitude of methods that is difficult to
+          explain
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           This poster design was the result of several ethnographic observation sessions with a

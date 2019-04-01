@@ -27,6 +27,11 @@ const AtlantaStreetArt = () => (
         <div className="imgCol">
           <img alt="" src={atlantastreetart} />
         </div>
+        <h2 className="sectionName">The Problem</h2>
+        <p>
+          There is a vast amount of street art throughout Atlanta, but there is no centralized way
+          to figure out where these pieces of art are or who made them.
+        </p>
         <h2 className="sectionName">The Product</h2>
         <p>
           The Atlanta Street Art Project displays images and locations of street art throughout
