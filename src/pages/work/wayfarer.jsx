@@ -34,11 +34,9 @@ const Wayfarer = () => (
         </p>
         <h2 className="sectionName">The Product</h2>
         <p>
-          The goal of the project was simple: design a system that relies on auditory feedback to
-          relay information to the user. Within a group of four, I helped to envision an app that
-          revolves around finding and &#34;collecting&#34; points of interests while hiking. In
-          particular, I was responsible for creating the visual interface and testing the usability
-          of the app.
+          Within a group of four, I helped to envision an app that revolves around finding and
+          &#34;collecting&#34; points of interests while hiking. In particular, I was responsible
+          for creating the visual interface and testing the usability of the app.
         </p>
         <h2 className="sectionName">The Process</h2>
         <p>
