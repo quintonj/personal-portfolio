@@ -95,6 +95,10 @@ LOWER RESOLUTION
 1080p+
 */
 @media screen and (min-width: 1530px) {
+  .col1 {
+    grid-column: span 1;
+  }
+
   .col2 {
     grid-column: span 2;
   }
@@ -109,6 +113,10 @@ LOWER RESOLUTION
 }
 
 @media screen and (min-width: 1800px) {
+  .col1 {
+    grid-column: span 2;
+  }
+
   .col2 {
     grid-column: span 3;
   }
