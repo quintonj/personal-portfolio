@@ -27,6 +27,9 @@ const HomeDepot = () => (
         <div className="imgCol">
           <img alt="" src={homedepot} />
         </div>
+      </div>
+      <div className="col1" />
+      <div className="col3">
         <h2 className="sectionName">The Problem</h2>
         <p>
           Our enterprise and customer facing systems are incapable of adapting to the comprehensive
@@ -56,27 +59,7 @@ const HomeDepot = () => (
           improvement, and how the work I was doing was having an impact on people‘s daily lives.
           This also gave me the opportunity to design better experiences within our products.
         </p>
-      </div>
-      <div className="col4">
         <h4>Repair Tracker</h4>
-      </div>
-      <div className="col1">
-        <h4>2000</h4>
-        <h5>Weekly Users</h5>
-      </div>
-      <div className="col1">
-        <h4>2700</h4>
-        <h5>Weekly Sessions</h5>
-      </div>
-      <div className="col1">
-        <h4>0.93%</h4>
-        <h5>Bounce Rate</h5>
-      </div>
-      <div className="col1">
-        <h4>1:47</h4>
-        <h5>Avg. Session Duration</h5>
-      </div>
-      <div className="col4">
         <p>
           An issue in which numerous associates had within Home Depot stores was locating repairs.
           This is due to certain stores lacking a Tool Rental Center, and therefore, some tools need
@@ -87,15 +70,11 @@ const HomeDepot = () => (
           sessions, it was found that when customers asked about the status, the associates couldn’t
           get a response until up to 48 hours later.
         </p>
-      </div>
-      <div className="col4">
         <span className="work-intro-quote" />
         <h4>
           Glad to finally have a way to track what‘s happening with repairs. This is fantastic.
         </h4>
         <p>- Tool Rental Center Associate</p>
-      </div>
-      <div className="col4">
         <p>
           Repair Tracker thus had the objective of being able to easily find the status of a given
           repair by looking up the tag number within a web app. This would allow associates to
@@ -107,27 +86,7 @@ const HomeDepot = () => (
           my assistance, the Repair Tracker application has been launched to all of Home Depot‘s
           2000+ stores.
         </p>
-      </div>
-      <div className="col4">
         <h4>Repair Depot</h4>
-      </div>
-      <div className="col1">
-        <h4>55</h4>
-        <h5>Live Stores</h5>
-      </div>
-      <div className="col1">
-        <h4>257</h4>
-        <h5>Weekly Sessions</h5>
-      </div>
-      <div className="col1">
-        <h4>21.79%</h4>
-        <h5>Bounce Rate</h5>
-      </div>
-      <div className="col1">
-        <h4>7:37</h4>
-        <h5>Avg. Session Duration</h5>
-      </div>
-      <div className="col4">
         <p>
           The current method of maintaining repairs for Home Depot is cumbersome, unintuitive, and
           requires a multitude of systems. The main goal of Repair Depot is to replace these systems

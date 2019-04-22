@@ -30,6 +30,9 @@ const FoodFight = () => (
             Your browser does not support the video tag.
           </video>
         </div>
+      </div>
+      <div className="col1" />
+      <div className="col3">
         <h2 className="sectionName">The Problem</h2>
         <p>
           How might we create a game that uses a unique controller and provide for an entertaining

@@ -50,3 +50,12 @@ EXTRA STYLES FOR COMPONENTS
 .caseLink {
   font-size: $text-sm;
 }
+
+.nextButton {
+  color: $color-primary;
+  border: 2px solid $color-primary;
+  text-align: center;
+  margin-left: 40%;
+  width: 60%;
+  padding: 10px;
+}

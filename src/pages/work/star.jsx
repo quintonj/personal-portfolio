@@ -25,7 +25,12 @@ const STAR = () => (
         <h5>UI / UX, Mobile Development</h5>
       </div>
       <div className="col4">
-        <img alt="" src={star} />
+        <div className="imgCol">
+          <img alt="" src={star} />
+        </div>
+      </div>
+      <div className="col1" />
+      <div className="col3">
         <h2 className="sectionName">The Problem</h2>
         <p>
           For people that are hard of hearing, it might prove difficult to communicate with those

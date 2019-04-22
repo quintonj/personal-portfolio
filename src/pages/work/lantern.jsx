@@ -27,6 +27,9 @@ const Lantern = () => (
         <div className="imgCol">
           <img alt="" src={board} />
         </div>
+      </div>
+      <div className="col1" />
+      <div className="col3">
         <h2 className="sectionName">The Problem</h2>
         <p>
           The contact centers collect a lot of data on interactions (timestamps, transcripts,

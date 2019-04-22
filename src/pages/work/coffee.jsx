@@ -28,6 +28,9 @@ const Coffee = () => (
         <div className="imgCol">
           <img alt="" src={coffeefull} />
         </div>
+      </div>
+      <div className="col1" />
+      <div className="col3">
         <h2 className="sectionName">The Problem</h2>
         <p>
           Brewing coffee is a lengthy process with a multitude of methods that is difficult to
