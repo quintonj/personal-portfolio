@@ -48,7 +48,9 @@ EXTRA STYLES FOR COMPONENTS
 }
 
 .workContent {
-  margin-left: 25%;
+  @media screen and (min-width: 801px) {
+    margin-left: 25%;
+  }
 }
 
 .caseLink {
