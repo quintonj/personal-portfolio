@@ -28,8 +28,7 @@ const Wayfarer = () => (
           <img alt="" src={wayfarer} />
         </div>
       </div>
-      <div className="col1" />
-      <div className="col3">
+      <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
           Hiking may become uninteresting to those that hike the same trails or are lacking

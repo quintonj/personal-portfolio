@@ -61,10 +61,6 @@ TABLET
     grid-column: span 2;
   }
 
-  .col3 {
-    grid-column: span 2;
-  }
-
   .col4 {
     grid-column: span 2;
   }
@@ -82,10 +78,6 @@ LOWER RESOLUTION
     grid-column: span 2;
   }
 
-  .col3 {
-    grid-column: span 3;
-  }
-
   .col4 {
     grid-column: span 5;
   }
@@ -96,15 +88,11 @@ LOWER RESOLUTION
 */
 @media screen and (min-width: 1530px) {
   .col1 {
-    grid-column: span 1;
+    grid-column: span 2;
   }
 
   .col2 {
     grid-column: span 2;
-  }
-
-  .col3 {
-    grid-column: span 3;
   }
 
   .col4 {
@@ -119,10 +107,6 @@ LOWER RESOLUTION
 
   .col2 {
     grid-column: span 3;
-  }
-
-  .col3 {
-    grid-column: span 4;
   }
 
   .col4 {

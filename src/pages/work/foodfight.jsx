@@ -31,8 +31,7 @@ const FoodFight = () => (
           </video>
         </div>
       </div>
-      <div className="col1" />
-      <div className="col3">
+      <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
           How might we create a game that uses a unique controller and provide for an entertaining

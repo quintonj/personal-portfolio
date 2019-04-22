@@ -29,8 +29,7 @@ const STAR = () => (
           <img alt="" src={star} />
         </div>
       </div>
-      <div className="col1" />
-      <div className="col3">
+      <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
           For people that are hard of hearing, it might prove difficult to communicate with those

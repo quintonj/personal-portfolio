@@ -28,8 +28,7 @@ const AtlantaStreetArt = () => (
           <img alt="" src={atlantastreetart} />
         </div>
       </div>
-      <div className="col1" />
-      <div className="col3">
+      <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
           There is a vast amount of street art throughout Atlanta, but there is no centralized way

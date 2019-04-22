@@ -28,8 +28,7 @@ const HomeDepot = () => (
           <img alt="" src={homedepot} />
         </div>
       </div>
-      <div className="col1" />
-      <div className="col3">
+      <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
           Our enterprise and customer facing systems are incapable of adapting to the comprehensive
