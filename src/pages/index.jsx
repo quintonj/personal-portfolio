@@ -13,6 +13,13 @@ import foodfightthumbnail from '../images/foodfightfull.png';
 import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
 
+/*
+TODO
+  - Add a next / previous button between case studies
+  - Add a full navigation drawer
+  - Increase number of assets for Atlanta Street Art and Wayfarer
+*/
+
 // Hero Image Styling
 const Intro = styled.div`
   background-color: #1fe0ac;
