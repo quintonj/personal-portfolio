@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import coffeefull from '../../images/coffeefull.jpg';
+import coffeefull from '../../images/coffeefull.png';
 import coffeejournal from '../../images/coffeejournal.png';
 
 const Coffee = () => (
