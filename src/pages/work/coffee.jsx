@@ -32,8 +32,8 @@ const Coffee = () => (
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
-          Brewing coffee is a lengthy process with a multitude of methods that is difficult to
-          explain
+          Brewing coffee is a lengthy process with a multitude of methods that are complex and
+          difficult to explain.
         </p>
         <h2 className="sectionName">The Product</h2>
         <p>
