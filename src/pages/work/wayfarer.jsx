@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import wayfarer from '../../images/wayfarer.png';
+import wayfarertaskflow from '../../images/wayfarertaskflow.png';
 
 const Wayfarer = () => (
   <Layout>
@@ -52,6 +53,9 @@ const Wayfarer = () => (
           created a Unity simulation to test our sounds, and I was responsible for designing the
           visual piece of the app.
         </p>
+        <div className="imgCol">
+          <img alt="" src={wayfarertaskflow} />
+        </div>
         <p>
           We then regrouped to carry out six usability tests that included the visual and auditory
           elements of the app. These tests allowed our team to understand a few misleading aspects.
