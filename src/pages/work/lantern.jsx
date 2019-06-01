@@ -91,19 +91,19 @@ const Lantern = () => (
           Ultimately, I gained a couple of key insights after the completion of the project:
         </p>
         <p>
-          Be open-minded and don‘t get stuck on one path. When we initially began, we started with
-          the idea that our users would be Contact Center supervisors or managers. However, through
-          our user interviews and research, we learned that it would be much more valuable for
-          Contact Center directors to use the application and share useful information. This taught
-          me to be adaptable and understand how to maneuver with the changes in a project‘s
+          (1) Be open-minded and don‘t get stuck on one path. When we initially began, we started
+          with the idea that our users would be Contact Center supervisors or managers. However,
+          through our user interviews and research, we learned that it would be much more valuable
+          for Contact Center directors to use the application and share useful information. This
+          taught me to be adaptable and understand how to maneuver with the changes in a project‘s
           requirements.
         </p>
         <p>
-          Ensure that every member of the team is on the same page through consistent communication.
-          Two members of our team worked remotely from Austin. Therefore, we had some initial issues
-          with keeping them up-to-date with the most recent information. As a solution, we utilized
-          Slack, Pivotal Tracker, and daily standup meetings to make sure that each team member was
-          aware of what others were currently working on.
+          (2) Ensure that every member of the team is on the same page through consistent
+          communication. Two members of our team worked remotely from Austin. Therefore, we had some
+          initial issues with keeping them up-to-date with the most recent information. As a
+          solution, we utilized Slack, Pivotal Tracker, and daily standup meetings to make sure that
+          each team member was aware of what others were currently working on.
         </p>
       </div>
     </div>

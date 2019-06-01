@@ -75,8 +75,8 @@ const Wayfarer = () => (
           Working with an auditory-based interface was unique and offered one key insight for me:
         </p>
         <p>
-          Be detail oriented. Auditory elements of applications are often disregarded in favor of
-          visuals or other systems. Small details like having auditory cues can be extremely
+          (1) Be detail oriented. Auditory elements of applications are often disregarded in favor
+          of visuals or other systems. Small details like having auditory cues can be extremely
           valuable for communicating information and ensuring that your app is usable. Reduced
           errors also result in an ultimately satisfied user.
         </p>

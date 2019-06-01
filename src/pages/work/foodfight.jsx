@@ -84,10 +84,10 @@ const FoodFight = () => (
           me to one main conclusion:
         </p>
         <p>
-          Don’t be afraid to learn new things. This project gave me a chance to improve and work on
-          a variety of new skill-sets including physical prototyping, working with Processing, and
-          soldering. As a result, I was able to learn a lot of new things and came away much more
-          knowledgeable and confident in my abilities.
+          (1) Don’t be afraid to learn new things. This project gave me a chance to improve and work
+          on a variety of new skill-sets including physical prototyping, working with Processing,
+          and soldering. As a result, I was able to learn a lot of new things and came away much
+          more knowledgeable and confident in my abilities.
         </p>
       </div>
     </div>

@@ -67,8 +67,8 @@ const STAR = () => (
           gave our team concrete items to improve. This left me with one major insight:
         </p>
         <p>
-          Be open to criticism of your work. By showing the video demos and talking about the app to
-          our mentor and peers, our team was able to learn about what we were doing wrong. We
+          (1) Be open to criticism of your work. By showing the video demos and talking about the
+          app to our mentor and peers, our team was able to learn about what we were doing wrong. We
           realized that these were not personal attacks, but ways for us to create an overall better
           product.
         </p>

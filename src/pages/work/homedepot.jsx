@@ -119,12 +119,6 @@ const HomeDepot = () => (
           stores. All of this allowed personal growth for me as a designer, as it gave me the
           opportunity to collaborate with my peers and learn from others.
         </p>
-        <p>
-          Currently, I am following a discovery and framing pattern to understand the problems of
-          managing customer repairs today. With a kickoff meeting completed, I have been able to
-          work on developing a customer journey and research topics so that Repair Depot can
-          eventually encompass all forms of repairs.
-        </p>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           Thus far, Home Depot has been a great place to work and I have been looking forward to
@@ -135,9 +129,9 @@ const HomeDepot = () => (
           real-world setting.
         </p>
         <p>
-          Grow your personal brand. Within an Enterprise environment, it has been important for me
-          to grow my professional skills in addition to my skills as a designer. This means I have
-          had to grow into my own space within the UX team and grow my own personal brand and
+          (1) Grow your personal brand. Within an Enterprise environment, it has been important for
+          me to grow my professional skills in addition to my skills as a designer. This means I
+          have had to grow into my own space within the UX team and grow my own personal brand and
           perception among my peers.
         </p>
       </div>

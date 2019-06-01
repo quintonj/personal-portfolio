@@ -70,10 +70,11 @@ const Coffee = () => (
           resulted in an important finding for me:
         </p>
         <p>
-          Quality research leads to quality designs. Completing user research allows the designer to
-          identify and analyze all aspects of a problem to ensure that the design correctly
-          addresses the user’s pain points and creates a seamless experience. After all, that’s what
-          design is all about; create a design that will be intuitive and solve problems.
+          (1) Quality research leads to quality designs. Completing user research allows the
+          designer to identify and analyze all aspects of a problem to ensure that the design
+          correctly addresses the user’s pain points and creates a seamless experience. After all,
+          that’s what design is all about; create a design that will be intuitive and solve
+          problems.
         </p>
       </div>
     </div>
