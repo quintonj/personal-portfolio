@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import atlantastreetart from '../../images/atlantastreetart.png';
-import asapideas from '../../images/asapideas.png';
 import tasktable from '../../images/asaptasktable.png';
 import asapui from '../../images/asapui.png';
 
