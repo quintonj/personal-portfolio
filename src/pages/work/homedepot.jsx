@@ -31,10 +31,9 @@ const HomeDepot = () => (
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
-          Our enterprise and customer facing systems are incapable of adapting to the comprehensive
-          vision for repair. Technicians manage repairs through multiple systems, while customers
-          face long wait times, limited visibility, and unclear expectations during the repair
-          process.
+          The current associate facing systems are incapable of adapting to the comprehensive vision
+          for repair. Technicians manage repairs through multiple systems, while customers face long
+          wait times, limited visibility, and unclear expectations during the repair process.
         </p>
         <h2 className="sectionName">The Product</h2>
         <p>
