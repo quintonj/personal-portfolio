@@ -1,7 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import Resume from '../assets/Resume.pdf';
 
 const StyledHeader = styled.header`
   background-color: #fbfbfb;
@@ -49,11 +48,6 @@ const Header = () => (
         <li>
           <h5>
             <Link to="/about">About</Link>
-          </h5>
-        </li>
-        <li>
-          <h5>
-            <a href={Resume}>Resume</a>
           </h5>
         </li>
         <li>
