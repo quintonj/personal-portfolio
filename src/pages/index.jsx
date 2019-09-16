@@ -13,13 +13,6 @@ import foodfightthumbnail from '../images/foodfightfull.png';
 import starthumbnail from '../images/starthumbnail.png';
 import coffeethumbnail from '../images/coffeethumbnail.png';
 
-/*
-TODO
-  - Add a next / previous button between case studies
-  - Add a full navigation drawer
-  - Increase number of assets for Atlanta Street Art and Wayfarer
-*/
-
 // Hero Image Styling
 const Intro = styled.div`
   background-color: #1fe0ac;
@@ -93,7 +86,7 @@ const IndexPage = () => (
               <br />
               Johnson
             </h1>
-            <h3>UX Designer at The Home Depot.</h3>
+            <h3>UX Designer at Roadie.</h3>
             <h5>
               I‘m a designer and developer based in Atlanta. I love connecting with people and
               creating meaningful experiences that solve problems.
@@ -118,11 +111,11 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/homedepot">Home Depot - UX Designer</Link>
           </h3>
-          <h5 className="projectDesc"> UI / UX • June 2018 - Present</h5>
+          <h5 className="projectDesc"> UI / UX • June 2018 - September 2019</h5>
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Working as a UX Designer at The Home Depot as a part of the Enterprise UX team.
+            Worked as a UX Designer at The Home Depot as a part of the Enterprise UX team.
           </h4>
           <Link className="caseLink" to="/work/homedepot">
             View Case Study

@@ -13,7 +13,7 @@ const HomeDepot = () => (
         <h1>Home Depot - UX Designer</h1>
       </div>
       <div className="col2">
-        <h3 className="lead-in">Working as a UX designer at The Home Depot.</h3>
+        <h3 className="lead-in">Worked as a UX designer at The Home Depot.</h3>
       </div>
       <div className="col1">
         <h4>Role</h4>
@@ -37,14 +37,14 @@ const HomeDepot = () => (
         </p>
         <h2 className="sectionName">The Product</h2>
         <p>
-          Since the summer of 2018, I have been working as a UX Designer for The Home Depot. Within
-          the Enterprise UX team, I work within repair products to ensure Home Depot associates are
-          able to quickly and efficiently work on repairs. My team maintains three main work
-          streams: Repair Depot, Repair Tracker, and Repair Queues. I have produced, tested, and
-          validated designs for each product and have had a hand in assisting the UX team at large
-          through collaborations and design pairing. Unfortunately, the designs I‘ve created are
-          unable to be shared due to an NDA. However, I have done my best to outline the process and
-          add or reproduce visuals as needed.
+          Starting in the summer of 2018, I worked as a UX Designer for The Home Depot. Within the
+          Enterprise UX team, I worked on repair products to ensure Home Depot associates are able
+          to quickly and efficiently work on repairs. My team maintained three main work streams:
+          Repair Depot, Repair Tracker, and Repair Queues. I produced, tested, and validated designs
+          for each product and had a hand in assisting the UX team at large through collaborations
+          and design pairing. Unfortunately, the designs I‘ve created are unable to be shared due to
+          an NDA. However, I have done my best to outline the process and add or reproduce visuals
+          as needed.
         </p>
         <h2 className="sectionName">The Process</h2>
         <div className="imgCol">
@@ -89,10 +89,10 @@ const HomeDepot = () => (
           The current method of maintaining repairs for Home Depot is cumbersome, unintuitive, and
           requires a multitude of systems. The main goal of Repair Depot is to replace these systems
           with a singular app that is able to accomplish the management of repairs and ordering
-          parts. Since joining the team, I have led efforts to add the functionality of maintaining
-          inventory, ordering parts, and viewing order history. Repair Depot has been launched to 55
-          stores with this functionality. It will be launched to hundreds more during the first half
-          of 2019 with the additional functionality of managing, creating, and working on repairs.
+          parts. Since joining the team, I led efforts to add the functionality of maintaining
+          inventory, ordering parts, and viewing order history. Repair Depot has been launched to
+          all stores with this functionality, with additional features being added in biweekly
+          sprints to address associate feedback.
         </p>
         <div className="imgcol">
           <img alt="" src={fleetjourney} />
@@ -120,18 +120,16 @@ const HomeDepot = () => (
         </p>
         <h2 className="sectionName">The Reflection</h2>
         <p>
-          Thus far, Home Depot has been a great place to work and I have been looking forward to
-          what more I can learn from my experience here. The Enterprise UX team at large has given
-          me the opportunity to consistently learn from others, as well as hone in my communication
-          and collaboration skills. Finally, working within a balanced team has given me new
-          insights into the agile methodology and employed skills I have learned from college in a
-          real-world setting.
+          At Home Depot, the Enterprise UX team at large gave me the opportunity to consistently
+          learn from others, as well as hone in my communication and collaboration skills. In
+          addition, working within a balanced team gave me new insights into the agile methodology
+          and employed skills I have learned from college in a real-world setting.
         </p>
         <p>
-          (1) Grow your personal brand. Within an Enterprise environment, it has been important for
-          me to grow my professional skills in addition to my skills as a designer. This means I
-          have had to grow into my own space within the UX team and grow my own personal brand and
-          perception among my peers.
+          (1) Grow your personal brand. Within an Enterprise environment, it was important for me to
+          grow my professional skills in addition to my skills as a designer. This means I had to
+          grow into my own space within the UX team and grow my own personal brand and perception
+          among my peers.
         </p>
       </div>
     </div>
