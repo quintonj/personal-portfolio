@@ -19,10 +19,9 @@ const About = () => (
         <p>
           Born and raised in Atlanta, I attended the Georgia Institute of Technology where I
           graduated in 2018 with a B.S. in Computer Science and a minor in Industrial Design. I am
-          currently working at The Home Depot as a User Experience Designer within their Enterprise
-          UX Team. My distinctive background has given me the opportunity to work both my left and
-          right brain. As a designer, it is my goal to create compelling, unique, and thoughtful
-          experiences that are feasible.
+          currently working at Roadie as a User Experience Designer. My distinctive background has
+          given me the opportunity to work both my left and right brain. As a designer, it is my
+          goal to create compelling, unique, and thoughtful experiences that are feasible.
         </p>
         <p>
           Through my upbringing, I always found that I had an interest in design. Whether it was how
