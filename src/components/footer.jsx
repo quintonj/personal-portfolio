@@ -76,11 +76,8 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a
-                className="footerText"
-                href="https://open.spotify.com/user/1246887391?si=By3WkPL1QmGsxGV1xHhwew"
-              >
-                <i className="fa fa-spotify" />
+              <a className="footerText" href="https://www.last.fm/user/quintonbjohnson">
+                <i className="fa fa-lastfm" />
               </a>
             </li>
           </ul>

@@ -19,9 +19,10 @@ const About = () => (
         <p>
           Born and raised in Atlanta, I attended the Georgia Institute of Technology where I
           graduated in 2018 with a B.S. in Computer Science and a minor in Industrial Design. I am
-          currently working at Roadie as a User Experience Designer. My distinctive background has
-          given me the opportunity to work both my left and right brain. As a designer, it is my
-          goal to create compelling, unique, and thoughtful experiences that are feasible.
+          currently working at <a href="https://www.roadie.com">Roadie</a> as a User Experience
+          Designer. My distinctive back ground has given me the opportunity to work both my left and
+          right brain. As a designer, it is my goal to create compelling, unique, and thoughtful
+          experiences that are feasible.
         </p>
         <p>
           Through my upbringing, I always found that I had an interest in design. Whether it was how
@@ -36,9 +37,9 @@ const About = () => (
           love to do
           <a href="https://www.strava.com/athletes/10263084"> triathlons</a>, watch
           <a href="https://letterboxd.com/quintonj/"> movies</a>, listen to
-          <a href="https://open.spotify.com/user/1246887391?si=lXa_zSsHTIm_5NW_K_IApQ"> music</a>,
-          and <a href="https://www.instagram.com/quintonbjohnson/">hike</a> with my border collie,
-          Fitz. Within this site, you can find my skill set and projects that have made me proud.
+          <a href="https://www.last.fm/user/quintonbjohnson"> music</a>, and{' '}
+          <a href="https://www.instagram.com/quintonbjohnson/">hike</a> with my border collie, Fitz.
+          Within this site, you can find my skill set and projects that have made me proud.
         </p>
       </div>
     </div>
