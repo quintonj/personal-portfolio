@@ -20,7 +20,7 @@ const About = () => (
           Born and raised in Atlanta, I attended the Georgia Institute of Technology where I
           graduated in 2018 with a B.S. in Computer Science and a minor in Industrial Design. I am
           currently working at <a href="https://www.roadie.com">Roadie</a> as a User Experience
-          Designer. My distinctive back ground has given me the opportunity to work both my left and
+          Designer. My distinctive background has given me the opportunity to work both my left and
           right brain. As a designer, it is my goal to create compelling, unique, and thoughtful
           experiences that are feasible.
         </p>
