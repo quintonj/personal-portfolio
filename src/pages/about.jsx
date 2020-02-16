@@ -29,8 +29,8 @@ const About = () => (
           my MySpace page CSS worked or me designing posters for my high school clubs, I knew that I
           had an eye for visual design. Fast forward to college-time, I knew that computer science
           would provide a balanced background for me and allow me to explore multiple avenues.
-          Today, this background has allowed me to collaborate with my peers more effectively and
-          create more efficient teamwork to ensure the best product possible.
+          Today, this background has allowed me to collaborate with my peers more effectively to
+          ensure the best product possible.
         </p>
         <p>
           My passions include UI and UX design, as well as software engineering. In my free time, I
