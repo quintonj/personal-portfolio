@@ -67,9 +67,17 @@ const Wayfarer = () => (
           few adjustments to the sound and felt that having a tutorial would be a valuable addition
           so that new users could quickly understand the various sounds. With these tests completed,
           our team was able to organize a final visual design and set of auditory cues to report our
-          work. For an interactive prototype, please see the
-          <a href="https://invis.io/SNEGR0N86"> InVision Prototype.</a>
+          work.
         </p>
+        <center>
+          <iframe
+            title="Wayfarer"
+            width="424"
+            height="916"
+            src="//invis.io/TVS4VEA3YZN"
+            frameBorder="0"
+          />
+        </center>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           Working with an auditory-based interface was unique and offered one key insight for me:
