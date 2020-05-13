@@ -25,7 +25,7 @@ const STAR = () => (
         <h5>UI / UX, Mobile Development</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
+        <div className="headerImgCol">
           <img alt="" src={star} />
         </div>
       </div>

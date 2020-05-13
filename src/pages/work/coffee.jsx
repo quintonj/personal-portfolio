@@ -25,7 +25,7 @@ const Coffee = () => (
         <h5>Graphic Design, User Research</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
+        <div className="headerImgCol">
           <img alt="" src={coffeefull} />
         </div>
       </div>
@@ -53,7 +53,7 @@ const Coffee = () => (
           my friend’s process. Throughout this, I also took pictures and jotted down notes in my
           notebook.
         </p>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={coffeejournal} />
         </div>
         <p>

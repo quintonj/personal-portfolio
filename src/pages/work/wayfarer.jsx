@@ -25,7 +25,7 @@ const Wayfarer = () => (
         <h5>UI / UX</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
+        <div className="headerImgCol">
           <img alt="" src={wayfarer} />
         </div>
       </div>
@@ -53,7 +53,7 @@ const Wayfarer = () => (
           created a Unity simulation to test our sounds, and I was responsible for designing the
           visual piece of the app.
         </p>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={wayfarertaskflow} />
         </div>
         <p>
@@ -69,15 +69,6 @@ const Wayfarer = () => (
           our team was able to organize a final visual design and set of auditory cues to report our
           work.
         </p>
-        <center>
-          <iframe
-            title="Wayfarer"
-            width="424"
-            height="916"
-            src="//invis.io/TVS4VEA3YZN"
-            frameBorder="0"
-          />
-        </center>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           Working with an auditory-based interface was unique and offered one key insight for me:

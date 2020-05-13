@@ -4,6 +4,7 @@ import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import foodfightfull from '../../images/foodfightfull.png';
 import foodfightcontroller from '../../images/foodfightcontroller.png';
+import foodfightthumbnail from '../../images/foodfightthumbnail.jpg';
 import foodfightvideo from '../../images/foodfightvideo.mp4';
 
 const FoodFight = () => (
@@ -25,8 +26,8 @@ const FoodFight = () => (
         <h5>Game Design, UI</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
-          <video controls="true" source src={foodfightvideo}>
+        <div className="headerImgCol">
+          <video poster={foodfightthumbnail} controls="true" source src={foodfightvideo}>
             Your browser does not support the video tag.
           </video>
         </div>
@@ -49,7 +50,7 @@ const FoodFight = () => (
           also a tilt sensor on the board that allows the user to flip up the tray to block incoming
           food. The first player to get the other’s health points down to 0 wins!
         </p>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={foodfightfull} />
         </div>
         <h2 className="sectionName">The Process</h2>
@@ -65,7 +66,7 @@ const FoodFight = () => (
           items, including the backgrounds, and creating the environment. Meanwhile, our group
           created the trays and art assets for the game.
         </p>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={foodfightcontroller} />
         </div>
         <p>

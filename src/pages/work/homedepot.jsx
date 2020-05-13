@@ -24,7 +24,7 @@ const HomeDepot = () => (
         <h5>UI / UX</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
+        <div className="headerImgCol">
           <img alt="" src={homedepot} />
         </div>
       </div>
@@ -47,7 +47,7 @@ const HomeDepot = () => (
           as needed.
         </p>
         <h2 className="sectionName">The Process</h2>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={persona} />
         </div>
         <p>
@@ -94,7 +94,7 @@ const HomeDepot = () => (
           all stores with this functionality, with additional features being added in biweekly
           sprints to address associate feedback.
         </p>
-        <div className="imgcol">
+        <div className="bodyImgCol">
           <img alt="" src={fleetjourney} />
         </div>
         <p>

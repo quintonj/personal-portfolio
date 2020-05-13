@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import board from '../../images/danternsboard.png';
+import board from '../../images/lantern.png';
 
 const Lantern = () => (
   <Layout>
@@ -24,7 +24,7 @@ const Lantern = () => (
         <h5>Front-end development, UI / UX</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
+        <div className="headerImgCol">
           <img alt="" src={board} />
         </div>
       </div>

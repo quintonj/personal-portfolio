@@ -26,7 +26,7 @@ const AtlantaStreetArt = () => (
         <h5>UI / UX, Android Development</h5>
       </div>
       <div className="col4">
-        <div className="imgCol">
+        <div className="headerImgCol">
           <img alt="" src={atlantastreetart} />
         </div>
       </div>
@@ -54,6 +54,7 @@ const AtlantaStreetArt = () => (
           how they should look. We thus were able to put together a lo-fidelity pen and paper
           prototype.
         </p>
+        <h4>User Research</h4>
         <p>
           After the lo-fidelity prototype was created, we conducted five usability tests to ensure
           that our designs were on the right path. This involved giving users five tasks to complete
@@ -62,27 +63,42 @@ const AtlantaStreetArt = () => (
           tests we tracked completion rate and time, as well as errors they made and feedback on the
           general process.
         </p>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={tasktable} />
         </div>
+        <h4>Ideation</h4>
         <p>
-          From these tests, we were able to identify some issues with the design, such as the layout
-          and process of logging in as well as the usability of the neighborhood screen. With the
-          issues in mind, I individually converted our lo-fidelity prototype into an interactive
-          hi-fidelity prototype with Sketch and InVision.
+          From these tests, we were able to identify some issues with the design. These issues
+          included the overall layout of the art details screen as well as the process of account
+          creation. We also originally had an idea for narrowing art by neighborhood, but realized
+          this feature was not valuable and was relatively difficult to use. With the issues in
+          mind, I individually converted our lo-fidelity prototype into an interactive hi-fidelity
+          prototype with Sketch.
         </p>
-        <div className="imgCol">
+        <div className="bodyImgCol">
           <img alt="" src={asapui} />
         </div>
+        <h4>Implementation</h4>
         <p>
-          Once we had a full design, we started the implementation process. I have since also
-          designed a logo for the app and have had it published to the
+          Once we had a full design, we started the implementation process. For the implementation,
+          I held a major responsibility in the creation of the app home screen as well as the art
+          details page. Through the creation of the home screen, we ran into technical difficulties
+          with the interaction of scrolling through art. Instead of our initial swiping design, we
+          went for a more traditional list that highlighted the pictures of the art pieces. I also
+          designed a logo for the app and handled publishing it to the
           <a href="https://play.google.com/store/apps/details?id=comquintonj.github.atlantastreetartproject&hl=en">
             {' '}
             Google Play Store
           </a>
           .
         </p>
+        <div className="iframeContainer">
+          <iframe
+            title="Atlanta Street Art Project"
+            className="resp-iframe"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fm2iXb72BPzaFdSh9yztBtO%2FAtlanta-Street-Art-Project%3Fnode-id%3D1%253A11%26scaling%3Dcontain%26hotspot-hints%3D0"
+          />
+        </div>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           Due to the app being a capstone project, our team worked with a real-world client. As the

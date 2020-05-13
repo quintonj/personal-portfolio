@@ -19,11 +19,20 @@ CSS GRID
   grid-gap: 20px;
 }
 
-.imgCol {
+.headerImgCol {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.bodyImgCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .headerCol {
@@ -32,6 +41,21 @@ CSS GRID
   justify-content: center;
   align-items: center;
   text-align: left;
+}
+
+.iframeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .resp-iframe {
+    border: 0px;
+    width: 100%;
+    height: 750px;
+  }
 }
 
 /*
@@ -246,6 +270,7 @@ audio,
 canvas,
 progress,
 video {
+  width: 100%;
   display: inline-block;
   margin-bottom: $space-md;
 }
