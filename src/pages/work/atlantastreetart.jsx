@@ -66,7 +66,7 @@ const AtlantaStreetArt = () => (
         <div className="bodyImgCol">
           <img alt="" src={tasktable} />
         </div>
-        <h4>Ideation</h4>
+        <h4>Design</h4>
         <p>
           From these tests, we were able to identify some issues with the design. These issues
           included the overall layout of the art details screen as well as the process of account
