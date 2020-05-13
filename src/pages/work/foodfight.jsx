@@ -4,7 +4,7 @@ import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import foodfightfull from '../../images/foodfightfull.png';
 import foodfightcontroller from '../../images/foodfightcontroller.png';
-import foodfightthumbnail from '../../images/foodfightthumbnail.jpg';
+import foodfightthumb from '../../images/foodfightthumb.jpg';
 import foodfightvideo from '../../images/foodfightvideo.mp4';
 
 const FoodFight = () => (
@@ -27,7 +27,7 @@ const FoodFight = () => (
       </div>
       <div className="col4">
         <div className="headerImgCol">
-          <video poster={foodfightthumbnail} controls="true" source src={foodfightvideo}>
+          <video poster={foodfightthumb} controls="true" source src={foodfightvideo}>
             Your browser does not support the video tag.
           </video>
         </div>
