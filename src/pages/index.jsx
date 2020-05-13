@@ -5,8 +5,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import 'font-awesome/css/font-awesome.min.css';
 import me2 from '../images/me2.png';
-import homedepot from '../images/homedepot.png';
-import wayfarer from '../images/wayfarer.png';
+import roadiethumbnail from '../images/roadiethumbnail.png';
+import homedepotthumbnail from '../images/homedepotthumbnail.png';
+import wayfarerthumbnail from '../images/wayfarerthumbnail.png';
 import atlantastreetart from '../images/atlantastreetart.png';
 import lanternthumbnail from '../images/lantern.png';
 import foodfightthumbnail from '../images/foodfightfull.png';
@@ -89,7 +90,8 @@ const IndexPage = () => (
             <h3>UX Designer at Roadie.</h3>
             <h5>
               I‘m a designer and developer based in Atlanta. I love connecting with people and
-              creating meaningful experiences that solve problems.
+              creating meaningful experiences that solve their problems. I also love my dog, so
+              sometimes I just like connecting with him.
             </h5>
           </div>
         </div>
@@ -104,12 +106,37 @@ const IndexPage = () => (
       Portfolio
     </h2>
 
+    {/* Roadie */}
+    <PortfolioItem>
+      <div className="wrapper">
+        <div className="col2">
+          <h3>
+            <Link to="/work/roadie">UX Designer - Roadie</Link>
+          </h3>
+          <h5 className="projectDesc"> UI / UX • September 2019 - Present</h5>
+        </div>
+        <div className="col2">
+          <h4 className="projectWriting">
+            Assisting Roadie in impacting the gig history as a designer for their web app.
+          </h4>
+          <Link className="caseLink" to="/work/homedepot">
+            View Case Study
+          </Link>
+        </div>
+        <div className="col4">
+          <Link to="/work/roadie">
+            <img alt="" src={roadiethumbnail} />
+          </Link>
+        </div>
+      </div>
+    </PortfolioItem>
+
     {/* Home Depot */}
     <PortfolioItem>
       <div className="wrapper">
         <div className="col2">
           <h3>
-            <Link to="/work/homedepot">Home Depot - UX Designer</Link>
+            <Link to="/work/homedepot">UX Designer - The Home Depot</Link>
           </h3>
           <h5 className="projectDesc"> UI / UX • June 2018 - September 2019</h5>
         </div>
@@ -123,7 +150,7 @@ const IndexPage = () => (
         </div>
         <div className="col4">
           <Link to="/work/homedepot">
-            <img alt="" src={homedepot} />
+            <img alt="" src={homedepotthumbnail} />
           </Link>
         </div>
       </div>
@@ -134,7 +161,7 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="col2">
           <h3>
-            <Link to="/work/wayfarer">Wayfarer App Mockup</Link>
+            <Link to="/work/wayfarer">Wayfarer Mockup</Link>
           </h3>
           <h5 className="projectDesc">UI / UX • Fall 2017</h5>
         </div>
@@ -148,7 +175,7 @@ const IndexPage = () => (
         </div>
         <div className="col4">
           <Link to="/work/wayfarer">
-            <img alt="" src={wayfarer} />
+            <img alt="" src={wayfarerthumbnail} />
           </Link>
         </div>
       </div>
@@ -161,7 +188,7 @@ const IndexPage = () => (
           <h3>
             <Link to="/work/atlantastreetart">Atlanta Street Art Project</Link>
           </h3>
-          <h5 className="projectDesc">UI / UX, Android Development • Spring 2017</h5>
+          <h5 className="projectDesc">UI / UX, Development • Spring 2017</h5>
         </div>
         <div className="col2">
           <h4 className="projectWriting">
@@ -198,7 +225,7 @@ const IndexPage = () => (
             Constructed a multiplayer action game that is controlled with two custom Arduino
             controllers.
           </h4>
-          <h5 className="projectDesc">Game Design, UI / UX • Fall 2017</h5>
+          <h5 className="projectDesc">Game Design, UI / UX, Development • Fall 2017</h5>
         </div>
 
         {/* Lantern */}
@@ -207,13 +234,13 @@ const IndexPage = () => (
             <img alt="" src={lanternthumbnail} />
           </Link>
           <h3>
-            <Link to="/work/lantern">Home Depot - Lantern</Link>
+            <Link to="/work/lantern">Lantern - The Home Depot</Link>
           </h3>
           <h4 className="projectWriting">
             Worked as a front-end engineering intern to develop an analytics dashboard with
             React.js.
           </h4>
-          <h5 className="projectDesc">Front-end development, UI / UX • Summer 2017</h5>
+          <h5 className="projectDesc">Development, UI / UX • Summer 2017</h5>
         </div>
 
         {/* STAR */}
@@ -228,7 +255,7 @@ const IndexPage = () => (
             Developed an Android app that allows users that are hard of hearing to have improved
             conversations with others.
           </h4>
-          <h5 className="projectDesc">UI / UX, Android Development • Spring 2017</h5>
+          <h5 className="projectDesc">Development, UI / UX • Spring 2017</h5>
         </div>
 
         {/* Coffee */}
@@ -242,7 +269,7 @@ const IndexPage = () => (
           <h4 className="projectWriting">
             Drew up a poster based off of several user research sessions using ethnographic methods.
           </h4>
-          <h5 className="projectDesc">Graphic Design, User Research • Spring 2017</h5>
+          <h5 className="projectDesc">Graphic Design, UX • Spring 2017</h5>
         </div>
       </div>
     </PortfolioItem>

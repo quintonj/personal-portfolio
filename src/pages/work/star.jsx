@@ -12,13 +12,13 @@ const STAR = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          An Android app that allows users who are deaf or hard of hearing to communicate with
-          others quickly through the use of speech-to-text.
+          An app that allows deaf users to communicate with others through the use of
+          speech-to-text.
         </h3>
       </div>
       <div className="col1">
         <h5>Role</h5>
-        <h4>UX Designer & Moble Developer</h4>
+        <h4>UX Designer & Developer</h4>
       </div>
       <div className="col1">
         <h5>Category</h5>

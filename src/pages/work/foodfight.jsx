@@ -23,7 +23,7 @@ const FoodFight = () => (
       </div>
       <div className="col1">
         <h5>Category</h5>
-        <h4>Game Design, UI, Development</h4>
+        <h4>Game Design, UI / UX, Development</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">

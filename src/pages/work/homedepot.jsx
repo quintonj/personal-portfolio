@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import homedepot from '../../images/homedepot.png';
+import homedepot from '../../images/homedepotthumbnail.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
 
@@ -13,7 +13,9 @@ const HomeDepot = () => (
         <h1>Home Depot - UX Designer</h1>
       </div>
       <div className="col2">
-        <h3 className="lead-in">Worked as a UX designer at The Home Depot.</h3>
+        <h3 className="lead-in">
+          Handled the design of several apps for the Repairs team at The Home Depot.
+        </h3>
       </div>
       <div className="col1">
         <h5>Role</h5>
@@ -31,9 +33,10 @@ const HomeDepot = () => (
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
-          The current associate facing systems are incapable of adapting to the comprehensive vision
-          for repair. Technicians manage repairs through multiple systems, while customers face long
-          wait times, limited visibility, and unclear expectations during the repair process.
+          At the time of joining The Home Depot, the associate facing systems were incapable of
+          adapting to the comprehensive vision for repair. Technicians managed repairs through
+          multiple systems, while customers faced long wait times, limited visibility, and unclear
+          expectations during the repair process.
         </p>
         <h2 className="sectionName">The Product</h2>
         <p>
