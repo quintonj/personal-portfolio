@@ -57,7 +57,7 @@ const HomeDepot = () => (
           improvement, and how the work I was doing was having an impact on people‘s daily lives.
           This also gave me the opportunity to design better experiences within our products.
         </p>
-        <h4>Repair Tracker</h4>
+        <h4 className="subSectionName">Repair Tracker</h4>
         <p>
           An issue in which numerous associates had within Home Depot stores was locating repairs.
           This is due to certain stores lacking a Tool Rental Center, and therefore, some tools need
@@ -84,7 +84,7 @@ const HomeDepot = () => (
           my assistance, the Repair Tracker application has been launched to all of Home Depot‘s
           2000+ stores.
         </p>
-        <h4>Repair Depot</h4>
+        <h4 className="subSectionName">Repair Depot</h4>
         <p>
           The current method of maintaining repairs for Home Depot is cumbersome, unintuitive, and
           requires a multitude of systems. The main goal of Repair Depot is to replace these systems

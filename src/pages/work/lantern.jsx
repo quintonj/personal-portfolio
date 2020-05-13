@@ -49,7 +49,7 @@ const Lantern = () => (
           understand customers‘ problems.
         </p>
         <h2 className="sectionName">The Process</h2>
-        <h4>User Research</h4>
+        <h4 className="subSectionName">User Research</h4>
         <p>
           The project itself started off as a conceptual idea to visualize support data. Thus, our
           team carried the app from inception to several iterations of implementation. We began with
@@ -65,7 +65,7 @@ const Lantern = () => (
           analytics tool to look at the big picture of what customers are contacting us about and
           why&#34;
         </p>
-        <h4>Feature Ideation</h4>
+        <h4 className="subSectionName">Feature Ideation</h4>
         <p>
           With a problem statement in mind and user research at hand, we were able to ideate
           features and develop a 2x2 matrix. This matrix contained features mapped based on
@@ -74,7 +74,7 @@ const Lantern = () => (
           participated in a design critique of hi-fidelity mockups that were created for the
           application. Finally, we conducted usability tests with an interactive InVision prototype.
         </p>
-        <h4>Implementation</h4>
+        <h4 className="subSectionName">Implementation</h4>
         <p>
           Throughout this process, I took the feedback from our designs and translated that to our
           implementation. With the several interviews, observations, and usability tests our team
