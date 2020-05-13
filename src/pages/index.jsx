@@ -198,7 +198,7 @@ const IndexPage = () => (
             Constructed a multiplayer action game that is controlled with two custom Arduino
             controllers.
           </h4>
-          <h5 className="projectDesc">Game Design, UI • Fall 2017</h5>
+          <h5 className="projectDesc">Game Design, UI / UX • Fall 2017</h5>
         </div>
 
         {/* Lantern */}
