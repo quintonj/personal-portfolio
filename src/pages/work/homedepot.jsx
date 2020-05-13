@@ -10,7 +10,7 @@ const HomeDepot = () => (
     <SEO title="Home Depot" />
     <div className="wrapper">
       <div className="col4">
-        <h1>Home Depot - UX Designer</h1>
+        <h1>UX Designer - The Home Depot</h1>
       </div>
       <div className="col2">
         <h3 className="lead-in">

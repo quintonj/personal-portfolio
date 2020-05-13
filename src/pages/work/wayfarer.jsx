@@ -9,7 +9,7 @@ const Wayfarer = () => (
     <SEO title="Wayfarer" />
     <div className="wrapper">
       <div className="col4">
-        <h1>Wayfarer</h1>
+        <h1>Wayfarer Mockup</h1>
       </div>
       <div className="col2">
         <h3 className="lead-in">

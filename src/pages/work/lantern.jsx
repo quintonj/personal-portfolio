@@ -8,7 +8,7 @@ const Lantern = () => (
     <SEO title="Home Depot Lantern" />
     <div className="wrapper">
       <div className="col4">
-        <h1>Home Depot - Lantern</h1>
+        <h1>Lantern - The Home Depot</h1>
       </div>
       <div className="col2">
         <h3 className="lead-in">
