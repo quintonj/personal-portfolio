@@ -18,12 +18,12 @@ const AtlantaStreetArt = () => (
         </h3>
       </div>
       <div className="col1">
-        <h4>Role</h4>
-        <h5>UX Designer & Developer</h5>
+        <h5>Role</h5>
+        <h4>UX Designer & Developer</h4>
       </div>
       <div className="col1">
-        <h4>Category</h4>
-        <h5>UI / UX, Android Development</h5>
+        <h5>Category</h5>
+        <h4>UI / UX, Development</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">
@@ -51,17 +51,16 @@ const AtlantaStreetArt = () => (
           personas and stories in mind, we began producing ideas for the user interface. We began by
           drawing up some ideas on a whiteboard together. From here, we were able to get a consensus
           on the features our team would like to prioritize, how these features would interact, and
-          how they should look. We thus were able to put together a lo-fidelity pen and paper
-          prototype.
+          how they should look. We thus were able to put together a lo-fi pen and paper prototype.
         </p>
         <h4 className="subSectionName">User Research</h4>
         <p>
-          After the lo-fidelity prototype was created, we conducted five usability tests to ensure
-          that our designs were on the right path. This involved giving users five tasks to complete
-          with the prototype and understanding what their thoughts were, including creating an
-          account, creating a tour of art, finding art around you, and submitting art. During these
-          tests we tracked completion rate and time, as well as errors they made and feedback on the
-          general process.
+          After the lo-fi prototype was created, we conducted five usability tests to ensure that
+          our designs were on the right path. This involved giving users five tasks to complete with
+          the prototype and understanding what their thoughts were, including creating an account,
+          creating a tour of art, finding art around you, and submitting art. During these tests we
+          tracked completion rate and time, as well as errors they made and feedback on the general
+          process.
         </p>
         <div className="bodyImgCol">
           <img alt="" src={tasktable} />
@@ -72,8 +71,8 @@ const AtlantaStreetArt = () => (
           included the overall layout of the art details screen as well as the process of account
           creation. We also originally had an idea for narrowing art by neighborhood, but realized
           this feature was not valuable and was relatively difficult to use. With the issues in
-          mind, I individually converted our lo-fidelity prototype into an interactive hi-fidelity
-          prototype with Sketch.
+          mind, I individually converted our lo-fi prototype into an interactive prototype with
+          Sketch.
         </p>
         <div className="bodyImgCol">
           <img alt="" src={asapui} />

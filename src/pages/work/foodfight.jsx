@@ -18,12 +18,12 @@ const FoodFight = () => (
         <h3 className="lead-in">A 2D action game made with Processing and Arduino.</h3>
       </div>
       <div className="col1">
-        <h4>Role</h4>
-        <h5>Game Designer and Developer</h5>
+        <h5>Role</h5>
+        <h4>Game Designer and Developer</h4>
       </div>
       <div className="col1">
-        <h4>Category</h4>
-        <h5>Game Design, UI</h5>
+        <h5>Category</h5>
+        <h4>Game Design, UI, Development</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">

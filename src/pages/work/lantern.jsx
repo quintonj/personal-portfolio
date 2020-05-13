@@ -16,12 +16,12 @@ const Lantern = () => (
         </h3>
       </div>
       <div className="col1">
-        <h4>Role</h4>
-        <h5>Front-end Engineering Intern</h5>
+        <h5>Role</h5>
+        <h4>Front-end Engineering Intern</h4>
       </div>
       <div className="col1">
-        <h4>Category</h4>
-        <h5>Front-end development, UI / UX</h5>
+        <h5>Category</h5>
+        <h4>Development, UI / UX</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">

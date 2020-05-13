@@ -17,12 +17,12 @@ const Wayfarer = () => (
         </h3>
       </div>
       <div className="col1">
-        <h4>Role</h4>
-        <h5>UX Designer</h5>
+        <h5>Role</h5>
+        <h4>UX Designer</h4>
       </div>
       <div className="col1">
-        <h4>Category</h4>
-        <h5>UI / UX</h5>
+        <h5>Category</h5>
+        <h4>UI / UX</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">

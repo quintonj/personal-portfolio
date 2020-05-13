@@ -112,7 +112,7 @@ LOWER RESOLUTION
 */
 @media screen and (min-width: 1530px) {
   .col1 {
-    grid-column: span 2;
+    grid-column: span 1;
   }
 
   .col2 {
@@ -207,7 +207,6 @@ h4 {
   margin-bottom: $space-md;
   line-height: $heading-line-height;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 h5 {

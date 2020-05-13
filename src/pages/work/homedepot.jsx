@@ -16,12 +16,12 @@ const HomeDepot = () => (
         <h3 className="lead-in">Worked as a UX designer at The Home Depot.</h3>
       </div>
       <div className="col1">
-        <h4>Role</h4>
-        <h5>UX Designer</h5>
+        <h5>Role</h5>
+        <h4>UX Designer</h4>
       </div>
       <div className="col1">
-        <h4>Category</h4>
-        <h5>UI / UX</h5>
+        <h5>Category</h5>
+        <h4>UI / UX</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">
@@ -68,11 +68,6 @@ const HomeDepot = () => (
           sessions, it was found that when customers asked about the status, the associates couldn’t
           get a response until up to 48 hours later.
         </p>
-        <span className="work-intro-quote" />
-        <h4>
-          Glad to finally have a way to track what‘s happening with repairs. This is fantastic.
-        </h4>
-        <p>- Tool Rental Center Associate</p>
         <p>
           Repair Tracker thus had the objective of being able to easily find the status of a given
           repair by looking up the tag number within a web app. This would allow associates to

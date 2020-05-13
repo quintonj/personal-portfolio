@@ -17,12 +17,12 @@ const Coffee = () => (
         </h3>
       </div>
       <div className="col1">
-        <h4>Role</h4>
-        <h5>Graphic Designer</h5>
+        <h5>Role</h5>
+        <h4>Designer</h4>
       </div>
       <div className="col1">
-        <h4>Category</h4>
-        <h5>Graphic Design, User Research</h5>
+        <h5>Category</h5>
+        <h4>Graphic Design, UX</h4>
       </div>
       <div className="col4">
         <div className="headerImgCol">
