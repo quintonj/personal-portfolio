@@ -119,7 +119,7 @@ const IndexPage = () => (
           <h4 className="projectWriting">
             Assisting Roadie in impacting the gig industry as a designer for their web app.
           </h4>
-          <Link className="caseLink" to="/work/homedepot">
+          <Link className="caseLink" to="/work/roadie">
             View Case Study
           </Link>
         </div>
