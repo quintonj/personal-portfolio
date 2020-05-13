@@ -106,6 +106,31 @@ const IndexPage = () => (
       Portfolio
     </h2>
 
+    {/* Roadie */}
+    <PortfolioItem>
+      <div className="wrapper">
+        <div className="col2">
+          <h3>
+            <Link to="/work/roadie">UX Designer - Roadie</Link>
+          </h3>
+          <h5 className="projectDesc"> UI / UX • September 2019 - Present</h5>
+        </div>
+        <div className="col2">
+          <h4 className="projectWriting">
+            Assisting Roadie in impacting the gig industry as a designer for the web experience.
+          </h4>
+          <Link className="caseLink" to="/work/roadie">
+            View Case Study
+          </Link>
+        </div>
+        <div className="col4">
+          <Link to="/work/roadie">
+            <img alt="" src={roadiethumbnail} />
+          </Link>
+        </div>
+      </div>
+    </PortfolioItem>
+
     {/* Home Depot */}
     <PortfolioItem>
       <div className="wrapper">
