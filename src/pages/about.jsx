@@ -61,8 +61,8 @@ const About = () => (
       <div>
         <h3>Software</h3>
         <p>
-          Sketch, InVision, Photoshop, Illustrator, InDesign, Android Studio, Unity, Axure, Git,
-          Google Analytics
+          Sketch, Figma, InVision, Photoshop, Illustrator, InDesign, Android Studio, Unity, Axure,
+          Git, Google Analytics
         </p>
       </div>
     </div>
