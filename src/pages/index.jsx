@@ -117,7 +117,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Assisting Roadie in impacting the gig history as a designer for their web app.
+            Assisting Roadie in impacting the gig industry as a designer for their web app.
           </h4>
           <Link className="caseLink" to="/work/homedepot">
             View Case Study

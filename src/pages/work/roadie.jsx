@@ -11,7 +11,9 @@ const Roadie = () => (
         <h1>Roadie - UX Designer</h1>
       </div>
       <div className="col2">
-        <h3 className="lead-in">Working as a UX Designer at Roadie with a focus on the web app.</h3>
+        <h3 className="lead-in">
+          Working as a UX Designer at Roadie with a focus on the web experience.
+        </h3>
       </div>
       <div className="col1">
         <h5>Role</h5>
