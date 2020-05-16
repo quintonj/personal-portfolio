@@ -55,17 +55,6 @@ const Roadie = () => (
           the site was responsive, and a revamping of the tip section during the process of creating
           a gig.
         </p>
-        <div className="bodyImgCol">
-          <img alt="" src={roadieflow} />
-        </div>
-        <p>
-          One change I had a significant role in was the inclusion of an instant payment feature.
-          This was a feature that was requested by numerous users throughout the lifespan of the
-          product. Allowing drivers to cash out their payment instantaneously would allow us to
-          compete with the likes of Uber and Lyft and ensure that drivers are paid when and how they
-          want. This case study will highlight my design process for taking this feature from a
-          simple user request to implementation.
-        </p>
       </div>
     </div>
   </Layout>

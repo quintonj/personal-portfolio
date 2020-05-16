@@ -58,21 +58,25 @@ const Wayfarer = () => (
         <div className="bodyImgCol">
           <img alt="" src={wayfarerflow} />
         </div>
+        <p>
+          I initially began with a flow of how the user would interact with the app, from account
+          creation to finding and submitting points of interest. From here, I had a good foundation
+          to create wireframes. With these wireframes, I was able to get feedback from my teammates
+          and prospective users and then transition into a high fidelity prototype to carry out
+          testing.
+        </p>
         <div className="bodyImgCol">
           <img alt="" src={wayfarerwireframe} />
         </div>
         <p>
           We then regrouped to carry out six usability tests that included the visual and auditory
           elements of the app. These tests allowed our team to understand a few misleading aspects.
-          A few participants were confused by the &#34;Activity&#34; screen and felt as though
-          previous activities would be shown there. As a result, the name for this screen was
-          changed to &#34;Start Trail&#34;. To test our auditory cues, we played the sounds for
-          participants and had them guess what the sound could signify. These sounds included
-          finding an overlook, a water source, a campsite, and many others. Ultimately, we made a
-          few adjustments to the sound and felt that having a tutorial would be a valuable addition
-          so that new users could quickly understand the various sounds. With these tests completed,
-          our team was able to organize a final visual design and set of auditory cues to report our
-          work.
+          To test our auditory cues, we played the sounds for participants and had them guess what
+          the sound could signify. These sounds included finding an overlook, a water source, a
+          campsite, and many others. Ultimately, we made a few adjustments to the sound and felt
+          that having a tutorial would be a valuable addition so that new users could quickly
+          understand the various sounds. With these tests completed, our team was able to organize a
+          final visual design and set of auditory cues to report our work.
         </p>
         <div className="bodyImgCol">
           <img alt="" src={wayfarerapp} />
