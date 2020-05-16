@@ -477,12 +477,14 @@ html {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
   height: auto;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: $space-md;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;

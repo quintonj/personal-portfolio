@@ -2,7 +2,9 @@ import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import wayfarer from '../../images/wayfarerthumbnail.png';
-import wayfarertaskflow from '../../images/wayfarertaskflow.png';
+import wayfarerflow from '../../images/wayfarerflow.png';
+import wayfarerwireframe from '../../images/wayfarerwireframe.png';
+import wayfarerapp from '../../images/wayfarerapp.png';
 
 const Wayfarer = () => (
   <Layout>
@@ -54,7 +56,10 @@ const Wayfarer = () => (
           visual piece of the app.
         </p>
         <div className="bodyImgCol">
-          <img alt="" src={wayfarertaskflow} />
+          <img alt="" src={wayfarerflow} />
+        </div>
+        <div className="bodyImgCol">
+          <img alt="" src={wayfarerwireframe} />
         </div>
         <p>
           We then regrouped to carry out six usability tests that included the visual and auditory
@@ -69,6 +74,9 @@ const Wayfarer = () => (
           our team was able to organize a final visual design and set of auditory cues to report our
           work.
         </p>
+        <div className="bodyImgCol">
+          <img alt="" src={wayfarerapp} />
+        </div>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           Working with an auditory-based interface was unique and offered one key insight for me:
