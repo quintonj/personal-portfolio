@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import roadie from '../../images/roadiethumbnail.png';
-import roadieflow from '../../images/roadieflow.png';
 
 const Roadie = () => (
   <Layout>
