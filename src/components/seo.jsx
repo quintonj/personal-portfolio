@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import { useStaticQuery, graphql } from 'gatsby';
 
 /**
  * SEO component to provide for better search engine rankings with site metadata
@@ -18,9 +18,9 @@ function SEO({ lang, meta, keywords, title }) {
         }
       }
     `
-  )
+  );
 
-  const metaDescription = "Quinton Johnson" || site.siteMetadata.description
+  const metaDescription = 'Quinton Johnson' || site.siteMetadata.description;
 
   return (
     <Helmet
@@ -73,20 +73,20 @@ function SEO({ lang, meta, keywords, title }) {
         )
         .concat(meta)}
     />
-  )
+  );
 }
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
-}
+};
 
 SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.string),
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
-}
+};
 
-export default SEO
+export default SEO;
