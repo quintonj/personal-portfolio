@@ -4,6 +4,7 @@ import SEO from '../../components/seo';
 import homedepot from '../../images/homedepotthumbnail.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
+import repairtracker from '../../images/repairtracker.png';
 import repairs from '../../images/repairs.png';
 import repairdetails from '../../images/repairdetails.png';
 
@@ -73,6 +74,9 @@ const HomeDepot = () => (
           sessions, it was found that when customers asked about the status, the associates couldn’t
           get a response until up to 48 hours later.
         </p>
+        <div className="bodyImgCol">
+          <img alt="" src={repairtracker} />
+        </div>
         <p>
           Repair Tracker thus had the objective of being able to easily find the status of a given
           repair by looking up the tag number within a web app. This would allow associates to
