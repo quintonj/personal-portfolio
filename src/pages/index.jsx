@@ -1,18 +1,18 @@
-import React from "react"
-import styled from "styled-components"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import "font-awesome/css/font-awesome.min.css"
-import me2 from "../images/me2.png"
-import roadiethumbnail from "../images/roadiethumbnail.png"
-import homedepotthumbnail from "../images/homedepotthumbnail.png"
-import wayfarerthumbnail from "../images/wayfarerthumbnail.png"
-import atlantastreetart from "../images/atlantastreetart.png"
-import lanternthumbnail from "../images/lantern.png"
-import foodfightthumbnail from "../images/foodfightfull.png"
-import starthumbnail from "../images/starthumbnail.png"
-import coffeethumbnail from "../images/coffeethumbnail.png"
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import 'font-awesome/css/font-awesome.min.css';
+import me2 from '../images/me2.png';
+import roadiethumbnail from '../images/roadiethumbnail.png';
+import homedepotthumbnail from '../images/homedepotthumbnail.png';
+import wayfarerthumbnail from '../images/wayfarerthumbnail.png';
+import atlantastreetart from '../images/atlantastreetart.png';
+import lanternthumbnail from '../images/lantern.png';
+import foodfightthumbnail from '../images/foodfightfull.png';
+import starthumbnail from '../images/starthumbnail.png';
+import coffeethumbnail from '../images/coffeethumbnail.png';
 
 // Hero Image Styling
 const Intro = styled.div`
@@ -49,7 +49,7 @@ const Intro = styled.div`
     }
   }
 }
-`
+`;
 
 // One portfolio item styling
 const PortfolioItem = styled.div`
@@ -65,17 +65,14 @@ const PortfolioItem = styled.div`
       margin-bottom: 20px;
     }
   }
-`
+`;
 
 /**
  * Home page for when a user first enters the site
  */
 const IndexPage = () => (
   <Layout>
-    <SEO
-      title="Quinton Johnson"
-      keywords={[`Quinton Johnson`, `UX`, `Designer`]}
-    />
+    <SEO title="Quinton Johnson" keywords={[`Quinton Johnson`, `UX`, `Designer`]} />
 
     {/* Hero Image */}
     <Intro>
@@ -89,10 +86,9 @@ const IndexPage = () => (
             </h1>
             <h3>UX Designer at Roadie.</h3>
             <h5>
-              I‘m a designer and developer based in Atlanta. I love connecting
-              with people and creating meaningful experiences that solve their
-              problems. I also love my dog, so sometimes I just like connecting
-              with him.
+              I‘m a designer and developer based in Atlanta. I love connecting with people and
+              creating meaningful experiences that solve their problems. I also love my dog, so
+              sometimes I just like connecting with him.
             </h5>
           </div>
         </div>
@@ -118,8 +114,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Assisting Roadie in impacting the gig industry as a designer for the
-            web experience.
+            Assisting Roadie in impacting the gig industry as a designer for the web experience.
           </h4>
           <Link className="caseLink" to="/work/roadie">
             View Case Study
@@ -144,8 +139,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Worked as a UX Designer at The Home Depot as a part of the
-            Enterprise UX team.
+            Worked as a UX Designer at The Home Depot as a part of the Enterprise UX team.
           </h4>
           <Link className="caseLink" to="/work/homedepot">
             View Case Study
@@ -170,8 +164,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Designed a mockup for an app with a gamified hiking experience that
-            utilizes audio cues.
+            Designed a mockup for an app with a gamified hiking experience that utilizes audio cues.
           </h4>
           <Link className="caseLink" to="/work/wayfarer">
             View Case Study
@@ -196,8 +189,7 @@ const IndexPage = () => (
         </div>
         <div className="col2">
           <h4 className="projectWriting">
-            Created an Android app that allows users to explore street art
-            throughout Atlanta.
+            Created an Android app that allows users to explore street art throughout Atlanta.
           </h4>
           <Link className="caseLink" to="/work/atlantastreetart">
             View Case Study
@@ -225,12 +217,10 @@ const IndexPage = () => (
           <Link to="/work/foodfight">Food Fight</Link>
         </h3>
         <h4 className="projectWriting">
-          Constructed a multiplayer action game that is controlled with two
-          custom Arduino controllers.
+          Constructed a multiplayer action game that is controlled with two custom Arduino
+          controllers.
         </h4>
-        <h5 className="projectDesc">
-          Game Design, UI / UX, Development • Fall 2017
-        </h5>
+        <h5 className="projectDesc">Game Design, UI / UX, Development • Fall 2017</h5>
       </div>
 
       {/* Lantern */}
@@ -242,8 +232,7 @@ const IndexPage = () => (
           <Link to="/work/lantern">Lantern - The Home Depot</Link>
         </h3>
         <h4 className="projectWriting">
-          Worked as a front-end engineering intern to develop an analytics
-          dashboard with React.js.
+          Worked as a front-end engineering intern to develop an analytics dashboard with React.js.
         </h4>
         <h5 className="projectDesc">Development, UI / UX • Summer 2017</h5>
       </div>
@@ -257,8 +246,8 @@ const IndexPage = () => (
           <Link to="/work/star">STAR</Link>
         </h3>
         <h4 className="projectWriting">
-          Developed an Android app that allows users that are hard of hearing to
-          have improved conversations with others.
+          Developed an Android app that allows users that are hard of hearing to have improved
+          conversations with others.
         </h4>
         <h5 className="projectDesc">Development, UI / UX • Spring 2017</h5>
       </div>
@@ -272,13 +261,12 @@ const IndexPage = () => (
           <Link to="/work/coffee">Guide to Brewing Coffee</Link>
         </h3>
         <h4 className="projectWriting">
-          Drew up a poster based off of several user research sessions using
-          ethnographic methods.
+          Drew up a poster based off of several user research sessions using ethnographic methods.
         </h4>
         <h5 className="projectDesc">Graphic Design, UX • Spring 2017</h5>
       </div>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
