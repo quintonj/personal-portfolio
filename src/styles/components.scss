@@ -2,6 +2,12 @@
 EXTRA STYLES FOR COMPONENTS
 */
 
+.extraProjects {
+  div {
+    margin-bottom: 50px;
+  }
+}
+
 .subSectionName {
   margin-top: 25px;
 }
@@ -41,6 +47,7 @@ EXTRA STYLES FOR COMPONENTS
 }
 
 .workContent {
+  margin-bottom: 50px;
   @media screen and (min-width: 801px) {
     margin-left: 15%;
     margin-right: 15%;

@@ -55,9 +55,6 @@ const Intro = styled.div`
 const PortfolioItem = styled.div`
   margin-bottom: 50px;
 
-  h4 {
-  }
-
   img:hover {
     opacity: 1;
     transition: 0.3s ease;
@@ -210,69 +207,65 @@ const IndexPage = () => (
     <h2 className="sectionHeader" id="portfolio">
       More Projects
     </h2>
-
-    <PortfolioItem>
-      <div className="wrapper">
-        {/* Food Fight */}
-        <div className="col2">
-          <Link to="/work/foodfight">
-            <img alt="" src={foodfightthumbnail} />
-          </Link>
-          <h3>
-            <Link to="/work/foodfight">Food Fight</Link>
-          </h3>
-          <h4 className="projectWriting">
-            Constructed a multiplayer action game that is controlled with two custom Arduino
-            controllers.
-          </h4>
-          <h5 className="projectDesc">Game Design, UI / UX, Development • Fall 2017</h5>
-        </div>
-
-        {/* Lantern */}
-        <div className="col2">
-          <Link to="/work/lantern">
-            <img alt="" src={lanternthumbnail} />
-          </Link>
-          <h3>
-            <Link to="/work/lantern">Lantern - The Home Depot</Link>
-          </h3>
-          <h4 className="projectWriting">
-            Worked as a front-end engineering intern to develop an analytics dashboard with
-            React.js.
-          </h4>
-          <h5 className="projectDesc">Development, UI / UX • Summer 2017</h5>
-        </div>
-
-        {/* STAR */}
-        <div className="col2">
-          <Link to="/work/star">
-            <img alt="" src={starthumbnail} />
-          </Link>
-          <h3>
-            <Link to="/work/star">STAR</Link>
-          </h3>
-          <h4 className="projectWriting">
-            Developed an Android app that allows users that are hard of hearing to have improved
-            conversations with others.
-          </h4>
-          <h5 className="projectDesc">Development, UI / UX • Spring 2017</h5>
-        </div>
-
-        {/* Coffee */}
-        <div className="col2">
-          <Link to="/work/coffee">
-            <img alt="" src={coffeethumbnail} />
-          </Link>
-          <h3>
-            <Link to="/work/coffee">Guide to Brewing Coffee</Link>
-          </h3>
-          <h4 className="projectWriting">
-            Drew up a poster based off of several user research sessions using ethnographic methods.
-          </h4>
-          <h5 className="projectDesc">Graphic Design, UX • Spring 2017</h5>
-        </div>
+    <div className="wrapper extraProjects">
+      {/* Food Fight */}
+      <div className="col2 extraProject">
+        <Link to="/work/foodfight">
+          <img alt="" src={foodfightthumbnail} />
+        </Link>
+        <h3>
+          <Link to="/work/foodfight">Food Fight</Link>
+        </h3>
+        <h4 className="projectWriting">
+          Constructed a multiplayer action game that is controlled with two custom Arduino
+          controllers.
+        </h4>
+        <h5 className="projectDesc">Game Design, UI / UX, Development • Fall 2017</h5>
       </div>
-    </PortfolioItem>
+
+      {/* Lantern */}
+      <div className="col2 extraProject">
+        <Link to="/work/lantern">
+          <img alt="" src={lanternthumbnail} />
+        </Link>
+        <h3>
+          <Link to="/work/lantern">Lantern - The Home Depot</Link>
+        </h3>
+        <h4 className="projectWriting">
+          Worked as a front-end engineering intern to develop an analytics dashboard with React.js.
+        </h4>
+        <h5 className="projectDesc">Development, UI / UX • Summer 2017</h5>
+      </div>
+
+      {/* STAR */}
+      <div className="col2 extraProject">
+        <Link to="/work/star">
+          <img alt="" src={starthumbnail} />
+        </Link>
+        <h3>
+          <Link to="/work/star">STAR</Link>
+        </h3>
+        <h4 className="projectWriting">
+          Developed an Android app that allows users that are hard of hearing to have improved
+          conversations with others.
+        </h4>
+        <h5 className="projectDesc">Development, UI / UX • Spring 2017</h5>
+      </div>
+
+      {/* Coffee */}
+      <div className="col2 extraProject">
+        <Link to="/work/coffee">
+          <img alt="" src={coffeethumbnail} />
+        </Link>
+        <h3>
+          <Link to="/work/coffee">Guide to Brewing Coffee</Link>
+        </h3>
+        <h4 className="projectWriting">
+          Drew up a poster based off of several user research sessions using ethnographic methods.
+        </h4>
+        <h5 className="projectDesc">Graphic Design, UX • Spring 2017</h5>
+      </div>
+    </div>
   </Layout>
 );
 
