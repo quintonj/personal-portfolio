@@ -4,6 +4,7 @@ import SEO from '../../components/seo';
 import homedepot from '../../images/homedepotthumbnail.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
+import repairs from '../../images/repairs.png';
 
 const HomeDepot = () => (
   <Layout>
@@ -113,9 +114,11 @@ const HomeDepot = () => (
           successfully able to translate a paper prototype to a fully functioning Sketch prototype.
           I then led a design critique to solicit feedback from my teammates on the Enterprise UX
           team. During this time, I also conducted 8 usability tests with technicians in Home Depot
-          stores. All of this allowed personal growth for me as a designer, as it gave me the
-          opportunity to collaborate with my peers and learn from others.
+          stores.
         </p>
+        <div className="bodyImgCol">
+          <img alt="" src={repairs} />
+        </div>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           At Home Depot, the Enterprise UX team at large gave me the opportunity to consistently

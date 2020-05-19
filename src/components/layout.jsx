@@ -14,8 +14,8 @@ const Content = styled.div`
   margin-bottom: 50px;
 
   @media screen and (min-width: 1275px) {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 `;
 
