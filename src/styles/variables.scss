@@ -1,0 +1,80 @@
+@import url("https://use.typekit.net/pag2idg.css");
+
+/* 
+CUSTOM FONTS 
+*/
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham"), url("../assets/GothamNarrow-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Bold"),
+    url("../assets/GothamNarrow-Bold.woff") format("woff");
+}
+
+/* 
+TYPOGRAPHY 
+*/
+$font-primary: "Gotham Bold", sans-serif;
+$font-secondary: "Gotham", sans-serif;
+$font-tertiary: "freight-text-pro", serif;
+
+/* 
+COLORS 
+*/
+$color-primary: #fd5523;
+$color-secondary: #1fe0ac;
+$color-headings: #252525;
+$color-text: rgba(0, 0, 0, 0.84);
+$color-muted-text: #999999;
+
+/* 
+TEXT SCALE 
+*/
+$text-base-size: 1em;
+$text-scale-ratio: 1.15;
+
+/* 
+TEXT SIZES 
+*/
+$text-xs: 1em / $text-scale-ratio * $text-scale-ratio;
+$text-sm: 1em / $text-scale-ratio;
+$text-md: 1em * $text-scale-ratio;
+$text-lg: 1em * $text-scale-ratio * $text-scale-ratio;
+$text-xl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio;
+$text-xxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+  $text-scale-ratio;
+$text-xxxl: 1em * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+  $text-scale-ratio * $text-scale-ratio;
+
+/* 
+LINE HEIGHT 
+*/
+$heading-line-height: 1.2em;
+$body-line-height: 1.75em;
+$space-md: 0.75em;
+
+/* 
+EXPORT VARIABLES 
+*/
+:export {
+  fontprimary: $font-primary;
+  fontsecondary: $font-secondary;
+  fonttertiary: $font-tertiary;
+  colorprimary: $color-primary;
+  colorsecondary: $color-secondary;
+  colormutedtext: $color-muted-text;
+  colorheadings: $color-headings;
+  textbasesize: $text-base-size;
+  textsm: $text-sm;
+  textmd: $text-md;
+  textlg: $text-lg;
+  textxl: $text-xl;
+  textxxl: $text-xxl;
+}
