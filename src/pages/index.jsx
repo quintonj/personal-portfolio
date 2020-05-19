@@ -209,7 +209,7 @@ const IndexPage = () => (
     </h2>
     <div className="wrapper extraProjects">
       {/* Food Fight */}
-      <div className="col2 extraProject">
+      <div className="col2">
         <Link to="/work/foodfight">
           <img alt="" src={foodfightthumbnail} />
         </Link>
@@ -224,7 +224,7 @@ const IndexPage = () => (
       </div>
 
       {/* Lantern */}
-      <div className="col2 extraProject">
+      <div className="col2">
         <Link to="/work/lantern">
           <img alt="" src={lanternthumbnail} />
         </Link>
@@ -238,7 +238,7 @@ const IndexPage = () => (
       </div>
 
       {/* STAR */}
-      <div className="col2 extraProject">
+      <div className="col2">
         <Link to="/work/star">
           <img alt="" src={starthumbnail} />
         </Link>
@@ -253,7 +253,7 @@ const IndexPage = () => (
       </div>
 
       {/* Coffee */}
-      <div className="col2 extraProject">
+      <div className="col2">
         <Link to="/work/coffee">
           <img alt="" src={coffeethumbnail} />
         </Link>
