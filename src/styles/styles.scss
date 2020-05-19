@@ -106,13 +106,17 @@ LOWER RESOLUTION
     grid-column: span 5;
   }
 }
+
+/*
+Higher RESOLUTION
+*/
 @media screen and (min-width: 1778px) {
   .col1 {
     grid-column: span 1;
   }
 
   .col2 {
-    grid-column: span 3;
+    grid-column: span 1;
   }
 
   .col4 {
