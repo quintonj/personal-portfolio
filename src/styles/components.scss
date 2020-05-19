@@ -3,6 +3,17 @@ EXTRA STYLES FOR COMPONENTS
 */
 
 .extraProjects {
+  img:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+
+  a {
+    img {
+      margin-bottom: 20px;
+    }
+  }
+
   div {
     margin-bottom: 50px;
   }
