@@ -1,8 +1,15 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
+import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import me from '../images/me.jpg';
+
+// One portfolio item styling
+const SkillsSection = styled.div`
+  margin-top: 50px;
+  margin-bottom: 50px;
+`;
 
 /**
  * About me page
@@ -43,29 +50,32 @@ const About = () => (
         </p>
       </div>
     </div>
-    <div className="col4">
-      <h2 className="sectionHeader">Skills</h2>
-    </div>
-    <div className="wrapper">
-      <div>
-        <h3>Development</h3>
-        <p>HTML, CSS, JavaScript, React.js, Java, Python, C, C#</p>
+    <SkillsSection>
+      <div className="col4">
+        <h2 className="sectionHeader">Skills</h2>
       </div>
-      <div>
-        <h3>UI / UX</h3>
-        <p>
-          Prototyping, Usability Testing, Interviewing, Observing, Storyboarding, Developing
-          Personas, Journey Mapping
-        </p>
+
+      <div className="wrapper">
+        <div className="col2">
+          <h3>UI / UX</h3>
+          <p>
+            Prototyping, Usability Testing, Interviewing, Observing, Storyboarding, Developing
+            Personas, Journey Mapping
+          </p>
+        </div>
+        <div className="col2">
+          <h3>Software</h3>
+          <p>
+            Sketch, Figma, InVision, Photoshop, Illustrator, InDesign, Android Studio, Unity, Axure,
+            Git, Google Analytics
+          </p>
+        </div>
+        <div className="col2">
+          <h3>Development</h3>
+          <p>HTML, CSS, JavaScript, React.js, Java, Python, C, C#</p>
+        </div>
       </div>
-      <div>
-        <h3>Software</h3>
-        <p>
-          Sketch, Figma, InVision, Photoshop, Illustrator, InDesign, Android Studio, Unity, Axure,
-          Git, Google Analytics
-        </p>
-      </div>
-    </div>
+    </SkillsSection>
   </Layout>
 );
 

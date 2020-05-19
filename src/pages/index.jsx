@@ -16,12 +16,8 @@ import coffeethumbnail from '../images/coffeethumbnail.png';
 
 // Hero Image Styling
 const Intro = styled.div`
-  margin-bottom: 5%;
   background-color: #1fe0ac;
-
-  @media screen and (max-width: 600px) {
-    margin-bottom: 50px;
-  }
+  margin-bottom: 50px;
 
   div {
     div {
@@ -29,22 +25,28 @@ const Intro = styled.div`
         h3 {
           text-transform: none;
         }
-        padding: 50px;
+        
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
 
-        @media screen and (min-width: 1100px) {
-          padding: 80px;
+        @media screen and (min-width: 900px) {
+          padding-left: 80px;
+          padding-right: 80px;
+          padding-top: 0px;
         }
       }
     }
 
     img {
       max-width: 75%;
-      margin-bottom: 60px;
+      margin-top: 100px;
+      margin-bottom: 100px;
 
-      @media screen and (min-width: 1100px) {
+      @media screen and (max-width: 900px) {
         max-width: 75%;
-        margin-bottom: 60px;
-        margin-top: 100px;
+        margin-top: 0px;
+        margin-bottom: 50px;
       }
     }
   }
@@ -77,7 +79,7 @@ const IndexPage = () => (
     {/* Hero Image */}
     <Intro>
       <div className="wrapper">
-        <div className="headerCol">
+        <div className="col2 hero">
           <div>
             <h1>
               Quinton
@@ -92,7 +94,7 @@ const IndexPage = () => (
             </h5>
           </div>
         </div>
-        <div className="headerCol">
+        <div className="col2 hero">
           <img alt="" src={me2} />
         </div>
       </div>

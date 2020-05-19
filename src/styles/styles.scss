@@ -13,10 +13,36 @@ html {
 CSS GRID
 */
 .wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: auto 1fr auto;
   display: grid;
   grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 1 auto;
+}
+
+.col1 {
+  grid-column: span 1;
+}
+
+.col2 {
+  grid-column: span 2;
+
+  @media all and (max-width: 900px) {
+    grid-column: span 4;
+  }
+}
+
+.col4 {
+  grid-column: span 4;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    text-align: center;
+  }
 }
 
 .headerImgCol {
@@ -33,94 +59,6 @@ CSS GRID
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.headerCol {
-  grid-column: span 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
-
-/*
-MOBILE
-*/
-.col1 {
-  grid-column: span 2;
-}
-
-.col2 {
-  grid-column: span 2;
-}
-
-.col4 {
-  grid-column: span 2;
-}
-
-/*
-TABLET
-*/
-@media screen and (min-width: 601px) {
-  .col1 {
-    grid-column: span 1;
-  }
-
-  .col2 {
-    grid-column: span 2;
-  }
-
-  .col4 {
-    grid-column: span 2;
-  }
-}
-
-/*
-LOWER RESOLUTION
-*/
-@media screen and (min-width: 801px) {
-  .col1 {
-    grid-column: span 1;
-  }
-
-  .col2 {
-    grid-column: span 2;
-  }
-
-  .col4 {
-    grid-column: span 5;
-  }
-}
-
-/*
-Higher RESOLUTION
-*/
-@media screen and (min-width: 1778px) {
-  .col1 {
-    grid-column: span 1;
-  }
-
-  .col2 {
-    grid-column: span 1;
-  }
-
-  .col4 {
-    grid-column: span 6;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  .col1 {
-    grid-column: span 2;
-  }
-
-  .col2 {
-    grid-column: span 3;
-  }
-
-  .col4 {
-    grid-column: 1 / -1;
-  }
 }
 
 /*
