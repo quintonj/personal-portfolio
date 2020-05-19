@@ -10,18 +10,6 @@ EXTRA STYLES FOR COMPONENTS
   margin-top: 50px;
 }
 
-.work-intro-quote::before {
-  content: '"';
-  position: relative;
-  font-size: 100px;
-  opacity: 0.2;
-  top: 65px;
-  left: -30px;
-  font-family: $font-primary;
-  color: $color-headings;
-  font-weight: 400;
-}
-
 .lead-in {
   color: $color-muted-text;
   font-family: $font-secondary;
@@ -61,13 +49,4 @@ EXTRA STYLES FOR COMPONENTS
 
 .caseLink {
   font-size: $text-sm;
-}
-
-.nextButton {
-  color: $color-primary;
-  border: 2px solid $color-primary;
-  text-align: center;
-  margin-left: 40%;
-  width: 60%;
-  padding: 10px;
 }
