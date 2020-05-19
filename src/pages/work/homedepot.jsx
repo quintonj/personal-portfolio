@@ -5,6 +5,7 @@ import homedepot from '../../images/homedepotthumbnail.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
 import repairs from '../../images/repairs.png';
+import repairdetails from '../../images/repairdetails.png';
 
 const HomeDepot = () => (
   <Layout>
@@ -118,6 +119,9 @@ const HomeDepot = () => (
         </p>
         <div className="bodyImgCol">
           <img alt="" src={repairs} />
+        </div>
+        <div className="bodyImgCol">
+          <img alt="" src={repairdetails} />
         </div>
         <h2 className="sectionName">The Reflection</h2>
         <p>
