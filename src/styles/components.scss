@@ -46,18 +46,22 @@ EXTRA STYLES FOR COMPONENTS
   }
 }
 
+// Image sections of site
 .headerSection {
   margin-left: 20px;
   margin-right: 20px;
+
   @media screen and (min-width: 1000px) {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
 
+// Main writing sections of site
 .contentSection {
   margin-left: 20px;
   margin-right: 20px;
+
   @media screen and (min-width: 1000px) {
     margin-left: 120px;
     margin-right: 120px;
@@ -67,6 +71,7 @@ EXTRA STYLES FOR COMPONENTS
 // Main writing in case studies
 .workContent {
   margin-bottom: 50px;
+
   @media screen and (min-width: 1000px) {
     margin-left: 15%;
     margin-right: 15%;
