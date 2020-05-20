@@ -1,5 +1,4 @@
 @import './variables.scss';
-@import './components.scss';
 
 /*
 BASE GLOBAL STYLES
@@ -62,6 +61,126 @@ CSS GRID
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/*
+REUSED STYLINGS
+*/
+
+// Header names on Index and About
+.sectionHeader {
+  border-left: 5px solid $color-primary;
+  padding-left: 20px;
+}
+
+// Description of project on Index
+.projectDesc {
+  color: $color-muted-text;
+}
+
+// Link to view case studies on Index
+.caseLink {
+  font-size: $text-sm;
+}
+
+// Extra projects section in Index
+.extraProjects {
+  img:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+
+  a {
+    img {
+      margin-bottom: 20px;
+    }
+  }
+
+  div {
+    margin-bottom: 50px;
+  }
+}
+
+// Footer links
+.footerText {
+  color: $color-muted-text;
+  font-size: $text-base-size;
+
+  a:visited {
+    color: $color-muted-text;
+  }
+}
+
+// Image sections of site
+.headerSection {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @media screen and (min-width: 1000px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+// Main writing sections of site
+.contentSection {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @media screen and (min-width: 1000px) {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+// Main writing in case studies
+.workContent {
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 1000px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+// Description of project in case studies
+.lead-in {
+  color: $color-muted-text;
+  font-family: $font-secondary;
+  text-transform: none;
+}
+
+// Full section names
+.sectionName {
+  margin-top: 50px;
+}
+
+// Subheaders in project case studies
+.subSectionName {
+  margin-top: 25px;
+}
+
+// Description of project in case studies
+.projectWriting {
+  font-size: $text-base-size;
+  color: $color-muted-text;
+  text-transform: none;
+}
+
+// Prototype iFrame
+.iframeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .resp-iframe {
+    border: 0px;
+    width: 100%;
+    height: 750px;
+  }
 }
 
 /*
