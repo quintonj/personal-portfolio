@@ -24,13 +24,16 @@ const SkillsSection = styled.div`
 const About = () => (
   <Layout>
     <SEO title="About" />
+
     <div className="wrapper headerSection">
+      <div className="col4">
+        <h2 className="sectionHeader">About Me</h2>
+      </div>
       <div className="col2">
         <img alt="" src={me} />
       </div>
       <div className="col2">
         <AboutSection>
-          <h2 className="sectionHeader">About Me</h2>
           <p>
             Born and raised in Atlanta, I attended the Georgia Institute of Technology where I
             graduated in 2018 with a B.S. in Computer Science and a minor in Industrial Design. I am
