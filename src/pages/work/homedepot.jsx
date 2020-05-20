@@ -65,9 +65,6 @@ const HomeDepot = () => (
         <div className="bodyImgCol">
           <img alt="" src={persona} />
         </div>
-        <div className="bodyImgCol">
-          <img alt="" src={fleetjourney} />
-        </div>
         <h4 className="subSectionName">Repair Depot</h4>
         <p>
           The previous method of maintaining repairs for Home Depot was cumbersome, unintuitive, and
@@ -78,7 +75,9 @@ const HomeDepot = () => (
           launched to all stores with this functionality, with additional features being added in
           biweekly sprints to address associate feedback.
         </p>
-
+        <div className="bodyImgCol">
+          <img alt="" src={fleetjourney} />
+        </div>
         <p>
           When I first joined the Repair team, Repair Depot was only in one store with limited
           functionality. I began the undertaking of developing research, conducting interviews, and
