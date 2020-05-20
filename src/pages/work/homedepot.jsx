@@ -55,9 +55,6 @@ const HomeDepot = () => (
           as needed.
         </p>
         <h2 className="sectionName">The Process</h2>
-        <div className="bodyImgCol">
-          <img alt="" src={persona} />
-        </div>
         <p>
           As a result of having three main areas of focus within my product experience group that
           revolved around repair, it was necessary for me to understand our main user: a Home Depot
@@ -65,44 +62,23 @@ const HomeDepot = () => (
           improvement, and how the work I was doing was having an impact on people‘s daily lives.
           This also gave me the opportunity to design better experiences within our products.
         </p>
-        <h4 className="subSectionName">Repair Tracker</h4>
-        <p>
-          An issue in which numerous associates had within Home Depot stores was locating repairs.
-          This is due to certain stores lacking a Tool Rental Center, and therefore, some tools need
-          to be shipped out for repair. In order to track the location and status of the repair,
-          associates used to have to contact multiple parties to figure out where the tool is. This
-          caused issues when customers had dropped off tools and returned to the store after a
-          period of time to figure out the status of their repair. Through multiple research
-          sessions, it was found that when customers asked about the status, the associates couldn’t
-          get a response until up to 48 hours later.
-        </p>
         <div className="bodyImgCol">
-          <img alt="" src={repairtracker} />
+          <img alt="" src={persona} />
         </div>
-        <p>
-          Repair Tracker thus had the objective of being able to easily find the status of a given
-          repair by looking up the tag number within a web app. This would allow associates to
-          search a tag and see notes, updates, and have the ability to contact necessary parties
-          without having to wait for multiple days to receive an answer. I held responsibility in
-          designing Repair Tracker and conducting a total of 8 usability tests, including three in a
-          Home Depot UX Testing lab. I also held numerous user research sessions to ensure pain
-          points were confirmed as well as to ensure all necessary stakeholders were included. Since
-          my assistance, the Repair Tracker application has been launched to all of Home Depot‘s
-          2000+ stores.
-        </p>
-        <h4 className="subSectionName">Repair Depot</h4>
-        <p>
-          The current method of maintaining repairs for Home Depot is cumbersome, unintuitive, and
-          requires a multitude of systems. The main goal of Repair Depot is to replace these systems
-          with a singular app that is able to accomplish the management of repairs and ordering
-          parts. Since joining the team, I led efforts to add the functionality of maintaining
-          inventory, ordering parts, and viewing order history. Repair Depot has been launched to
-          all stores with this functionality, with additional features being added in biweekly
-          sprints to address associate feedback.
-        </p>
         <div className="bodyImgCol">
           <img alt="" src={fleetjourney} />
         </div>
+        <h4 className="subSectionName">Repair Depot</h4>
+        <p>
+          The previous method of maintaining repairs for Home Depot was cumbersome, unintuitive, and
+          required a multitude of systems. The main goal of Repair Depot was to replace these
+          systems with a singular app that is able to accomplish the management of repairs and
+          ordering parts. Since joining the team, I led efforts to add the functionality of
+          maintaining inventory, ordering parts, and viewing order history. Repair Depot has been
+          launched to all stores with this functionality, with additional features being added in
+          biweekly sprints to address associate feedback.
+        </p>
+
         <p>
           When I first joined the Repair team, Repair Depot was only in one store with limited
           functionality. I began the undertaking of developing research, conducting interviews, and
@@ -129,6 +105,31 @@ const HomeDepot = () => (
         <div className="bodyImgCol">
           <img alt="" src={repairdetails} />
         </div>
+        <h4 className="subSectionName">Repair Tracker</h4>
+        <p>
+          An issue in which numerous associates had within Home Depot stores was locating repairs.
+          This is due to certain stores lacking a Tool Rental Center, and therefore, some tools need
+          to be shipped out for repair. In order to track the location and status of the repair,
+          associates used to have to contact multiple parties to figure out where the tool is. This
+          caused issues when customers had dropped off tools and returned to the store after a
+          period of time to figure out the status of their repair. Through multiple research
+          sessions, it was found that when customers asked about the status, the associates couldn’t
+          get a response until up to 48 hours later.
+        </p>
+        <div className="bodyImgCol">
+          <img alt="" src={repairtracker} />
+        </div>
+        <p>
+          Repair Tracker thus had the objective of being able to easily find the status of a given
+          repair by looking up the tag number within a web app. This would allow associates to
+          search a tag and see notes, updates, and have the ability to contact necessary parties
+          without having to wait for multiple days to receive an answer. I held responsibility in
+          designing Repair Tracker and conducting a total of 8 usability tests, including three in a
+          Home Depot UX Testing lab. I also held numerous user research sessions to ensure pain
+          points were confirmed as well as to ensure all necessary stakeholders were included. Since
+          my assistance, the Repair Tracker application has been launched to all of Home Depot‘s
+          2000+ stores.
+        </p>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           At Home Depot, the Enterprise UX team at large gave me the opportunity to consistently
