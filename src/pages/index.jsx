@@ -17,7 +17,14 @@ import coffeethumbnail from '../images/coffeethumbnail.png';
 // Hero Image Styling
 const Intro = styled.div`
   background-color: #1fe0ac;
-  margin-bottom: 50px;
+  margin-bottom: 95px;
+  margin-left: 20px;
+  margin-right: 20px;
+  @media all and (min-width: 1000px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
 
   div {
     div {
@@ -56,6 +63,12 @@ const Intro = styled.div`
 // One portfolio item styling
 const PortfolioItem = styled.div`
   margin-bottom: 50px;
+
+  img {
+    @media all and (max-width: 1000px) {
+      margin-top: 20px;
+    }
+  }
 
   img:hover {
     opacity: 1;
@@ -99,173 +112,176 @@ const IndexPage = () => (
         </div>
       </div>
     </Intro>
+    <div className="contentSection">
+      {/* Portfolio Section */}
+      <h2 className="sectionHeader" id="portfolio">
+        Portfolio
+      </h2>
 
-    {/* Portfolio Section */}
-    <h2 className="sectionHeader" id="portfolio">
-      Portfolio
-    </h2>
+      {/* Roadie */}
+      <PortfolioItem>
+        <div className="wrapper">
+          <div className="col2">
+            <h3>
+              <Link to="/work/roadie">UX Designer - Roadie</Link>
+            </h3>
+            <h5 className="projectDesc"> UI / UX • September 2019 - Present</h5>
+          </div>
+          <div className="col2">
+            <h4 className="projectWriting">
+              Assisting Roadie in impacting the gig industry as a designer for the web experience.
+            </h4>
+            <Link className="caseLink" to="/work/roadie">
+              View Case Study
+            </Link>
+          </div>
+          <div className="col4">
+            <Link to="/work/roadie">
+              <img alt="" src={roadiethumbnail} />
+            </Link>
+          </div>
+        </div>
+      </PortfolioItem>
 
-    {/* Roadie */}
-    <PortfolioItem>
-      <div className="wrapper">
+      {/* Home Depot */}
+      <PortfolioItem>
+        <div className="wrapper">
+          <div className="col2">
+            <h3>
+              <Link to="/work/homedepot">UX Designer - The Home Depot</Link>
+            </h3>
+            <h5 className="projectDesc"> UI / UX • June 2018 - September 2019</h5>
+          </div>
+          <div className="col2">
+            <h4 className="projectWriting">
+              Worked as a UX Designer at The Home Depot as a part of the Enterprise UX team.
+            </h4>
+            <Link className="caseLink" to="/work/homedepot">
+              View Case Study
+            </Link>
+          </div>
+          <div className="col4">
+            <Link to="/work/homedepot">
+              <img alt="" src={homedepotthumbnail} />
+            </Link>
+          </div>
+        </div>
+      </PortfolioItem>
+
+      {/* Wayfarer */}
+      <PortfolioItem>
+        <div className="wrapper">
+          <div className="col2">
+            <h3>
+              <Link to="/work/wayfarer">Wayfarer Mockup</Link>
+            </h3>
+            <h5 className="projectDesc">UI / UX • Fall 2017</h5>
+          </div>
+          <div className="col2">
+            <h4 className="projectWriting">
+              Designed a mockup for an app with a gamified hiking experience that utilizes audio
+              cues.
+            </h4>
+            <Link className="caseLink" to="/work/wayfarer">
+              View Case Study
+            </Link>
+          </div>
+          <div className="col4">
+            <Link to="/work/wayfarer">
+              <img alt="" src={wayfarerthumbnail} />
+            </Link>
+          </div>
+        </div>
+      </PortfolioItem>
+
+      {/* Atlanta Street Art Project */}
+      <PortfolioItem>
+        <div className="wrapper">
+          <div className="col2">
+            <h3>
+              <Link to="/work/atlantastreetart">Atlanta Street Art Project</Link>
+            </h3>
+            <h5 className="projectDesc">UI / UX, Development • Spring 2017</h5>
+          </div>
+          <div className="col2">
+            <h4 className="projectWriting">
+              Created an Android app that allows users to explore street art throughout Atlanta.
+            </h4>
+            <Link className="caseLink" to="/work/atlantastreetart">
+              View Case Study
+            </Link>
+          </div>
+          <div className="col4">
+            <Link to="/work/atlantastreetart">
+              <img alt="" src={atlantastreetart} />
+            </Link>
+          </div>
+        </div>
+      </PortfolioItem>
+
+      {/* More Projects Section */}
+      <h2 className="sectionHeader" id="portfolio">
+        More Projects
+      </h2>
+      <div className="wrapper extraProjects">
+        {/* Food Fight */}
         <div className="col2">
+          <Link to="/work/foodfight">
+            <img alt="" src={foodfightthumbnail} />
+          </Link>
           <h3>
-            <Link to="/work/roadie">UX Designer - Roadie</Link>
+            <Link to="/work/foodfight">Food Fight</Link>
           </h3>
-          <h5 className="projectDesc"> UI / UX • September 2019 - Present</h5>
-        </div>
-        <div className="col2">
           <h4 className="projectWriting">
-            Assisting Roadie in impacting the gig industry as a designer for the web experience.
+            Constructed a multiplayer action game that is controlled with two custom Arduino
+            controllers.
           </h4>
-          <Link className="caseLink" to="/work/roadie">
-            View Case Study
-          </Link>
+          <h5 className="projectDesc">Game Design, UI / UX, Development • Fall 2017</h5>
         </div>
-        <div className="col4">
-          <Link to="/work/roadie">
-            <img alt="" src={roadiethumbnail} />
-          </Link>
-        </div>
-      </div>
-    </PortfolioItem>
 
-    {/* Home Depot */}
-    <PortfolioItem>
-      <div className="wrapper">
+        {/* Lantern */}
         <div className="col2">
+          <Link to="/work/lantern">
+            <img alt="" src={lanternthumbnail} />
+          </Link>
           <h3>
-            <Link to="/work/homedepot">UX Designer - The Home Depot</Link>
+            <Link to="/work/lantern">Lantern - The Home Depot</Link>
           </h3>
-          <h5 className="projectDesc"> UI / UX • June 2018 - September 2019</h5>
-        </div>
-        <div className="col2">
           <h4 className="projectWriting">
-            Worked as a UX Designer at The Home Depot as a part of the Enterprise UX team.
+            Worked as a front-end engineering intern to develop an analytics dashboard with
+            React.js.
           </h4>
-          <Link className="caseLink" to="/work/homedepot">
-            View Case Study
-          </Link>
+          <h5 className="projectDesc">Development, UI / UX • Summer 2017</h5>
         </div>
-        <div className="col4">
-          <Link to="/work/homedepot">
-            <img alt="" src={homedepotthumbnail} />
-          </Link>
-        </div>
-      </div>
-    </PortfolioItem>
 
-    {/* Wayfarer */}
-    <PortfolioItem>
-      <div className="wrapper">
+        {/* STAR */}
         <div className="col2">
+          <Link to="/work/star">
+            <img alt="" src={starthumbnail} />
+          </Link>
           <h3>
-            <Link to="/work/wayfarer">Wayfarer Mockup</Link>
+            <Link to="/work/star">STAR</Link>
           </h3>
-          <h5 className="projectDesc">UI / UX • Fall 2017</h5>
-        </div>
-        <div className="col2">
           <h4 className="projectWriting">
-            Designed a mockup for an app with a gamified hiking experience that utilizes audio cues.
+            Developed an Android app that allows users that are hard of hearing to have improved
+            conversations with others.
           </h4>
-          <Link className="caseLink" to="/work/wayfarer">
-            View Case Study
-          </Link>
+          <h5 className="projectDesc">Development, UI / UX • Spring 2017</h5>
         </div>
-        <div className="col4">
-          <Link to="/work/wayfarer">
-            <img alt="" src={wayfarerthumbnail} />
-          </Link>
-        </div>
-      </div>
-    </PortfolioItem>
 
-    {/* Atlanta Street Art Project */}
-    <PortfolioItem>
-      <div className="wrapper">
+        {/* Coffee */}
         <div className="col2">
+          <Link to="/work/coffee">
+            <img alt="" src={coffeethumbnail} />
+          </Link>
           <h3>
-            <Link to="/work/atlantastreetart">Atlanta Street Art Project</Link>
+            <Link to="/work/coffee">Guide to Brewing Coffee</Link>
           </h3>
-          <h5 className="projectDesc">UI / UX, Development • Spring 2017</h5>
-        </div>
-        <div className="col2">
           <h4 className="projectWriting">
-            Created an Android app that allows users to explore street art throughout Atlanta.
+            Drew up a poster based off of several user research sessions using ethnographic methods.
           </h4>
-          <Link className="caseLink" to="/work/atlantastreetart">
-            View Case Study
-          </Link>
+          <h5 className="projectDesc">Graphic Design, UX • Spring 2017</h5>
         </div>
-        <div className="col4">
-          <Link to="/work/atlantastreetart">
-            <img alt="" src={atlantastreetart} />
-          </Link>
-        </div>
-      </div>
-    </PortfolioItem>
-
-    {/* More Projects Section */}
-    <h2 className="sectionHeader" id="portfolio">
-      More Projects
-    </h2>
-    <div className="wrapper extraProjects">
-      {/* Food Fight */}
-      <div className="col2">
-        <Link to="/work/foodfight">
-          <img alt="" src={foodfightthumbnail} />
-        </Link>
-        <h3>
-          <Link to="/work/foodfight">Food Fight</Link>
-        </h3>
-        <h4 className="projectWriting">
-          Constructed a multiplayer action game that is controlled with two custom Arduino
-          controllers.
-        </h4>
-        <h5 className="projectDesc">Game Design, UI / UX, Development • Fall 2017</h5>
-      </div>
-
-      {/* Lantern */}
-      <div className="col2">
-        <Link to="/work/lantern">
-          <img alt="" src={lanternthumbnail} />
-        </Link>
-        <h3>
-          <Link to="/work/lantern">Lantern - The Home Depot</Link>
-        </h3>
-        <h4 className="projectWriting">
-          Worked as a front-end engineering intern to develop an analytics dashboard with React.js.
-        </h4>
-        <h5 className="projectDesc">Development, UI / UX • Summer 2017</h5>
-      </div>
-
-      {/* STAR */}
-      <div className="col2">
-        <Link to="/work/star">
-          <img alt="" src={starthumbnail} />
-        </Link>
-        <h3>
-          <Link to="/work/star">STAR</Link>
-        </h3>
-        <h4 className="projectWriting">
-          Developed an Android app that allows users that are hard of hearing to have improved
-          conversations with others.
-        </h4>
-        <h5 className="projectDesc">Development, UI / UX • Spring 2017</h5>
-      </div>
-
-      {/* Coffee */}
-      <div className="col2">
-        <Link to="/work/coffee">
-          <img alt="" src={coffeethumbnail} />
-        </Link>
-        <h3>
-          <Link to="/work/coffee">Guide to Brewing Coffee</Link>
-        </h3>
-        <h4 className="projectWriting">
-          Drew up a poster based off of several user research sessions using ethnographic methods.
-        </h4>
-        <h5 className="projectDesc">Graphic Design, UX • Spring 2017</h5>
       </div>
     </div>
   </Layout>

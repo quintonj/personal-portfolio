@@ -3,6 +3,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
+  margin-left: 20px;
+  margin-right: 20px;
+  @media all and (min-width: 1000px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   div {
     padding-top: 30px;
     padding-bottom: 30px;

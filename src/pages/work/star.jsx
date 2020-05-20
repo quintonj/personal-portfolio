@@ -6,7 +6,7 @@ import star from '../../images/starthumbnail.png';
 const STAR = () => (
   <Layout>
     <SEO title="STAR" />
-    <div className="wrapper">
+    <div className="wrapper headerSection">
       <div className="col4">
         <h1>STAR</h1>
       </div>
@@ -29,6 +29,8 @@ const STAR = () => (
           <img alt="" src={star} />
         </div>
       </div>
+    </div>
+    <div className="wrapper contentSection ">
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>

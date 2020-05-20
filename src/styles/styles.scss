@@ -14,9 +14,12 @@ CSS GRID
 */
 .wrapper {
   display: grid;
-  grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto 1 auto;
+  @media all and (max-width: 1000px) {
+    grid-gap: 0px;
+  }
+  grid-gap: 20px;
 }
 
 .col1 {

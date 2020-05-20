@@ -46,6 +46,33 @@ EXTRA STYLES FOR COMPONENTS
   }
 }
 
+.headerSection {
+  margin-left: 20px;
+  margin-right: 20px;
+  @media screen and (min-width: 1000px) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.contentSection {
+  margin-left: 20px;
+  margin-right: 20px;
+  @media screen and (min-width: 1000px) {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+// Main writing in case studies
+.workContent {
+  margin-bottom: 50px;
+  @media screen and (min-width: 1000px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
 // Description of project in case studies
 .lead-in {
   color: $color-muted-text;
@@ -68,15 +95,6 @@ EXTRA STYLES FOR COMPONENTS
   font-size: $text-base-size;
   color: $color-muted-text;
   text-transform: none;
-}
-
-// Main writing in case studies
-.workContent {
-  margin-bottom: 50px;
-  @media screen and (min-width: 801px) {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
 }
 
 // Prototype iFrame

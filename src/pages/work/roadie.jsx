@@ -6,7 +6,7 @@ import roadie from '../../images/roadiethumbnail.png';
 const Roadie = () => (
   <Layout>
     <SEO title="Roadie" />
-    <div className="wrapper">
+    <div className="wrapper headerSection">
       <div className="col4">
         <h1>UX Designer - Roadie</h1>
       </div>
@@ -28,6 +28,8 @@ const Roadie = () => (
           <img alt="" src={roadie} />
         </div>
       </div>
+    </div>
+    <div className="wrapper contentSection ">
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>

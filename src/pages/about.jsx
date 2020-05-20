@@ -16,8 +16,8 @@ const SkillsSection = styled.div`
  */
 const About = () => (
   <Layout>
-    <SEO title="Coffee" />
-    <div className="wrapper">
+    <SEO title="About" />
+    <div className="wrapper headerSection">
       <div className="col2">
         <img alt="" src={me} />
       </div>
@@ -51,11 +51,11 @@ const About = () => (
       </div>
     </div>
     <SkillsSection>
-      <div className="col4">
-        <h2 className="sectionHeader">Skills</h2>
-      </div>
+      <div className="wrapper headerSection">
+        <div className="col4">
+          <h2 className="sectionHeader">Skills</h2>
+        </div>
 
-      <div className="wrapper">
         <div className="col2">
           <h3>UI / UX</h3>
           <p>

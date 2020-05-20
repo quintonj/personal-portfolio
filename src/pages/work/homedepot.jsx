@@ -11,7 +11,7 @@ import repairdetails from '../../images/repairdetails.png';
 const HomeDepot = () => (
   <Layout>
     <SEO title="Home Depot" />
-    <div className="wrapper">
+    <div className="wrapper headerSection">
       <div className="col4">
         <h1>UX Designer - The Home Depot</h1>
       </div>
@@ -33,6 +33,8 @@ const HomeDepot = () => (
           <img alt="" src={homedepot} />
         </div>
       </div>
+    </div>
+    <div className="wrapper contentSection ">
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>

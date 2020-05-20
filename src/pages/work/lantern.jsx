@@ -6,7 +6,7 @@ import board from '../../images/lantern.png';
 const Lantern = () => (
   <Layout>
     <SEO title="Home Depot Lantern" />
-    <div className="wrapper">
+    <div className="wrapper headerSection">
       <div className="col4">
         <h1>Lantern - The Home Depot</h1>
       </div>
@@ -28,6 +28,8 @@ const Lantern = () => (
           <img alt="" src={board} />
         </div>
       </div>
+    </div>
+    <div className="wrapper contentSection ">
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>

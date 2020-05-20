@@ -10,7 +10,7 @@ import foodfightvideo from '../../images/foodfightvideo.mp4';
 const FoodFight = () => (
   <Layout>
     <SEO title="Food Fight" />
-    <div className="wrapper">
+    <div className="wrapper headerSection">
       <div className="col4">
         <h1>Food Fight</h1>
       </div>
@@ -32,6 +32,8 @@ const FoodFight = () => (
           </video>
         </div>
       </div>
+    </div>
+    <div className="wrapper contentSection ">
       <div className="col4 workContent">
         <h2 className="sectionName">The Problem</h2>
         <p>
