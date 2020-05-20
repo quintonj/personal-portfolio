@@ -12,7 +12,7 @@ const Roadie = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          Working as a UX Designer at Roadie with a focus on the web experience.
+          Assisting Roadie in impacting the gig industry as a designer for the web experience.
         </h3>
       </div>
       <div className="col1">

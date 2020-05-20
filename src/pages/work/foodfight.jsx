@@ -15,7 +15,10 @@ const FoodFight = () => (
         <h1>Food Fight</h1>
       </div>
       <div className="col2">
-        <h3 className="lead-in">A 2D action game made with Processing and Arduino.</h3>
+        <h3 className="lead-in">
+          Constructed a multiplayer action game that is controlled with two custom Arduino
+          controllers.
+        </h3>
       </div>
       <div className="col1">
         <h5>Role</h5>

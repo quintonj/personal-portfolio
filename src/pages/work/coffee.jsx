@@ -13,7 +13,7 @@ const Coffee = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          A poster design based on user research that describes how to brew a cup of coffee.
+          Drew up a poster based off of several user research sessions using ethnographic methods.
         </h3>
       </div>
       <div className="col1">

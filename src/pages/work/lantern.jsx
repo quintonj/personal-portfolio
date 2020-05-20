@@ -12,7 +12,7 @@ const Lantern = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          Worked as a front-end developer during a summer internship for The Home Depot.
+          Worked as a front-end engineering intern to develop an analytics dashboard with React.js.
         </h3>
       </div>
       <div className="col1">

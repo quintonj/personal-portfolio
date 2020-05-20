@@ -14,7 +14,7 @@ const AtlantaStreetArt = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          An Android app that allows users to explore street art throughout Atlanta.
+          Created an Android app that allows users to explore street art throughout Atlanta.
         </h3>
       </div>
       <div className="col1">

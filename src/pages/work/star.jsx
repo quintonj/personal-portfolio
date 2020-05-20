@@ -12,8 +12,8 @@ const STAR = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          An app that allows deaf users to communicate with others through the use of
-          speech-to-text.
+          Developed an Android app that allows users that are hard of hearing to have improved
+          conversations with others.
         </h3>
       </div>
       <div className="col1">

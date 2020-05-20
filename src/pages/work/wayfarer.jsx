@@ -15,7 +15,7 @@ const Wayfarer = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          A mockup for an app that creates a gamified hiking experience utilizing auditory cues.
+          Designed a mockup for an app with a gamified hiking experience that utilizes audio cues.
         </h3>
       </div>
       <div className="col1">

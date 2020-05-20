@@ -17,7 +17,8 @@ const HomeDepot = () => (
       </div>
       <div className="col2">
         <h3 className="lead-in">
-          Handled the design of several apps for the Repairs team at The Home Depot.
+          Handled the design of several apps for the Repairs Expereince at The Home Depot as part of
+          the Enterprise UX team.
         </h3>
       </div>
       <div className="col1">

@@ -154,7 +154,8 @@ const IndexPage = () => (
           </div>
           <div className="col2">
             <h4 className="projectWriting">
-              Worked as a UX Designer at The Home Depot as a part of the Enterprise UX team.
+              Handled the design of several apps for the Repairs Expereince at The Home Depot as
+              part of the Enterprise UX team.
             </h4>
             <Link className="caseLink" to="/work/homedepot">
               View Case Study
