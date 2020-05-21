@@ -4,7 +4,6 @@ import SEO from '../../components/seo';
 import wayfarer from '../../images/wayfarerthumbnail.png';
 import wayfarerflow from '../../images/wayfarerflow.png';
 import wayfarerwireframe from '../../images/wayfarerwireframe.png';
-import wayfarerapp from '../../images/wayfarerapp.png';
 
 const Wayfarer = () => (
   <Layout>
