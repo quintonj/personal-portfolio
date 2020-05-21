@@ -4,9 +4,10 @@ import SEO from '../../components/seo';
 import homedepot from '../../images/homedepotthumbnail.png';
 import fleetjourney from '../../images/fleetjourney.png';
 import persona from '../../images/persona.png';
-import repairtracker from '../../images/repairtracker.png';
+import repairhome from '../../images/repairhome.png';
 import repairs from '../../images/repairs.png';
 import repairdetails from '../../images/repairdetails.png';
+import repairtracker from '../../images/repairtracker.png';
 
 const HomeDepot = () => (
   <Layout>
@@ -99,6 +100,9 @@ const HomeDepot = () => (
           team. During this time, I also conducted 8 usability tests with technicians in Home Depot
           stores.
         </p>
+        <div className="bodyImgCol">
+          <img alt="" src={repairhome} />
+        </div>
         <div className="bodyImgCol">
           <img alt="" src={repairs} />
         </div>

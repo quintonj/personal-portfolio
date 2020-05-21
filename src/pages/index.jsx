@@ -20,7 +20,7 @@ const Intro = styled.div`
   margin-bottom: 95px;
   margin-left: 20px;
   margin-right: 20px;
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 900px) {
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -154,8 +154,7 @@ const IndexPage = () => (
           </div>
           <div className="col2">
             <h4 className="projectWriting">
-              Handled the design of several apps for the Repairs Expereince at The Home Depot as
-              part of the Enterprise UX team.
+              Handled the design of several apps for the Repairs Expereince at The Home Depot.
             </h4>
             <Link className="caseLink" to="/work/homedepot">
               View Case Study

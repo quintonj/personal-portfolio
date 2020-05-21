@@ -15,7 +15,7 @@ CSS GRID
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto 1 auto;
-  @media all and (max-width: 1000px) {
+  @media all and (max-width: 900px) {
     grid-gap: 0px;
   }
   grid-gap: 20px;
