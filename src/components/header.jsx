@@ -55,11 +55,6 @@ const Header = () => (
             <Link to="/about">About</Link>
           </h5>
         </li>
-        <li>
-          <h5>
-            <a href="https://medium.com/cinema-snob">Blog</a>
-          </h5>
-        </li>
       </ul>
     </div>
   </StyledHeader>
