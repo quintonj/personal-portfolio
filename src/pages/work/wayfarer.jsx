@@ -4,6 +4,7 @@ import SEO from '../../components/seo';
 import wayfarer from '../../images/wayfarerthumbnail.png';
 import wayfarerflow from '../../images/wayfarerflow.png';
 import wayfarerwireframe from '../../images/wayfarerwireframe.png';
+import wayfarerapp from '../../images/wayfarerapp.png';
 
 const Wayfarer = () => (
   <Layout>
@@ -79,6 +80,9 @@ const Wayfarer = () => (
           understand the various sounds. With these tests completed, our team was able to organize a
           final visual design and set of auditory cues to report our work.
         </p>
+        <div className="bodyImgCol">
+          <img alt="" src={wayfarerapp} />
+        </div>
         <h2 className="sectionName">The Reflection</h2>
         <p>
           Working with an auditory-based interface was unique and offered one key insight for me:
